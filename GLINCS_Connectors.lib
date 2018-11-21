@@ -7,11 +7,11 @@ DEF Connecteur_Sub-D9_vertical J 0 40 Y Y 1 F N
 F0 "J" 400 -100 50 H V C CNN
 F1 "Connecteur_Sub-D9_vertical" 850 100 50 H V C CNN
 F2 "GLINCS_Connectors:Connecteur_Sub-D9_vertical" -50 100 50 H I C CNN
-F3 "https://www.farnell.com/cad/2283324.pdf?_ga=2.95851358.359083959.1542808605-2008822987.1516108538" -500 -350 50 H I C CNN
-F4 "HARTING" 500 0 50 H I C CNN "Fabricant"
+F3 "https://www.farnell.com/cad/2283324.pdf?_ga=2.95851358.359083959.1542808605-2008822987.1516108538" 700 -350 50 H I C CNN
+F4 "HARTING" 650 -100 50 H I C CNN "Fabricant"
 F5 "09661117503" 600 100 50 H I C CNN "Ref Fabricant"
 F6 "Farnell" 700 200 50 H I C CNN "Fournisseur 1"
-F7 "2752210" 800 300 50 H I C CNN "Ref Fournisseur 1"
+F7 "2752210" 450 400 50 H I C CNN "Ref Fournisseur 1"
 DRAW
 S -300 100 300 -100 0 1 0 N
 X ~ 1 200 200 100 D 50 50 1 1 I
