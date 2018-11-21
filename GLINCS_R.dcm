@@ -1,0 +1,111 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0.008Ω_1206
+D RES 0.008 OHM 1% 1W 1206
+K R res resistor
+F https://www.rohm.com/datasheet/PMR18EZPFV/pmr-e
+$ENDCMP
+#
+$CMP 0.05Ω_1206
+D RES 0.05 OHM 1% 1/2W 1206
+K R res resistor
+F http://www.vishay.com/docs/31057/wslhigh.pdf
+$ENDCMP
+#
+$CMP 0Ω_0402
+D RES 0 OHM JUMPER 1/16W 0402
+K R res resistor
+F https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf
+$ENDCMP
+#
+$CMP 0Ω_0603
+D RES SMD 0 OHM JUMPER 1/10W 0603
+K R res resistor
+F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf
+$ENDCMP
+#
+$CMP 100kΩ_0402
+D RES 100K OHM 5% 1/16W 0402
+K R res resistor
+F http://www.vishay.com/docs/28773/crcwce3.pdf
+$ENDCMP
+#
+$CMP 100Ω_0402
+D RES SMD 100 OHM 0.1% 1/16W 0402
+K R res resistor
+F http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf
+$ENDCMP
+#
+$CMP 10kΩ_0402
+D RES SMD 10K OHM 0.5% 1/16W 0402
+K R res resistor
+F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+$ENDCMP
+#
+$CMP 20Ω_0402
+D RES SMD 20 OHM 0.1% 1/16W 0402
+K R res resistor
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP 226kΩ_0402
+D RES SMD 226K OHM 1% 1/16W 0402
+K R res resistor
+F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf
+$ENDCMP
+#
+$CMP 226kΩ_0603
+D RES SMD 226K OHM 0.1% 1/6W 0603
+K R res resistor
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773272&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP 24.9kΩ_0402
+D RES SMD 24.9KOHM 0.1% 1/16W 0402
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP 3kΩ_0402
+D RES SMD 3K OHM 0.1% 1/16W 0402
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP 4.7Ω_0402
+D RES SMD 4.7 OHM 1% 1/6W 0402
+K R res resistor
+F http://www.susumu.co.jp/common/pdf/n_catalog_partition08_en.pdf
+$ENDCMP
+#
+$CMP 47kΩ_0402
+D RES SMD 47K OHM 1% 1/16W 0402
+K R res resistor
+F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf
+$ENDCMP
+#
+$CMP 5.1Ω_0805
+D RES SMD 5.1 OHM 5% 0.4W 0805
+K R res resistor
+F https://www.rohm.com/datasheet/ESR01MZPF/esr-e
+$ENDCMP
+#
+$CMP 510kΩ_0402
+D RES SMD 510K OHM 5% 1/16W 0402
+K R res resistor
+F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf
+$ENDCMP
+#
+$CMP 51kΩ_0402
+D RES SMD 51K OHM 0.1% 1/16W 0402
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP 56kΩ_0402
+D RES SMD 56K OHM 0.1% 1/16W 0402
+K R res resistor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+#End Doc Library

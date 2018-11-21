@@ -1,0 +1,99 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0.001µF_25V
+D CAP CER 1000PF 25V X7R 0603
+K cap capacitor
+F https://katalog.we-online.de/pbs/datasheet/885012206059.pdf
+$ENDCMP
+#
+$CMP 0.033µF_25V
+D CAP CER 0.033UF 25V X7R 0402
+K cap capacitor
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL05B333KA5NNNC.jsp
+$ENDCMP
+#
+$CMP 0.1µF_100V
+D CAP CER 0.1UF 100V X7S 0603
+K cap capacitor
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_midvoltage_en.pdf
+$ENDCMP
+#
+$CMP 0.1µF_16V
+D CAP CER 0.1UF 50V X7R 1206
+K cap capacitor
+F https://api.kemet.com/component-edge/download/datasheet/C1206C104K5RACTU.pdf
+$ENDCMP
+#
+$CMP 0.22µF_25V
+D CAP CER 0.22UF 25V X7R 0603
+K cap capacitor
+F http://psearch.en.murata.com/capacitor/product/GCM188R71E224KA55%23.pdf
+$ENDCMP
+#
+$CMP 1000pF_1kV
+D CAP CER 1000PF 1KV X7R 1206
+K cap capacitor
+F http://datasheets.avx.com/AVX-HV_MLCC.pdf
+$ENDCMP
+#
+$CMP 100pF_16V
+D CAP CER 100PF 16V X7R 0402
+K cap capacitor
+F http://datasheets.avx.com/X7RDielectric.pdf
+$ENDCMP
+#
+$CMP 10nF_50V
+D CAP CER 10000PF 50V X7R 0603
+K cap capacitor
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B103KB8NCNC.jsp
+$ENDCMP
+#
+$CMP 10µF_6.3V
+D CAP CER 10UF 6.3V X5R 0805
+K cap capacitor
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A106MQCLNNC.jsp
+$ENDCMP
+#
+$CMP 1µF_100V
+D CAP CER 1UF 100V X7R 1206
+K cap capacitor
+F http://datasheets.avx.com/X7RDielectric.pdf
+$ENDCMP
+#
+$CMP 2.2µF_16V
+D CAP CER 2.2UF 16V X7R 0805
+K cap capacitor
+F https://product.tdk.com/info/en/documents/chara_sheet/CGA4J3X7R1C225K125AB.pdf
+$ENDCMP
+#
+$CMP 4.7µF_100V_1206
+D CAP CER 1UF 100V X7R 1206
+K cap capacitor
+F https://media.digikey.com/pdf/Data%20Sheets/AVX%20PDFs/12061Z475KAT2A.pdf
+$ENDCMP
+#
+$CMP 4.7µF_100V_1210
+D CAP CER 4.7UF 100V X7S 1210
+K cap capacitor
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_soft_en.pdf
+$ENDCMP
+#
+$CMP 56µF_63V
+D CAP ALUM 56UF 20% 63V SMD
+K cap capacitor
+F http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=mva
+$ENDCMP
+#
+$CMP 680pF_50V
+D CAP CER 680PF 50V C0G/NPO 0603
+K cap capacitor
+F http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf
+$ENDCMP
+#
+$CMP 68pF_16V
+D CAP CER 68PF 16V C0G/NP0 0402
+K cap capacitor
+F https://katalog.we-online.de/pbs/datasheet/885012005030.pdf
+$ENDCMP
+#
+#End Doc Library

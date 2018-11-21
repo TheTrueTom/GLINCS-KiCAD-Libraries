@@ -1,0 +1,55 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# WR-PHD_2x16_2.54mm
+#
+DEF WR-PHD_2x16_2.54mm J 0 40 Y Y 1 F N
+F0 "J" 0 0 50 H V C CNN
+F1 "WR-PHD_2x16_2.54mm" 50 100 50 H V C CNN
+F2 "GLINCS_Connectors:WR-PHD_2x16_2.54mm" -100 -100 50 H I C CNN
+F3 "https://katalog.we-online.de/em/datasheet/6130xx216921.pdf" 0 0 50 H I C CNN
+F4 "Wurth Elektronik" 950 -300 50 H I C CNN "Fabricant"
+F5 "613016216921" 900 -200 50 H I C CNN "Ref Fabricant"
+DRAW
+S -50 -100 50 -900 0 1 0 N
+X ~ 1 -150 -150 100 R 50 50 1 1 P
+X ~ 10 150 -550 100 L 50 50 1 1 P
+X ~ 11 -150 -650 100 R 50 50 1 1 P
+X ~ 12 150 -650 100 L 50 50 1 1 P
+X ~ 13 -150 -750 100 R 50 50 1 1 P
+X ~ 14 150 -750 100 L 50 50 1 1 P
+X ~ 15 -150 -850 100 R 50 50 1 1 P
+X ~ 16 150 -850 100 L 50 50 1 1 P
+X ~ 2 150 -150 100 L 50 50 1 1 P
+X ~ 3 -150 -250 100 R 50 50 1 1 P
+X ~ 4 150 -250 100 L 50 50 1 1 P
+X ~ 5 -150 -350 100 R 50 50 1 1 P
+X ~ 6 150 -350 100 L 50 50 1 1 P
+X ~ 7 -150 -450 100 R 50 50 1 1 P
+X ~ 8 150 -450 100 L 50 50 1 1 P
+X ~ 9 -150 -550 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# WR-WTB_4pins_2.54mm
+#
+DEF WR-WTB_4pins_2.54mm J 0 40 Y N 1 F N
+F0 "J" -500 -50 50 H V L BNN
+F1 "WR-WTB_4pins_2.54mm" -450 150 50 H V L BNN
+F2 "GLINCS_Connectors:WR-WTB_4pins_2.54mm" 550 350 50 H I L BNN
+F3 "https://katalog.we-online.de/em/datasheet/6610xx11722%282%29.pdf" -300 200 50 H I C CNN
+F4 "Wurth Elektronik" -200 300 50 H I C CNN "Fabricant"
+F5 "66100411722" -100 400 50 H I C CNN "Ref Fabricant"
+DRAW
+P 2 0 0 10 -400 -100 -400 100 N
+P 2 0 0 10 -400 100 400 100 N
+P 2 0 0 10 400 -100 -400 -100 N
+P 2 0 0 10 400 100 400 -100 N
+X 4 1 -300 -300 200 U 40 40 0 0 P
+X 3 2 -100 -300 200 U 40 40 0 0 P
+X 2 3 100 -300 200 U 40 40 0 0 P
+X 1 4 300 -300 200 U 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

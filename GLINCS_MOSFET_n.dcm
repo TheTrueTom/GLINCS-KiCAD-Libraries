@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SQJ952EP
+D Automotive Dual N-Channel 60 V (D-S) 175 °C MOSFET S08
+K n-MOSFET MOSFET
+F http://www.vishay.com/docs/62862/sqj952ep.pdf
+$ENDCMP
+#
+#End Doc Library

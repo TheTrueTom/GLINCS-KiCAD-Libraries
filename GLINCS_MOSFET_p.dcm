@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SQJ457EP
+D MOSFET P-CH 60V 36A POWERPAKSO-8
+K p-MOSFET MOSFET
+F http://www.vishay.com/docs/76628/sqj457ep.pdf
+$ENDCMP
+#
+#End Doc Library

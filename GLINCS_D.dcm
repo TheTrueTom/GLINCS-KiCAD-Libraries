@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP D_SBR_60V_500mA_SOD123
+D Diode Super protection 60V 500 mA Montage en surface SOD-123
+K D diode
+F https://www.diodes.com/assets/Datasheets/SBR0560S1.pdf
+$ENDCMP
+#
+$CMP D_SCHOTTKY_60V_3A_DO214AC
+D Diode Schottky 60V 3 A Montage en surface DO-214AC (SMA)
+K D diode schottky
+F http://www.mccsemi.com/up_pdf/SK32A-LT~SK310A-LT%28DO-214AC%29.PDF
+$ENDCMP
+#
+$CMP LED_RED_SMD_0603
+D Indication LED - Composants discrets 638 nm Rouge 1,8 V 0603 (1608 métrique)
+K LED red
+F https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190CKT.pdf
+$ENDCMP
+#
+#End Doc Library

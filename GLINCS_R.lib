@@ -1,0 +1,382 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 0.008Ω_1206
+#
+DEF 0.008Ω_1206 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "0.008Ω_1206" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_1206_3216Metric" 1000 -450 50 H I C CNN
+F3 "https://www.rohm.com/datasheet/PMR18EZPFV/pmr-e" 0 80 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "RHM.008ALCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Rohm Semiconductor" 1050 230 50 H I C CNN "Fabricant"
+F7 "PMR18EZPFU8L00" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0.05Ω_1206
+#
+DEF 0.05Ω_1206 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "0.05Ω_1206" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_1206_3216Metric" 1000 -450 50 H I C CNN
+F3 "http://www.vishay.com/docs/31057/wslhigh.pdf" 0 80 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "WSLD-.05CT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Vishay Dale" 1050 230 50 H I C CNN "Fabricant"
+F7 "WSL1206R0500FEA18" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0Ω_0402
+#
+DEF 0Ω_0402 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "0Ω_0402" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0402_1005Metric" 1000 -450 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 0 80 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "RMCF0402ZT0R00CT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Stackpole Electronics Inc." 1050 230 50 H I C CNN "Fabricant"
+F7 "RMCF0402ZT0R00" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0Ω_0603
+#
+DEF 0Ω_0603 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "0Ω_0603" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" 0 80 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "311-0.0GRTR-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Yageo" 1050 230 50 H I C CNN "Fabricant"
+F7 "RC0603JR-070RL" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 100kΩ_0402
+#
+DEF 100kΩ_0402 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "100kΩ_0402" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0402_1005Metric" 1000 -450 50 H I C CNN
+F3 "http://www.vishay.com/docs/28773/crcwce3.pdf" 0 80 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "541-4011-2-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Vishay Dale" 1050 230 50 H I C CNN "Fabricant"
+F7 "CRCW0402100KJNEDC" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 100Ω_0402
+#
+DEF 100Ω_0402 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "100Ω_0402" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0402_1005Metric" 1000 -450 50 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" 0 80 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "YAG2301CT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Yageo" 1050 230 50 H I C CNN "Fabricant"
+F7 "RT0402BRD07100RL" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10kΩ_0402
+#
+DEF 10kΩ_0402 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "10kΩ_0402" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0402_1005Metric" 1000 -450 50 H I C CNN
+F3 "http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" 0 80 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "RR05P10.0KDCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Susumu" 1050 230 50 H I C CNN "Fabricant"
+F7 "RR0510P-103-D" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 20Ω_0402
+#
+DEF 20Ω_0402 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "20Ω_0402" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0402_1005Metric" 1000 -450 50 H I C CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" 0 80 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "A102706CT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "TE Connectivity Passive Product" 1050 230 50 H I C CNN "Fabricant"
+F7 "CPF0402B20RE1" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 226kΩ_0402
+#
+DEF 226kΩ_0402 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "226kΩ_0402" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0402_1005Metric" 1000 -450 50 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" 0 80 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "311-226KLRCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Yageo" 1050 230 50 H I C CNN "Fabricant"
+F7 "RC0402FR-07226KL" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 226kΩ_0603
+#
+DEF 226kΩ_0603 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "226kΩ_0603" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773272&DocType=DS&DocLang=English" 0 80 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "A110334CT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "TE Connectivity Passive Product" 1050 230 50 H I C CNN "Fabricant"
+F7 "2-2176090-4" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 24.9kΩ_0402
+#
+DEF 24.9kΩ_0402 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "24.9kΩ_0402" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0402_1005Metric" 1000 -450 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 0 80 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "P24.9KDCCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Panasonic Electronic Components" 1050 230 50 H I C CNN "Fabricant"
+F7 "ERA-2AEB2492X" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3kΩ_0402
+#
+DEF 3kΩ_0402 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "3kΩ_0402" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0402_1005Metric" 1000 -450 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 0 80 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "P3.0KDCCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Panasonic Electronic Components" 1050 230 50 H I C CNN "Fabricant"
+F7 "ERA-2AEB302X" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4.7Ω_0402
+#
+DEF 4.7Ω_0402 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "4.7Ω_0402" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0402_1005Metric" 1000 -450 50 H I C CNN
+F3 "http://www.susumu.co.jp/common/pdf/n_catalog_partition08_en.pdf" 0 80 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "RL05S4.7FCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Susumu" 1050 230 50 H I C CNN "Fabricant"
+F7 "RL0510S-4R7-F" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 47kΩ_0402
+#
+DEF 47kΩ_0402 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "47kΩ_0402" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0402_1005Metric" 1000 -450 50 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" 0 80 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "311-47.0KLRCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Yageo" 1050 230 50 H I C CNN "Fabricant"
+F7 "RC0402FR-0747KL" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 5.1Ω_0805
+#
+DEF 5.1Ω_0805 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "5.1Ω_0805" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric" 1000 -450 50 H I C CNN
+F3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" 0 80 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "RHM5.1KCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Rohm Semiconductor" 1050 230 50 H I C CNN "Fabricant"
+F7 "ESR10EZPJ5R1" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 510kΩ_0402
+#
+DEF 510kΩ_0402 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "510kΩ_0402" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0402_1005Metric" 1000 -450 50 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" 0 80 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "YAG3305CT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Yageo" 1050 230 50 H I C CNN "Fabricant"
+F7 "RC0402JR-07510KL" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 51kΩ_0402
+#
+DEF 51kΩ_0402 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "51kΩ_0402" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0402_1005Metric" 1000 -450 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 0 80 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "P51KDCCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Panasonic Electronic Components" 1050 230 50 H I C CNN "Fabricant"
+F7 "ERA-2AEB513X" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 56kΩ_0402
+#
+DEF 56kΩ_0402 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "56kΩ_0402" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0402_1005Metric" 1000 -450 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 0 80 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "P56KDCCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Panasonic Electronic Components" 1050 230 50 H I C CNN "Fabricant"
+F7 "ERA-2AEB563X" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

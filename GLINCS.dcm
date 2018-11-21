@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DC-DC_24V_30W
+D DC DC CONVERTER 24V 30W
+K Traco DC-DC converter
+F https://www.tracopower.com/products/thn30wi.pdf
+$ENDCMP
+#
+$CMP DC-DC_5V_8W
+D DC DC CONVERTER 5V 8W
+K Traco DC-DC converter
+F https://www.tracopower.com/products/ten8wi.pdf
+$ENDCMP
+#
+$CMP JS202011SCQN
+D SWITCH SLIDE DPDT 300MA 6V
+K switch slide
+F https://www.ckswitches.com/media/1422/js.pdf
+$ENDCMP
+#
+$CMP LTC4020EUHF
+D 55V Buck-Boost Multi-Chemistry Battery Charger
+K Charger Battery
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4020fd.pdf
+$ENDCMP
+#
+#End Doc Library

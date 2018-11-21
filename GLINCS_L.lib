@@ -1,0 +1,52 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# L_2.2µH_3.8A_25m_Ω
+#
+DEF L_2.2µH_3.8A_25m_Ω L 0 0 N Y 1 F N
+F0 "L" 0 100 50 H V C CNN
+F1 "L_2.2µH_3.8A_25m_Ω" 0 -50 50 H V C CNN
+F2 "GLINCS_L:IND_2.2µH_3.8A_25mΩ" 0 -500 50 H I C CNN
+F3 "https://www.tracopower.com/products/tck059.pdf" 0 -400 50 H I C CNN
+F4 "Traco Power" 700 400 50 H I C CNN "Fabricant"
+F5 "TCK-059" 800 500 50 H I C CNN "Ref Fabricant"
+F6 "DigiKey" 900 600 50 H I C CNN "Fournisseur 1"
+F7 "1951-1058-ND" 1000 700 50 H I C CNN "Ref Fournisseur 1"
+DRAW
+A -150 0 50 1 1799 0 1 0 N -100 0 -200 0
+A -50 0 50 1 1799 0 1 0 N 0 0 -100 0
+A 50 0 50 1 1799 0 1 0 N 100 0 0 0
+A 150 0 50 1 1799 0 1 0 N 200 0 100 0
+X 1 1 -250 0 50 R 30 30 1 1 I
+X 2 2 250 0 50 L 30 30 1 1 I
+ENDDRAW
+ENDDEF
+#
+# XAL1010-153ME
+#
+DEF XAL1010-153ME L 0 40 N N 1 F N
+F0 "L" 0 -100 50 H V C CNN
+F1 "XAL1010-153ME" 0 25 50 H V C CNN
+F2 "GLINCS_L:CoilCraft_XAL1010" 100 -200 50 H I C CNN
+F3 "https://www.coilcraft.com/pdfs/xal1010.pdf" -900 100 50 H I C CNN
+F4 "Farnell" 950 -400 50 H I C CNN "Fournisseur 1"
+F5 "2289022" 950 -300 50 H I C CNN "Ref Fournisseur 1"
+F6 "Coilcraft" 1000 -50 50 H I C CNN "Fabricant"
+F7 "XAL1010-153MED" 950 50 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A -75 -50 25 1 1799 0 1 0 N -50 -50 -100 -50
+A -25 -50 25 1 1799 0 1 0 N 0 -50 -50 -50
+A 25 -50 25 1 1799 0 1 0 N 50 -50 0 -50
+A 75 -50 25 1 1799 0 1 0 N 100 -50 50 -50
+X 1 1 -150 -50 50 R 50 50 1 1 P
+X 2 2 150 -50 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

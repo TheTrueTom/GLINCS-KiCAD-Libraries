@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP WR-PHD_2x16_2.54mm
+D WR-PHD 2.54 mm Dual Socket Header Bottom Entry Large
+K socket 16pins
+F https://katalog.we-online.de/em/datasheet/6130xx216921.pdf
+$ENDCMP
+#
+$CMP WR-WTB_4pins_2.54mm
+D WR-WTB 2.54 mm Male Right Angled Shrouded Header
+K connector 4pins male
+F https://katalog.we-online.de/em/datasheet/6610xx11722%282%29.pdf
+$ENDCMP
+#
+#End Doc Library
