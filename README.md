@@ -1,6 +1,8 @@
 # GLINCS-KiCAD-Libraries
 KiCAD Libraries used by GLINCS
 
+[![GitHub license](https://img.shields.io/dub/l/vibe-d.svg)](https://raw.githubusercontent.com/TheTrueTom/GLINCS-KiCAD-Libraries/master/LICENCE) [![GitHub release](https://img.shields.io/github/release/TheTrueTom/GLINCS-KiCAD-Libraries.svg)](https://github.com/TheTrueTom/GLINCS-KiCAD-Libraries/releases/latest)
+
 # Installing
 - Clone repository in selected folder (e.g. ~/Documents)
 - Add following path (Preferences > Configure Paths):
