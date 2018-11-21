@@ -32,4 +32,4 @@ KiCAD 5.0+
 2018 - GLINCS-AXINT, see AUTHORS for more details
 
 # Licence
-Proprietary and confidential, see LICENSE for more details
+MIT, see LICENSE for more details
