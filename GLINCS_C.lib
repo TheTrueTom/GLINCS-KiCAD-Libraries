@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 0.001µF_25V
+# 0.001µF_25V_1608
 #
-DEF 0.001µF_25V C 0 10 N Y 1 F N
+DEF 0.001µF_25V_1608 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "0.001µF_25V" 25 -100 50 H V L CNN
+F1 "0.001µF_25V_1608" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric" 1650 -350 50 H I C CNN
 F3 "https://katalog.we-online.de/pbs/datasheet/885012206059.pdf" 1700 300 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
@@ -23,11 +23,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 0.033µF_25V
+# 0.033µF_25V_0402
 #
-DEF 0.033µF_25V C 0 10 N Y 1 F N
+DEF 0.033µF_25V_0402 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "0.033µF_25V" 25 -100 50 H V L CNN
+F1 "0.033µF_25V_0402" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0402_1005Metric" 1650 -350 50 H I C CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL05B333KA5NNNC.jsp" 25 100 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
@@ -45,11 +45,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 0.1µF_100V
+# 0.1µF_100V_0603
 #
-DEF 0.1µF_100V C 0 10 N Y 1 F N
+DEF 0.1µF_100V_0603 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "0.1µF_100V" 25 -100 50 H V L CNN
+F1 "0.1µF_100V_0603" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric" 1650 -350 50 H I C CNN
 F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_midvoltage_en.pdf" 25 100 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
@@ -67,11 +67,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 0.1µF_16V
+# 0.1µF_16V_1206
 #
-DEF 0.1µF_16V C 0 10 N Y 1 F N
+DEF 0.1µF_16V_1206 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "0.1µF_16V" 25 -100 50 H V L CNN
+F1 "0.1µF_16V_1206" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_1206_3216Metric" 1650 -350 50 H I C CNN
 F3 "https://api.kemet.com/component-edge/download/datasheet/C1206C104K5RACTU.pdf" 25 100 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
@@ -89,11 +89,33 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 0.22µF_25V
+# 0.1µF_50V_0603
 #
-DEF 0.22µF_25V C 0 10 N Y 1 F N
+DEF 0.1µF_50V_0603 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "0.22µF_25V" 25 -100 50 H V L CNN
+F1 "0.1µF_50V_0603" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 1650 -350 50 H I C CNN
+F3 "http://datasheets.avx.com/X7RDielectric.pdf" 1800 -500 50 H I C CNN
+F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
+F5 "478-5052-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F6 "AVX Corporation" 1250 50 50 H I C CNN "Fabricant"
+F7 "06035C104KAT2A" 1300 150 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0.22µF_25V_0603
+#
+DEF 0.22µF_25V_0603 C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "0.22µF_25V_0603" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric" 1650 -350 50 H I C CNN
 F3 "http://psearch.en.murata.com/capacitor/product/GCM188R71E224KA55%23.pdf" 25 100 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
@@ -111,11 +133,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 1000pF_1kV
+# 1000pF_1kV_1206
 #
-DEF 1000pF_1kV C 0 10 N Y 1 F N
+DEF 1000pF_1kV_1206 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "1000pF_1kV" 25 -100 50 H V L CNN
+F1 "1000pF_1kV_1206" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_1206_3216Metric" 1650 -350 50 H I C CNN
 F3 "http://datasheets.avx.com/AVX-HV_MLCC.pdf" 25 100 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
@@ -133,11 +155,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 100pF_16V
+# 100pF_16V_0402
 #
-DEF 100pF_16V C 0 10 N Y 1 F N
+DEF 100pF_16V_0402 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "100pF_16V" 25 -100 50 H V L CNN
+F1 "100pF_16V_0402" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0402_1005Metric" 1650 -350 50 H I C CNN
 F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
@@ -155,13 +177,13 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 10nF_50V
+# 10nF_50V_0603
 #
-DEF 10nF_50V C 0 10 N Y 1 F N
+DEF 10nF_50V_0603 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "10nF_50V" 25 -100 50 H V L CNN
+F1 "10nF_50V_0603" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric" 1650 -350 50 H I C CNN
-F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B103KB8NCNC.jsp" 25 100 50 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B103KB8NCNC.jsp" 2300 -550 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
 F5 "1276-1921-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
 F6 "Samsung Electro-Mechanics" 1250 50 50 H I C CNN "Fabricant"
@@ -177,11 +199,33 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 10µF_6.3V
+# 10µF_16V_0603
 #
-DEF 10µF_6.3V C 0 10 N Y 1 F N
+DEF 10µF_16V_0603 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "10µF_6.3V" 25 -100 50 H V L CNN
+F1 "10µF_16V_0603" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 1650 -350 50 H I C CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61C106KAAL-01.pdf" 1150 -600 50 H I C CNN
+F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
+F5 "490-10728-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F6 "Murata Electronics North America" 1250 50 50 H I C CNN "Fabricant"
+F7 "GRM188R61C106KAALD" 1300 150 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10µF_6.3V_0805
+#
+DEF 10µF_6.3V_0805 C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "10µF_6.3V_0805" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0805_2012Metric" 1650 -350 50 H I C CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A106MQCLNNC.jsp" 25 100 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
@@ -199,11 +243,33 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 1µF_100V
+# 18pF_50V_0603
 #
-DEF 1µF_100V C 0 10 N Y 1 F N
+DEF 18pF_50V_0603 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "1µF_100V" 25 -100 50 H V L CNN
+F1 "18pF_50V_0603" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 1650 -350 50 H I C CNN
+F3 "http://psearch.en.murata.com/capacitor/product/GCM1885C1H180JA16%23.pdf" 1150 -600 50 H I C CNN
+F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
+F5 "490-6046-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F6 "Murata Electronics North America" 1250 50 50 H I C CNN "Fabricant"
+F7 "GCM1885C1H180JA16D" 1300 150 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1µF_100V_1206
+#
+DEF 1µF_100V_1206 C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "1µF_100V_1206" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_1206_3216Metric" 1650 -350 50 H I C CNN
 F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
@@ -221,11 +287,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 2.2µF_16V
+# 2.2µF_16V_0805
 #
-DEF 2.2µF_16V C 0 10 N Y 1 F N
+DEF 2.2µF_16V_0805 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "2.2µF_16V" 25 -100 50 H V L CNN
+F1 "2.2µF_16V_0805" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0805_2012Metric" 1650 -350 50 H I C CNN
 F3 "https://product.tdk.com/info/en/documents/chara_sheet/CGA4J3X7R1C225K125AB.pdf" 25 100 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
@@ -287,11 +353,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 56µF_63V
+# 56µF_63V_10x10
 #
-DEF 56µF_63V C 0 10 N N 1 F N
+DEF 56µF_63V_10x10 C 0 10 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "56µF_63V" 25 -100 50 H V L CNN
+F1 "56µF_63V_10x10" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:CP_Elec_10x10" 1600 -350 50 H I C CNN
 F3 "http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=mva" 25 100 50 H I C CNN
 F4 "DigiKey" 1500 -150 50 H I C CNN "Fournisseur 1"
@@ -311,11 +377,11 @@ X ~ 2 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 680pF_50V
+# 680pF_50V_0603
 #
-DEF 680pF_50V C 0 10 N Y 1 F N
+DEF 680pF_50V_0603 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "680pF_50V" 25 -100 50 H V L CNN
+F1 "680pF_50V_0603" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric" 1650 -350 50 H I C CNN
 F3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" 25 100 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
@@ -333,11 +399,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 68pF_16V
+# 68pF_16V_0402
 #
-DEF 68pF_16V C 0 10 N Y 1 F N
+DEF 68pF_16V_0402 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "68pF_16V" 25 -100 50 H V L CNN
+F1 "68pF_16V_0402" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0402_1005Metric" 1650 -350 50 H I C CNN
 F3 "https://katalog.we-online.de/pbs/datasheet/885012005030.pdf" 25 100 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
