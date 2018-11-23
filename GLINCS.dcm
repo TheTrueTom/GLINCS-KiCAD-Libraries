@@ -24,4 +24,10 @@ K Charger Battery
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4020fd.pdf
 $ENDCMP
 #
+$CMP dsPIC33EP512MC806IPT
+D IC MCU 16BIT 512KB FLASH 64TQFP
+K mcu microcontroller dspic
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en554454
+$ENDCMP
+#
 #End Doc Library
