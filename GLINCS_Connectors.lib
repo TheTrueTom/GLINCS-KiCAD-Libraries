@@ -1,6 +1,35 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# CONN_BNC_JACK_STR_50_OHM_PCB
+#
+DEF CONN_BNC_JACK_STR_50_OHM_PCB J 0 40 Y N 1 F N
+F0 "J" 10 120 50 H V C CNN
+F1 "CONN_BNC_JACK_STR_50_OHM_PCB" 350 0 50 V V C CNN
+F2 "GLINCS_Connectors:CONN_BNC_JACK_STR_50_OHM_PCB" 1700 -800 50 H I C CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1634503&DocType=Customer+Drawing&DocLang=English" 3500 -650 50 H I C CNN
+F4 "DigiKey" 800 -450 50 H I C CNN "Fournisseur 1"
+F5 "A97581-ND" 900 -350 50 H I C CNN "Ref Fournisseur 1"
+F6 "TE Connectivity AMP Connectors" 1300 -250 50 H I C CNN "Fabricant"
+F7 "5-1634503-1" 1000 -150 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ *BNC*
+ *SMA*
+ *SMB*
+ *SMC*
+ *Cinch*
+$ENDFPLIST
+DRAW
+A -2 0 71 1636 0 0 1 10 N -70 20 70 0
+A -1 0 71 0 -1638 0 1 10 N 70 0 -70 -20
+C 0 0 20 0 1 8 N
+P 2 0 1 0 -100 0 -20 0 N
+P 2 0 1 0 0 -100 0 -70 N
+X In 1 -200 0 100 R 50 50 1 1 P
+X Ext 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connecteur_Sub-D9_vertical
 #
 DEF Connecteur_Sub-D9_vertical J 0 40 Y Y 1 F N
@@ -26,6 +55,25 @@ X ~ 9 -150 -200 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# WR-COM_µUSB_Type_B_Vertical_5_Contacts
+#
+DEF WR-COM_µUSB_Type_B_Vertical_5_Contacts J 0 40 Y Y 1 F N
+F0 "J" 400 50 50 H V C CNN
+F1 "WR-COM_µUSB_Type_B_Vertical_5_Contacts" 0 250 50 H V C CNN
+F2 "GLINCS_Connectors:WR-COM_µUSB_Type_B_Vertical_5_Contacts" 2050 -350 50 H I C CNN
+F3 "https://katalog.we-online.de/em/datasheet/614105150721.pdf" 2100 -250 50 H I C CNN
+F4 "Wurth Elektronik" 1150 -150 50 H I C CNN "Fabricant"
+F5 "614105150721" 1100 -50 50 H I C CNN "Ref Fabricant"
+DRAW
+S 350 0 -400 150 0 1 0 N
+X ~ 1 -300 -100 100 U 50 50 1 1 I
+X ~ 2 -150 -100 100 U 50 50 1 1 I
+X ~ 3 0 -100 100 U 50 50 1 1 I
+X ~ 4 150 -100 100 U 50 50 1 1 I
+X ~ 5 300 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # WR-PHD_2x16_2.54mm
 #
 DEF WR-PHD_2x16_2.54mm J 0 40 Y Y 1 F N
@@ -36,23 +84,44 @@ F3 "https://katalog.we-online.de/em/datasheet/6130xx216921.pdf" 1900 -450 50 H I
 F4 "Wurth Elektronik" 950 -300 50 H I C CNN "Fabricant"
 F5 "613016216921" 900 -200 50 H I C CNN "Ref Fabricant"
 DRAW
-S -50 -100 50 -900 0 1 0 N
+S -50 -100 50 -1250 0 1 0 N
 X ~ 1 -150 -150 100 R 50 50 1 1 P
-X ~ 10 150 -550 100 L 50 50 1 1 P
-X ~ 11 -150 -650 100 R 50 50 1 1 P
-X ~ 12 150 -650 100 L 50 50 1 1 P
-X ~ 13 -150 -750 100 R 50 50 1 1 P
-X ~ 14 150 -750 100 L 50 50 1 1 P
-X ~ 15 -150 -850 100 R 50 50 1 1 P
-X ~ 16 150 -850 100 L 50 50 1 1 P
+X ~ 10 150 -750 100 L 50 50 1 1 P
+X ~ 11 -150 -900 100 R 50 50 1 1 P
+X ~ 12 150 -900 100 L 50 50 1 1 P
+X ~ 13 -150 -1050 100 R 50 50 1 1 P
+X ~ 14 150 -1050 100 L 50 50 1 1 P
+X ~ 15 -150 -1200 100 R 50 50 1 1 P
+X ~ 16 150 -1200 100 L 50 50 1 1 P
 X ~ 2 150 -150 100 L 50 50 1 1 P
-X ~ 3 -150 -250 100 R 50 50 1 1 P
-X ~ 4 150 -250 100 L 50 50 1 1 P
-X ~ 5 -150 -350 100 R 50 50 1 1 P
-X ~ 6 150 -350 100 L 50 50 1 1 P
-X ~ 7 -150 -450 100 R 50 50 1 1 P
-X ~ 8 150 -450 100 L 50 50 1 1 P
-X ~ 9 -150 -550 100 R 50 50 1 1 P
+X ~ 3 -150 -300 100 R 50 50 1 1 P
+X ~ 4 150 -300 100 L 50 50 1 1 P
+X ~ 5 -150 -450 100 R 50 50 1 1 P
+X ~ 6 150 -450 100 L 50 50 1 1 P
+X ~ 7 -150 -600 100 R 50 50 1 1 P
+X ~ 8 150 -600 100 L 50 50 1 1 P
+X ~ 9 -150 -750 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# WR-WTB_4pins_1.25mm
+#
+DEF WR-WTB_4pins_1.25mm J 0 40 Y N 1 F N
+F0 "J" 250 -50 50 H V L BNN
+F1 "WR-WTB_4pins_1.25mm" -500 50 50 H V L BNN
+F2 "GLINCS_Connectors:WR-WTB_4pins_2.54mm" 550 350 50 H I L BNN
+F3 "https://katalog.we-online.de/em/datasheet/6530xx117322.pdf" -300 200 50 H I C CNN
+F4 "Wurth Elektronik" -200 300 50 H I C CNN "Fabricant"
+F5 "653004117322" -100 400 50 H I C CNN "Ref Fabricant"
+DRAW
+P 2 0 0 10 -350 -100 -350 0 N
+P 2 0 0 10 -350 0 200 0 N
+P 2 0 0 10 200 -100 -350 -100 N
+P 2 0 0 10 200 0 200 -100 N
+X ~ 1 -300 -200 100 U 50 50 1 1 P
+X ~ 2 -150 -200 100 U 50 50 1 1 P
+X ~ 3 0 -200 100 U 50 50 1 1 P
+X ~ 4 150 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -66,14 +135,54 @@ F3 "https://katalog.we-online.de/em/datasheet/6610xx11722%282%29.pdf" -300 200 5
 F4 "Wurth Elektronik" -200 300 50 H I C CNN "Fabricant"
 F5 "66100411722" -100 400 50 H I C CNN "Ref Fabricant"
 DRAW
-P 2 0 0 10 -400 -100 -400 100 N
-P 2 0 0 10 -400 100 400 100 N
-P 2 0 0 10 400 -100 -400 -100 N
-P 2 0 0 10 400 100 400 -100 N
-X 4 1 -300 -300 200 U 40 40 0 0 P
-X 3 2 -100 -300 200 U 40 40 0 0 P
-X 2 3 100 -300 200 U 40 40 0 0 P
-X 1 4 300 -300 200 U 40 40 0 0 P
+P 2 0 0 10 -350 -100 -350 0 N
+P 2 0 0 10 -350 0 200 0 N
+P 2 0 0 10 200 -100 -350 -100 N
+P 2 0 0 10 200 0 200 -100 N
+X ~ 1 -300 -200 100 U 50 50 1 1 P
+X ~ 2 -150 -200 100 U 50 50 1 1 P
+X ~ 3 0 -200 100 U 50 50 1 1 P
+X ~ 4 150 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# WR-WTB_4pins_2.54mm_vertical
+#
+DEF WR-WTB_4pins_2.54mm_vertical J 0 40 Y N 1 F N
+F0 "J" -500 -50 50 H V L BNN
+F1 "WR-WTB_4pins_2.54mm_vertical" -500 50 50 H V L BNN
+F2 "GLINCS_Connectors:WR-WTB_4pins_vertical_2.54mm" 550 350 50 H I L BNN
+F3 "https://katalog.we-online.de/em/datasheet/6610xx11622%282%29.pdf" -300 200 50 H I C CNN
+F4 "Wurth Elektronik" -200 300 50 H I C CNN "Fabricant"
+F5 "66100411622" -100 400 50 H I C CNN "Ref Fabricant"
+DRAW
+P 2 0 0 10 -350 -100 -350 0 N
+P 2 0 0 10 -350 0 200 0 N
+P 2 0 0 10 200 -100 -350 -100 N
+P 2 0 0 10 200 0 200 -100 N
+X ~ 1 -300 -200 100 U 50 50 1 1 P
+X ~ 2 -150 -200 100 U 50 50 1 1 P
+X ~ 3 0 -200 100 U 50 50 1 1 P
+X ~ 4 150 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# WR-WTB_5pins_2.54mm
+#
+DEF WR-WTB_5pins_2.54mm J 0 40 Y N 1 F N
+F0 "J" -500 -50 50 H V L BNN
+F1 "WR-WTB_5pins_2.54mm" -300 50 50 H V L BNN
+F2 "GLINCS_Connectors:WR-WTB_5pins_2.54mm" 550 350 50 H I L BNN
+F3 "https://katalog.we-online.de/em/datasheet/6610xx11722%282%29.pdf" -300 200 50 H I C CNN
+F4 "Wurth Elektronik" -200 300 50 H I C CNN "Fabricant"
+F5 "66100511722" -100 400 50 H I C CNN "Ref Fabricant"
+DRAW
+S 300 -200 -400 -100 0 1 0 N
+X ~ 1 -350 -300 100 U 50 50 1 1 P
+X ~ 2 -200 -300 100 U 50 50 1 1 P
+X ~ 3 -50 -300 100 U 50 50 1 1 P
+X ~ 4 100 -300 100 U 50 50 1 1 P
+X ~ 5 250 -300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
