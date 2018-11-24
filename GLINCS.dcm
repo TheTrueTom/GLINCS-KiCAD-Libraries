@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CRYSTAL_16MHz_18pF_SMD
+D CRYSTAL 16.0000MHZ 18PF SMD ±30 ppm
+K quartz ceramic resonator oscillator
+F https://abracon.com/Resonators/ABLS2.pdf
+$ENDCMP
+#
+$CMP CRYSTAL_32.768kHz_6pF_SMD
+D CRYSTAL 32.768KHZ 6PF SMD ±20 ppm
+K quartz ceramic resonator oscillator
+F https://abracon.com/AIGcrystals/ABS07AIG.pdf
+$ENDCMP
+#
 $CMP DC-DC_24V_30W
 D DC DC CONVERTER 24V 30W
 K Traco DC-DC converter
