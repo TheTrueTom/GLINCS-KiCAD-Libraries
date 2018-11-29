@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 10BIT_FET_BUS_EX_SWITCH_24SOIC
+D IC 10BIT FET BUS EX SWTCH 24SOIC
+K commutateur bus
+F http://www.ti.com/lit/ds/symlink/sn74cbt3383.pdf
+$ENDCMP
+#
+$CMP CAN_CONTROLLER_W-SPI_18SOIC
+D IC CAN CONTROLLER W/SPI 18SOIC
+K CANBUS can controller
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011733
+$ENDCMP
+#
 $CMP CRYSTAL_16MHz_18pF_SMD
 D CRYSTAL 16.0000MHZ 18PF SMD ±30 ppm
 K quartz ceramic resonator oscillator
@@ -10,6 +22,12 @@ $CMP CRYSTAL_32.768kHz_6pF_SMD
 D CRYSTAL 32.768KHZ 6PF SMD ±20 ppm
 K quartz ceramic resonator oscillator
 F https://abracon.com/AIGcrystals/ABS07AIG.pdf
+$ENDCMP
+#
+$CMP DAC_8bit_DUAL_SPI_VREF_8SOIC
+D DAC 8BIT DUAL SPI/VREF 8SOIC
+K DAC 8bit SPI
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en547855
 $ENDCMP
 #
 $CMP DC-DC_24V_30W
@@ -34,6 +52,24 @@ $CMP LTC4020EUHF
 D 55V Buck-Boost Multi-Chemistry Battery Charger
 K Charger Battery
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4020fd.pdf
+$ENDCMP
+#
+$CMP OPAMP_ZERO-DRIFT_1.5MHZ_8SOIC
+D IC OPAMP ZERO-DRIFT 1.5MHZ 8SOIC
+K ampli amplificator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4638-1.pdf
+$ENDCMP
+#
+$CMP TXRX_CAN_1MBPS_3.3V_8SOIC
+D IC TXRX CAN 1MBPS 3.3V 8SOIC
+K ampli amplificator
+F http://www.ti.com/lit/ds/symlink/sn65hvd232q.pdf
+$ENDCMP
+#
+$CMP TXRX_CAN_8SOIC
+D IC TXRX CAN 8SOIC
+K ampli amplificator
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561044
 $ENDCMP
 #
 $CMP dsPIC33EP512MC806IPT

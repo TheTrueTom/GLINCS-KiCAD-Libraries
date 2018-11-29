@@ -1,4 +1,4 @@
-(module Connecteur_Sub-D9_vertical (layer F.Cu) (tedit 5BF57285)
+(module Connecteur_Sub-D9_vertical (layer F.Cu) (tedit 5BFF9608)
   (fp_text reference J9 (at -17 6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -27,6 +27,6 @@
   (model ${MY3DMOD}/GLINCS_Connectors/Connecteur_Sub-D9_vertical.stp
     (offset (xyz 0 0 6))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 90 0 180))
   )
 )
