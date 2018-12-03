@@ -12,6 +12,12 @@ K SubD connector
 F https://www.farnell.com/cad/2283324.pdf?_ga=2.95851358.359083959.1542808605-2008822987.1516108538
 $ENDCMP
 #
+$CMP Jumper_NC_Dual
+D Dual jumper, normally closed
+K jumper bridge link NC
+F https://katalog.we-online.de/em/datasheet/6130xx11121.pdf
+$ENDCMP
+#
 $CMP Raspberry_Pi_2_3
 D expansion header for Raspberry Pi 2 & 3
 K raspberrypi gpio
@@ -24,7 +30,7 @@ K connector 5pins usb
 F https://katalog.we-online.de/em/datasheet/614105150721.pdf
 $ENDCMP
 #
-$CMP WR-PHD_2x16_2.54mm
+$CMP WR-PHD_2x8_2.54mm
 D WR-PHD 2.54 mm Dual Socket Header Bottom Entry Large
 K socket 16pins
 F https://katalog.we-online.de/em/datasheet/6130xx216921.pdf

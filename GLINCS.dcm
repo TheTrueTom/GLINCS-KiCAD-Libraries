@@ -6,12 +6,6 @@ K commutateur bus
 F http://www.ti.com/lit/ds/symlink/sn74cbt3383.pdf
 $ENDCMP
 #
-$CMP CAN_CONTROLLER_W-SPI_18SOIC
-D IC CAN CONTROLLER W/SPI 18SOIC
-K CANBUS can controller
-F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011733
-$ENDCMP
-#
 $CMP CRYSTAL_16MHz_18pF_SMD
 D CRYSTAL 16.0000MHZ 18PF SMD ±30 ppm
 K quartz ceramic resonator oscillator
@@ -22,12 +16,6 @@ $CMP CRYSTAL_32.768kHz_6pF_SMD
 D CRYSTAL 32.768KHZ 6PF SMD ±20 ppm
 K quartz ceramic resonator oscillator
 F https://abracon.com/AIGcrystals/ABS07AIG.pdf
-$ENDCMP
-#
-$CMP DAC_8bit_DUAL_SPI_VREF_8SOIC
-D DAC 8BIT DUAL SPI/VREF 8SOIC
-K DAC 8bit SPI
-F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en547855
 $ENDCMP
 #
 $CMP DC-DC_24V_30W
@@ -48,10 +36,40 @@ K switch slide
 F https://www.ckswitches.com/media/1422/js.pdf
 $ENDCMP
 #
+$CMP LT1161
+D IC MOSFET DRIVER N-CH QUAD 20DIP
+K mosfet driver
+F http://www.linear.com/docs/3607
+$ENDCMP
+#
 $CMP LTC4020EUHF
 D 55V Buck-Boost Multi-Chemistry Battery Charger
 K Charger Battery
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4020fd.pdf
+$ENDCMP
+#
+$CMP MCP2515-I-SO
+D IC CAN CONTROLLER W/SPI 18SOIC
+K CANBUS can controller
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011733
+$ENDCMP
+#
+$CMP MCP2561-E-SN
+D High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +125C, SOIC8 package
+K High-Speed CAN Transceiver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
+$ENDCMP
+#
+$CMP MCP3008
+D A/D Converter, 12-Bit, 8-Channel, SPI Interface , 2.7V-5.5V
+K 12bit ADC Reference Single Supply SPI 8ch
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf
+$ENDCMP
+#
+$CMP MCP4802
+D 2-Channel 8-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)
+K 8-Bit DAC SPI Reference 2ch
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf
 $ENDCMP
 #
 $CMP OPAMP_ZERO-DRIFT_1.5MHZ_8SOIC
@@ -60,16 +78,10 @@ K ampli amplificator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4638-1.pdf
 $ENDCMP
 #
-$CMP TXRX_CAN_1MBPS_3.3V_8SOIC
-D IC TXRX CAN 1MBPS 3.3V 8SOIC
-K ampli amplificator
-F http://www.ti.com/lit/ds/symlink/sn65hvd232q.pdf
-$ENDCMP
-#
-$CMP TXRX_CAN_8SOIC
-D IC TXRX CAN 8SOIC
-K ampli amplificator
-F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561044
+$CMP SN65HVD232
+D CAN Bus Transceivers, 3.3V, 1Mbps, SOIC
+K can transeiver ti
+F http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf
 $ENDCMP
 #
 $CMP dsPIC33EP512MC806IPT

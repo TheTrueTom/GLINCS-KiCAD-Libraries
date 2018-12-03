@@ -150,4 +150,10 @@ K R res resistor
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
 $ENDCMP
 #
+$CMP 6.04kΩ_0603
+D RES SMD 6.04K OHM 1% 1/10W 0603
+K R res resistor
+F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf
+$ENDCMP
+#
 #End Doc Library
