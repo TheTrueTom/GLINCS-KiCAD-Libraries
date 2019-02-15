@@ -12,6 +12,12 @@ K SubD connector
 F https://www.farnell.com/cad/2283324.pdf?_ga=2.95851358.359083959.1542808605-2008822987.1516108538
 $ENDCMP
 #
+$CMP HL110-02-L-DV
+D WR-WTB 2.54 mm Male Right Angled Shrouded Header 4 pins
+K connector 4pins male
+F https://katalog.we-online.de/em/datasheet/6610xx11722%282%29.pdf
+$ENDCMP
+#
 $CMP Jumper_NC_Dual
 D Dual jumper, normally closed
 K jumper bridge link NC

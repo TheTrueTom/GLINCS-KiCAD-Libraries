@@ -36,10 +36,10 @@ K quartz ceramic resonator oscillator
 F https://abracon.com/AIGcrystals/ABS07AIG.pdf
 $ENDCMP
 #
-$CMP DAC8831
-D IC DAC 16-BIT V-OUT 14-SOIC
-K DAC
-F http://www.ti.com/lit/ds/symlink/dac8830.pdf
+$CMP DC-DC_12V_8W
+D DC DC CONVERTER 5V 8W
+K Traco DC-DC converter
+F https://www.tracopower.com/products/ten8wi.pdf
 $ENDCMP
 #
 $CMP DC-DC_24V_30W
@@ -167,4 +167,9 @@ K mcu microcontroller dspic
 F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en554454
 $ENDCMP
 #
+$CMP DAC8831
+D IC DAC 16-BIT V-OUT 14-SOIC
+K DAC
+F http://www.ti.com/lit/ds/symlink/dac8830.pdf
+#ENDCMP
 #End Doc Library
