@@ -18,6 +18,12 @@ K quartz ceramic resonator oscillator
 F https://abracon.com/AIGcrystals/ABS07AIG.pdf
 $ENDCMP
 #
+$CMP DC-DC_12V_8W
+D DC DC CONVERTER 5V 8W
+K Traco DC-DC converter
+F https://www.tracopower.com/products/ten8wi.pdf
+$ENDCMP
+#
 $CMP DC-DC_24V_30W
 D DC DC CONVERTER 24V 30W
 K Traco DC-DC converter

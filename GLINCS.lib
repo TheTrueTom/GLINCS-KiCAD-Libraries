@@ -91,6 +91,31 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# DC-DC_12V_8W
+#
+DEF DC-DC_12V_8W U 0 0 Y Y 1 F N
+F0 "U" -150 150 50 H V C CNN
+F1 "DC-DC_12V_8W" 0 350 50 H V C CNN
+F2 "GLINCS:DC-DC_12V_8W" 0 -1350 50 H I C CNN
+F3 "https://www.tracopower.com/products/ten8wi.pdf" 0 -1450 50 H I C CNN
+F4 "Traco Power" 1050 250 50 H I C CNN "Fabricant"
+F5 "TEN 8-2412WI" 1100 350 50 H I C CNN "Ref Fabricant"
+F6 "DigiKey" 950 450 50 H I C CNN "Fournisseur 1"
+F7 "1951-2568-ND " 1150 550 50 H I C CNN "Ref Fournisseur 1"
+DRAW
+S 250 100 -200 -850 0 1 0 f
+X Remote_On/Off 1 350 0 100 L 50 50 1 1 B
+X ntc 11 350 -800 100 L 50 50 1 1 U
+X +Vout 14 -300 -800 100 R 50 50 1 1 w
+X -Vout 16 -300 -600 100 R 50 50 1 1 w
+X -Vin_(GND) 2 350 -100 100 L 50 50 1 1 W
+X +Vin_(Vcc) 22 -300 -200 100 R 50 50 1 1 W
+X +Vin_(Vcc) 23 -300 -100 100 R 50 50 1 1 W
+X -Vin_(GND) 3 350 -200 100 L 50 50 1 1 W
+X ntc 9 350 -600 100 L 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
 # DC-DC_24V_30W
 #
 DEF DC-DC_24V_30W U 0 40 Y Y 1 F N
