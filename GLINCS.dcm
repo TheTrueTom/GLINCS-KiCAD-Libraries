@@ -6,6 +6,24 @@ K commutateur bus
 F http://www.ti.com/lit/ds/symlink/sn74cbt3383.pdf
 $ENDCMP
 #
+$CMP 74VHC221
+D MULTIVIBRATOR DUAL MONO 16TSSOP
+K vibrator
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=14141&prodName=74VHC123AFT
+$ENDCMP
+#
+$CMP AD8612
+D IC COMP DUAL 4NS FAST 14-TSSOP
+K caomparator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8611_8612.pdf
+$ENDCMP
+#
+$CMP AT25M02-SSHM-B
+D Mémoire CI EEPROM 2 Mo (256 K x 8) SPI 5MHz 8-SOIC
+K EEPROM memory SPI serial
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en590764
+$ENDCMP
+#
 $CMP CRYSTAL_16MHz_18pF_SMD
 D CRYSTAL 16.0000MHZ 18PF SMD ±30 ppm
 K quartz ceramic resonator oscillator
@@ -16,6 +34,12 @@ $CMP CRYSTAL_32.768kHz_6pF_SMD
 D CRYSTAL 32.768KHZ 6PF SMD ±20 ppm
 K quartz ceramic resonator oscillator
 F https://abracon.com/AIGcrystals/ABS07AIG.pdf
+$ENDCMP
+#
+$CMP DAC8831
+D IC DAC 16-BIT V-OUT 14-SOIC
+K DAC
+F http://www.ti.com/lit/ds/symlink/dac8830.pdf
 $ENDCMP
 #
 $CMP DC-DC_24V_30W
@@ -34,6 +58,18 @@ $CMP JS202011SCQN
 D SWITCH SLIDE DPDT 300MA 6V
 K switch slide
 F https://www.ckswitches.com/media/1422/js.pdf
+$ENDCMP
+#
+$CMP LM4040AIM3-2.0
+D IC VREF SHUNT 2.048V SOT23
+K diode device voltage reference shunt
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=LM4040-N&&fileType=pdf
+$ENDCMP
+#
+$CMP LM4040AIM3-4.1+T
+D IC VREF SHUNT 4.096V SOT23
+K diode device voltage reference shunt
+F https://datasheets.maximintegrated.com/en/ds/LM4040-LM4040D.pdf
 $ENDCMP
 #
 $CMP LT1161
@@ -66,10 +102,22 @@ K 12bit ADC Reference Single Supply SPI 8ch
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf
 $ENDCMP
 #
+$CMP MCP33131D
+D 16-BIT, 1 MSPS, SINGLE CHANNEL
+K 16-Bit Differential ADC SPI  1ch
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en605050
+$ENDCMP
+#
 $CMP MCP4802
 D 2-Channel 8-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)
 K 8-Bit DAC SPI Reference 2ch
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf
+$ENDCMP
+#
+$CMP OPA704
+D IC OPAMP GP 3MHZ RRO 8SOIC
+K opamp amp 3Mhz
+F http://www.ti.com/lit/ds/symlink/opa703.pdf
 $ENDCMP
 #
 $CMP OPAMP_ZERO-DRIFT_1.5MHZ_8SOIC
@@ -78,10 +126,39 @@ K ampli amplificator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4638-1.pdf
 $ENDCMP
 #
+$CMP Relay_Module_2ch
+D Relay Module 2-Channel
+F https://www.microbot.it/documents/mr009-004-2_datasheet.pdf
+$ENDCMP
+#
 $CMP SN65HVD232
 D CAN Bus Transceivers, 3.3V, 1Mbps, SOIC
 K can transeiver ti
 F http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf
+$ENDCMP
+#
+$CMP SN75LBC176D
+D Differential bus transceiver, SOIC-8
+K Differential bus transceiver
+F http://www.ti.com/lit/ds/symlink/sn75lbc176a.pdf
+$ENDCMP
+#
+$CMP TL071CP
+D Amplificateur J-FET 1 Circuit 8-PDIP
+K single opamp
+F http://www.ti.com/lit/ds/symlink/tl071a.pdf
+$ENDCMP
+#
+$CMP TLV70218DBVR
+D Linear Voltage Regulator IC Positive Fixed 1 Output 1.8V 300mA SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv702.pdf
+$ENDCMP
+#
+$CMP TPA1517
+D IC AMP AUDIO PWR 6W STER 20DIP
+K audio amplifier 2-ch
+F http://www.ti.com/lit/ds/symlink/tpa1517.pdf
 $ENDCMP
 #
 $CMP dsPIC33EP512MC806IPT

@@ -36,16 +36,34 @@ K cap capacitor
 F http://psearch.en.murata.com/capacitor/product/GCM188R71E224KA55%23.pdf
 $ENDCMP
 #
+$CMP 0.22µF_50V_0805
+D CAP CER 0.22UF 50V X7R 0805
+K cap capacitor
+F http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71H224KA01-01.pdf
+$ENDCMP
+#
 $CMP 1000pF_1kV_1206
 D CAP CER 1000PF 1KV X7R 1206
 K cap capacitor
 F http://datasheets.avx.com/AVX-HV_MLCC.pdf
 $ENDCMP
 #
+$CMP 1000µF_25V_radial
+D CAP ALUM 1000UF 20% 25V RADIAL
+K cap capacitor
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1018.pdf
+$ENDCMP
+#
 $CMP 100pF_16V_0402
 D CAP CER 100PF 16V X7R 0402
 K cap capacitor
 F http://datasheets.avx.com/X7RDielectric.pdf
+$ENDCMP
+#
+$CMP 100µF_50V_radial
+D CAP ALUM 100UF 20% 50V RADIAL
+K cap capacitor
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABA0022+EEUFC1H101+7+WW
 $ENDCMP
 #
 $CMP 10nF_50V_0603
@@ -78,10 +96,28 @@ K cap capacitor
 F http://datasheets.avx.com/X7RDielectric.pdf
 $ENDCMP
 #
+$CMP 1µF_25V_0603
+D CAP CER 1UF 25V X7R 0603
+K cap capacitor
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B105KA8NNNC.jsp
+$ENDCMP
+#
 $CMP 2.2µF_16V_0805
 D CAP CER 2.2UF 16V X7R 0805
 K cap capacitor
 F https://product.tdk.com/info/en/documents/chara_sheet/CGA4J3X7R1C225K125AB.pdf
+$ENDCMP
+#
+$CMP 27pF_50V_0603
+D CAP CER 27PF 50V C0G/NP0 0603
+K cap capacitor
+F http://www.passivecomponent.com/indexsea/ASC_General_Purpose.pdf
+$ENDCMP
+#
+$CMP 3.3nF_50V_0603
+D CAP CER 3300PF 50V X7R 0603
+K cap capacitor
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B332JB8NNNC.jsp
 $ENDCMP
 #
 $CMP 4.7µF_100V_1206
@@ -112,6 +148,12 @@ $CMP 68pF_16V_0402
 D CAP CER 68PF 16V C0G/NP0 0402
 K cap capacitor
 F https://katalog.we-online.de/pbs/datasheet/885012005030.pdf
+$ENDCMP
+#
+$CMP 850pF_50V_0805
+D 850pF 50 V Condensateurs céramique 0603 (1608 métrique)
+K cap capacitor
+F https://media.digikey.com/pdf/Data%20Sheets/Knowles%20Dielectric%20Labs%20PDFs/C04_06_08_18_Series_DS.pdf
 $ENDCMP
 #
 #End Doc Library

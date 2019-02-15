@@ -133,6 +133,28 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 0.22µF_50V_0805
+#
+DEF 0.22µF_50V_0805 C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "0.22µF_50V_0805" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0805_2012Metric" 1650 -350 50 H I C CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71H224KA01-01.pdf" 100 -700 50 H I C CNN
+F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
+F5 "490-1670-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F6 "Murata Electronics North America" 1250 50 50 H I C CNN "Fabricant"
+F7 "GRM21BR71H224KA01L" 1300 150 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 1000pF_1kV_1206
 #
 DEF 1000pF_1kV_1206 C 0 10 N Y 1 F N
@@ -155,6 +177,29 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 1000µF_25V_radial
+#
+DEF 1000µF_25V_radial C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "1000µF_25V_radial" 25 -100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" 1650 -350 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1018.pdf" 550 -650 50 H I C CNN
+F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
+F5 "P12379-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F6 "Panasonic Electronic Components" 1250 50 50 H I C CNN "Fabricant"
+F7 "EEU-FM1E102" 1300 150 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+T 0 -50 100 50 0 0 0 + Normal 0 C C
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 100pF_16V_0402
 #
 DEF 100pF_16V_0402 C 0 10 N Y 1 F N
@@ -170,6 +215,29 @@ $FPLIST
  C_*
 $ENDFPLIST
 DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 100µF_50V_radial
+#
+DEF 100µF_50V_radial C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "100µF_50V_radial" 25 -100 50 H V L CNN
+F2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" 1650 -350 50 H I C CNN
+F3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABA0022+EEUFC1H101+7+WW" 550 -650 50 H I C CNN
+F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
+F5 "P10323-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F6 "Panasonic Electronic Components" 1250 50 50 H I C CNN "Fabricant"
+F7 "EEU-FC1H101" 1300 150 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+T 0 -50 100 50 0 0 0 + Normal 0 C C
 P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N
 X ~ 1 0 150 110 D 50 50 1 1 P
@@ -287,6 +355,28 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 1µF_25V_0603
+#
+DEF 1µF_25V_0603 C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "1µF_25V_0603" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 1650 -350 50 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B105KA8NNNC.jsp" 1150 -600 50 H I C CNN
+F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
+F5 "1276-1184-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F6 "Samsung Electro-Mechanics" 1250 50 50 H I C CNN "Fabricant"
+F7 "CL10B105KA8NNNC" 1300 150 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 2.2µF_16V_0805
 #
 DEF 2.2µF_16V_0805 C 0 10 N Y 1 F N
@@ -298,6 +388,50 @@ F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
 F5 "445-5691-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
 F6 "TDK Corporation" 1250 50 50 H I C CNN "Fabricant"
 F7 "CGA4J3X7R1C225K125AB" 1300 150 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 27pF_50V_0603
+#
+DEF 27pF_50V_0603 C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "27pF_50V_0603" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 1650 -350 50 H I C CNN
+F3 "http://www.passivecomponent.com/indexsea/ASC_General_Purpose.pdf" 1150 -600 50 H I C CNN
+F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
+F5 "1292-1511-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F6 "Walsin Technology Corporation" 1250 50 50 H I C CNN "Fabricant"
+F7 "0603N270J500CT" 1300 150 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3.3nF_50V_0603
+#
+DEF 3.3nF_50V_0603 C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "3.3nF_50V_0603" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 1650 -350 50 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B332JB8NNNC.jsp" 1150 -600 50 H I C CNN
+F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
+F5 "1276-2030-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F6 "Samsung Electro-Mechanics" 1250 50 50 H I C CNN "Fabricant"
+F7 "CL10B332JB8NNNC" 1300 150 50 H I C CNN "Ref Fabricant"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -410,6 +544,28 @@ F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
 F5 "732-7446-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
 F6 "Wurth Electronics Inc." 1250 50 50 H I C CNN "Fabricant"
 F7 "885012005030" 1300 150 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 850pF_50V_0805
+#
+DEF 850pF_50V_0805 C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "850pF_50V_0805" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0805_2012Metric" 1650 -350 50 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Knowles%20Dielectric%20Labs%20PDFs/C04_06_08_18_Series_DS.pdf" 550 -650 50 H I C CNN
+F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
+F5 "1761-1085-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F6 "Knowles Dielectric Labs" 1250 50 50 H I C CNN "Fabricant"
+F7 "C06BL851X-5ZN-X0T" 1300 150 50 H I C CNN "Ref Fabricant"
 $FPLIST
  C_*
 $ENDFPLIST
