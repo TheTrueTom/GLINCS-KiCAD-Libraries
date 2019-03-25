@@ -36,6 +36,12 @@ K quartz ceramic resonator oscillator
 F https://abracon.com/AIGcrystals/ABS07AIG.pdf
 $ENDCMP
 #
+$CMP DAC8831
+D IC DAC 16-BIT V-OUT 14-SOIC
+K DAC
+F http://www.ti.com/lit/ds/symlink/dac8830.pdf
+$ENDCMP
+#
 $CMP DC-DC_12V_8W
 D DC DC CONVERTER 5V 8W
 K Traco DC-DC converter
@@ -76,6 +82,12 @@ $CMP LT1161
 D IC MOSFET DRIVER N-CH QUAD 20DIP
 K mosfet driver
 F http://www.linear.com/docs/3607
+$ENDCMP
+#
+$CMP LTC2326-16
+D true bipolar pseudo-differential input ADC
+K ADC SPI analog digital
+F https://www.analog.com/media/en/technical-documentation/data-sheets/232616fa.pdf
 $ENDCMP
 #
 $CMP LTC4020EUHF
@@ -167,9 +179,4 @@ K mcu microcontroller dspic
 F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en554454
 $ENDCMP
 #
-$CMP DAC8831
-D IC DAC 16-BIT V-OUT 14-SOIC
-K DAC
-F http://www.ti.com/lit/ds/symlink/dac8830.pdf
-#ENDCMP
 #End Doc Library

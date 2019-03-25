@@ -132,6 +132,12 @@ K cap capacitor
 F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_soft_en.pdf
 $ENDCMP
 #
+$CMP 47µF_10V_1210
+D CAP CER 0.1UF 50V X7R 0603
+K cap capacitor
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71A476KE15-01.pdf
+$ENDCMP
+#
 $CMP 56µF_63V_10x10
 D CAP ALUM 56UF 20% 63V SMD
 K cap capacitor
