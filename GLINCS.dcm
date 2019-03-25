@@ -42,6 +42,18 @@ K DAC
 F http://www.ti.com/lit/ds/symlink/dac8830.pdf
 $ENDCMP
 #
+$CMP DC-DC_+-5V_8W
+D DC DC CONVERTER 5V 8W
+K Traco DC-DC converter
+F https://www.tracopower.com/products/ten8wi.pdf
+$ENDCMP
+#
+$CMP DC-DC_12V_20W
+D DC DC CONVERTER 24V 30W
+K Traco DC-DC converter
+F https://www.tracopower.com/products/thn30wi.pdf
+$ENDCMP
+#
 $CMP DC-DC_12V_8W
 D DC DC CONVERTER 5V 8W
 K Traco DC-DC converter
@@ -52,6 +64,12 @@ $CMP DC-DC_24V_30W
 D DC DC CONVERTER 24V 30W
 K Traco DC-DC converter
 F https://www.tracopower.com/products/thn30wi.pdf
+$ENDCMP
+#
+$CMP DC-DC_3V3_5W
+D DC DC CONVERTER 5V 8W
+K Traco DC-DC converter
+F https://www.tracopower.com/products/ten8wi.pdf
 $ENDCMP
 #
 $CMP DC-DC_5V_8W

@@ -223,6 +223,54 @@ X NC 9 500 -100 100 L 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
+# DC-DC_+-5V_8W
+#
+DEF DC-DC_+-5V_8W U 0 0 Y Y 1 F N
+F0 "U" -150 150 50 H V C CNN
+F1 "DC-DC_+-5V_8W" 0 350 50 H V C CNN
+F2 "GLINCS:DC-DC_5V_8W" 0 -1350 50 H I C CNN
+F3 "https://www.tracopower.com/products/ten8wi.pdf" 0 -1450 50 H I C CNN
+F4 "Traco Power" 1050 250 50 H I C CNN "Fabricant"
+F5 "TEN 8-2421WI" 1100 350 50 H I C CNN "Ref Fabricant"
+F6 "DigiKey" 950 450 50 H I C CNN "Fournisseur 1"
+F7 "1951-2224-ND " 1100 550 50 H I C CNN "Ref Fournisseur 1"
+F8 "https://assets.tracopower.com/20190322142819/TEN8WI/documents/ten8wi-application.pdf" 300 -1550 50 H V C CNN "Application note"
+DRAW
+S 250 100 -200 -850 0 1 0 f
+X Remote_On/Off 1 350 0 100 L 50 50 1 1 B
+X -Vout 11 350 -800 100 L 50 50 1 1 U
+X +Vout 14 -300 -800 100 R 50 50 1 1 w
+X Common_(GND) 16 -300 -600 100 R 50 50 1 1 w
+X -Vin_(GND) 2 350 -100 100 L 50 50 1 1 W
+X +Vin_(Vcc) 22 -300 -200 100 R 50 50 1 1 W
+X +Vin_(Vcc) 23 -300 -100 100 R 50 50 1 1 W
+X -Vin_(GND) 3 350 -200 100 L 50 50 1 1 W
+X Common_(GND) 9 350 -600 100 L 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
+# DC-DC_12V_20W
+#
+DEF DC-DC_12V_20W U 0 40 Y Y 1 F N
+F0 "U" -200 100 50 H V C CNN
+F1 "DC-DC_12V_20W" 0 250 50 H V C CNN
+F2 "GLINCS:DC-DC_24V_30W" 0 -700 50 H I C CNN
+F3 "https://www.tracopower.com/products/thn20wi.pdf" 50 -850 50 H I C CNN
+F4 "Traco Power" 1050 250 50 H I C CNN "Fabricant"
+F5 "THN 20-2412WI " 1100 350 50 H I C CNN "Ref Fabricant"
+F6 "DigiKey" 950 450 50 H I C CNN "Fournisseur 1"
+F7 "1951-2302-ND " 1100 550 50 H I C CNN "Ref Fournisseur 1"
+DRAW
+S 250 50 -250 -450 0 1 0 f
+X +Vin_(VCC) 1 -350 -100 100 R 50 50 1 1 W
+X -Vin_(GND) 2 -350 -200 100 R 50 50 1 1 W
+X +Vout 3 350 0 100 L 50 50 1 1 w
+X Trim 4 350 -200 100 L 50 50 1 1 P
+X -Vout 5 350 -400 100 L 50 50 1 1 w
+X Remote_on/off 6 -350 -400 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # DC-DC_12V_8W
 #
 DEF DC-DC_12V_8W U 0 0 Y Y 1 F N
@@ -267,6 +315,30 @@ X +Vout 3 350 0 100 L 50 50 1 1 w
 X Trim 4 350 -200 100 L 50 50 1 1 P
 X -Vout 5 350 -400 100 L 50 50 1 1 w
 X Remote_on/off 6 -350 -400 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DC-DC_3V3_5W
+#
+DEF DC-DC_3V3_5W U 0 0 Y Y 1 F N
+F0 "U" -150 150 50 H V C CNN
+F1 "DC-DC_3V3_5W" 0 350 50 H V C CNN
+F2 "GLINCS:DC-DC_5V_8W" 0 -1350 50 H I C CNN
+F3 "https://www.tracopower.com/products/ten5.pdf" 0 -1450 50 H I C CNN
+F4 "Traco Power" 1050 250 50 H I C CNN "Fabricant"
+F5 "TEN 5-1210 " 1100 350 50 H I C CNN "Ref Fabricant"
+F6 "DigiKey" 950 450 50 H I C CNN "Fournisseur 1"
+F7 "1951-1576-ND " 1100 550 50 H I C CNN "Ref Fournisseur 1"
+DRAW
+S 250 100 -200 -850 0 1 0 f
+X no_connexion 11 350 -800 100 L 50 50 1 1 U
+X +Vout 14 -300 -800 100 R 50 50 1 1 w
+X -Vout 16 -300 -600 100 R 50 50 1 1 w
+X -Vin_(GND) 2 350 -100 100 L 50 50 1 1 W
+X +Vin_(Vcc) 22 -300 -200 100 R 50 50 1 1 W
+X +Vin_(Vcc) 23 -300 -100 100 R 50 50 1 1 W
+X -Vin_(GND) 3 350 -200 100 L 50 50 1 1 W
+X no_pin 9 350 -600 100 L 50 50 1 1 U
 ENDDRAW
 ENDDEF
 #
