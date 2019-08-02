@@ -233,7 +233,13 @@ K Differential bus transceiver
 F http://www.ti.com/lit/ds/symlink/sn75lbc176a.pdf
 $ENDCMP
 #
-$CMP TL071CP
+$CMP TL071CDT
+D Amplificateur J-FET 1 Circuit 8-PDIP
+K single opamp
+F http://www.ti.com/lit/ds/symlink/tl071a.pdf
+$ENDCMP
+#
+$CMP TL074CDT
 D Amplificateur J-FET 1 Circuit 8-PDIP
 K single opamp
 F http://www.ti.com/lit/ds/symlink/tl071a.pdf
