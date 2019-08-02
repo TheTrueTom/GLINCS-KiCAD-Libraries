@@ -12,6 +12,12 @@ K vibrator
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=14141&prodName=74VHC123AFT
 $ENDCMP
 #
+$CMP AD7814
+D 65V High Voltage, Current Shunt Monitor, 20V/V gain, bandwidth 500kHz, Vcc=5V, SOT-23-5
+K highside HS current sense amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8211.pdf
+$ENDCMP
+#
 $CMP AD8612
 D IC COMP DUAL 4NS FAST 14-TSSOP
 K caomparator
@@ -22,6 +28,12 @@ $CMP AT25M02-SSHM-B
 D Mémoire CI EEPROM 2 Mo (256 K x 8) SPI 5MHz 8-SOIC
 K EEPROM memory SPI serial
 F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en590764
+$ENDCMP
+#
+$CMP BC817
+D 0.8A Ic, 45V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F http://www.fairchildsemi.com/ds/BC/BC817.pdf
 $ENDCMP
 #
 $CMP CRYSTAL_16MHz_18pF_SMD
@@ -102,6 +114,18 @@ K mosfet driver
 F http://www.linear.com/docs/3607
 $ENDCMP
 #
+$CMP LT3010-ADJ
+D 50mA 3-80V Micropower Low Dropout Regulator, adjustable output, MSOP-8
+K REGULATOR POSITIVE POWER LDO adjustable
+F http://cds.linear.com/docs/en/datasheet/30105fe.pdf
+$ENDCMP
+#
+$CMP LT3465A
+D 2.4MHz White LED Drivers with Built-in Schottky in ThinSOT
+K Switching LED driver
+F http://cds.linear.com/docs/en/datasheet/3465fa.pdf
+$ENDCMP
+#
 $CMP LTC2326-16
 D true bipolar pseudo-differential input ADC
 K ADC SPI analog digital
@@ -112,6 +136,12 @@ $CMP LTC4020EUHF
 D 55V Buck-Boost Multi-Chemistry Battery Charger
 K Charger Battery
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4020fd.pdf
+$ENDCMP
+#
+$CMP MBR0540
+D 40V 0.35A Small Signal Schottky Diode, SOD-123
+K diode Schottky
+F www.st.com/resource/en/datasheet/bat48.pdf
 $ENDCMP
 #
 $CMP MCP2515-I-SO
@@ -138,10 +168,40 @@ K 16-Bit Differential ADC SPI  1ch
 F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en605050
 $ENDCMP
 #
+$CMP MCP42050
+D Dual Digital Potentiometer, SPI interface, 256 taps, 50 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42100
+D Dual Digital Potentiometer, SPI interface, 256 taps, 100 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP4261
+D Dual Digital Potentiometer, SPI interface, 256 taps, 10 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
 $CMP MCP4802
 D 2-Channel 8-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)
 K 8-Bit DAC SPI Reference 2ch
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf
+$ENDCMP
+#
+$CMP OPA355
+D Single High Speed Operational Amplifier, DIP-8/SOIC-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/lm6161.pdf
+$ENDCMP
+#
+$CMP OPA656
+D Single High Speed Operational Amplifier, DIP-8/SOIC-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/lm6161.pdf
 $ENDCMP
 #
 $CMP OPA704

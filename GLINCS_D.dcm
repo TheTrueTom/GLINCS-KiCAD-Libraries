@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1N4148
+D Diode Super protection 60V 500 mA Montage en surface SOD-123
+K D diode
+F https://www.diodes.com/assets/Datasheets/SBR0560S1.pdf
+$ENDCMP
+#
 $CMP D_SBR_60V_500mA_SOD123
 D Diode Super protection 60V 500 mA Montage en surface SOD-123
 K D diode
