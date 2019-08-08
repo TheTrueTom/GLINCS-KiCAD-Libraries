@@ -120,6 +120,12 @@ K diode device voltage reference shunt
 F https://datasheets.maximintegrated.com/en/ds/LM4040-LM4040D.pdf
 $ENDCMP
 #
+$CMP LM5002
+D 65V High Voltage, Current Shunt Monitor, 20V/V gain, bandwidth 500kHz, Vcc=5V, SOT-23-5
+K highside HS current sense amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8211.pdf
+$ENDCMP
+#
 $CMP LT1161
 D IC MOSFET DRIVER N-CH QUAD 20DIP
 K mosfet driver
@@ -226,6 +232,12 @@ $CMP OPAMP_ZERO-DRIFT_1.5MHZ_8SOIC
 D IC OPAMP ZERO-DRIFT 1.5MHZ 8SOIC
 K ampli amplificator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4638-1.pdf
+$ENDCMP
+#
+$CMP REG102-33
+D Linear Voltage Regulator IC Positive Fixed 1 Output 1.8V 300mA SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv702.pdf
 $ENDCMP
 #
 $CMP Relay_Module_2ch

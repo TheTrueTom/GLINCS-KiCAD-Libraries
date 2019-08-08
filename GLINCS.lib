@@ -576,6 +576,33 @@ X A 2 -150 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# LM5002
+#
+DEF LM5002 U 0 20 Y Y 1 F N
+F0 "U" -200 350 50 H V R CNN
+F1 "LM5002" 300 350 50 H V R CNN
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 1400 300 50 H I C CNN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm5002" 1700 -550 50 H I C CNN
+F4 "Texas Instruments" 1100 50 50 H I C CNN "Fabricant"
+F5 " LM5002MAX/NOPB " 1150 -150 50 H I C CNN "Référence fabricant"
+F6 "Digikey" 950 -50 50 H I C CNN "Fournisseur 1"
+F7 " 296-35286-1-ND " 1300 150 50 H I C CNN "Référence Fournisseur 1"
+$FPLIST
+ SOT*23*
+$ENDFPLIST
+DRAW
+S -300 300 300 -300 1 1 10 f
+X SW 1 -400 150 100 R 50 50 1 1 W
+X VIN 2 -400 50 100 R 50 50 1 1 W
+X VCC 3 -400 -50 100 R 50 50 1 1 W
+X GND 4 -400 -150 100 R 50 50 1 1 W
+X RT 5 400 -150 100 L 50 50 1 1 I
+X FB 6 400 -50 100 L 50 50 1 1 I
+X COMP 7 400 50 100 L 50 50 1 1 O
+X EN 8 400 150 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
 # LT1161
 #
 DEF LT1161 U 0 40 Y Y 1 F N
@@ -994,7 +1021,7 @@ ENDDEF
 DEF OPA355 U 0 5 Y Y 1 F N
 F0 "U" 0 300 50 H V L CNN
 F1 "OPA355" 0 200 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23-5" 1350 200 50 H I C CNN
+F2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" 1350 200 50 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/opa355.pdf" 1600 300 50 H I C CNN
 F4 "Texas intsruments" 1050 400 50 H I C CNN "Fabricant"
 F5 "OPA355NA/250" 1000 500 50 H I C CNN "Ref fabricant"
@@ -1092,6 +1119,30 @@ X NC 5 400 -550 100 L 50 50 1 1 N
 X OUT 6 400 -400 100 L 50 50 1 1 O
 X V+ 7 400 -250 100 L 50 50 1 1 W
 X NC 8 400 -100 100 L 50 50 1 1 N
+ENDDRAW
+ENDDEF
+#
+# REG102-33
+#
+DEF REG102-33 U 0 10 Y Y 1 F N
+F0 "U" -150 225 50 H V C CNN
+F1 "REG102-33" 0 225 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" 0 -700 50 H I C CIN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Freg102" -400 -900 50 H I C CNN
+F4 "Texas Instrument" 1150 -925 50 H I C CNN "Fabricant"
+F5 "REG102NA-3.3/250" 1250 -825 50 H I C CNN "Ref Fabricant"
+F6 "DigiKey" 1350 -725 50 H I C CNN "Fournisseur 1"
+F7 "REG102NA-3.3CT-ND " 1450 -625 50 H I C CNN "Ref Fournisseur 1"
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+S -200 175 200 -200 0 1 10 f
+X IN 1 -300 100 100 R 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X EN 3 -300 0 100 R 50 50 1 1 I
+X NR 4 300 0 100 L 50 50 1 1 I
+X OUT 5 300 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
