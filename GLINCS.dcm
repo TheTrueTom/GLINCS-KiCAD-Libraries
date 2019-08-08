@@ -257,6 +257,12 @@ K audio amplifier 2-ch
 F http://www.ti.com/lit/ds/symlink/tpa1517.pdf
 $ENDCMP
 #
+$CMP TPS7A4001
+D 50mA 3-80V Micropower Low Dropout Regulator, adjustable output, MSOP-8
+K REGULATOR POSITIVE POWER LDO adjustable
+F http://cds.linear.com/docs/en/datasheet/30105fe.pdf
+$ENDCMP
+#
 $CMP dsPIC33EP512MC806IPT
 D IC MCU 16BIT 512KB FLASH 64TQFP
 K mcu microcontroller dspic
