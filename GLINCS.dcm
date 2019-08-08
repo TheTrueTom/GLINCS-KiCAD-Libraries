@@ -12,6 +12,12 @@ K vibrator
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=14141&prodName=74VHC123AFT
 $ENDCMP
 #
+$CMP AD7472
+D 1.75 MSPS, 4 mW10-Bit /12-Bit Parallel ADCs
+K CAD
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7470_7472.pdf
+$ENDCMP
+#
 $CMP AD7814
 D 65V High Voltage, Current Shunt Monitor, 20V/V gain, bandwidth 500kHz, Vcc=5V, SOT-23-5
 K highside HS current sense amplifier linear buffered
