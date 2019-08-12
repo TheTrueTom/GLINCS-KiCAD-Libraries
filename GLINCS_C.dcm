@@ -78,6 +78,12 @@ K cap capacitor
 F http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B103KB8NCNC.jsp
 $ENDCMP
 #
+$CMP 10pF_50V_0603
+D CAP CER 18PF 50V C0G/NP0 0603
+K cap capacitor
+F http://psearch.en.murata.com/capacitor/product/GCM1885C1H180JA16%23.pdf
+$ENDCMP
+#
 $CMP 10µF_16V_0603
 D CAP CER 10UF 16V X5R 0603
 K cap capacitor
