@@ -1,4 +1,4 @@
-(module L_Bourns_SDR_1006 (layer F.Cu) (tedit 5D4C3E9F)
+(module L_Bourns_SDR_1006 (layer F.Cu) (tedit 5D652215)
   (tags "Bourns SDR 1006 SMD inductor")
   (attr smd)
   (fp_text reference REF** (at 0 -6.2) (layer F.SilkS)
@@ -29,6 +29,11 @@
   (pad 1 smd rect (at -3.3 0) (size 3.5 10.2) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 3.3 0) (size 3.5 10.2) (layers F.Cu F.Paste F.Mask))
   (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Bourns-SRN1060.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "C:/Users/benoit/Desktop/BOURNS SDR1006.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
