@@ -1235,6 +1235,10 @@ F4 "Texas Intrument" 750 -1250 50 H I C CNN "Fabricant"
 F5 "TL071CDT" 850 -1150 50 H I C CNN "Ref Fabricant"
 F6 "DigiKey" 950 -1050 50 H I C CNN "Fournisseur 1"
 F7 "497-4055-1-ND" 1050 -950 50 H I C CNN "Ref Fournisseur 1"
+F8 "X" 0 0 50 H I C CNN "Spice_Primitive"
+F9 "TL071" 0 0 50 H I C CNN "Spice_Model"
+F10 "Y" 0 0 50 H I C CNN "Spice_Netlist_Enabled"
+F11 "C:\\Users\\benoit\\Desktop\\projets altium designer\\GLINCS-KiCAD-Libraries\\PSPICE_MODELS\\TL071.301" 0 0 50 H I C CNN "Spice_Lib_File"
 DRAW
 P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
 X NULL 1 0 -300 200 U 50 20 1 1 I
@@ -1259,6 +1263,10 @@ F4 "Texas Intrument" 750 -1250 50 H I C CNN "Fabricant"
 F5 "TL074CDT" 850 -1150 50 H I C CNN "Ref Fabricant"
 F6 "DigiKey" 950 -1050 50 H I C CNN "Fournisseur 1"
 F7 "497-2204-1-ND" 1050 -950 50 H I C CNN "Ref Fournisseur 1"
+F8 "X" 0 0 50 H I C CNN "Spice_Primitive"
+F9 "TL074" 0 0 50 H I C CNN "Spice_Model"
+F10 "Y" 0 0 50 H I C CNN "Spice_Netlist_Enabled"
+F11 "C:\\Users\\benoit\\Desktop\\projets altium designer\\GLINCS-KiCAD-Libraries\\PSPICE_MODELS\\TL071.301" 0 0 50 H I C CNN "Spice_Lib_File"
 DRAW
 P 4 1 1 10 -200 200 200 0 -200 -200 -200 200 f
 P 4 2 1 10 -200 200 200 0 -200 -200 -200 200 f
