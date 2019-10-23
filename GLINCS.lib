@@ -385,6 +385,31 @@ X Remote_on/off 6 -350 -400 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# DC-DC_12V_60W
+#
+DEF DC-DC_12V_60W U 0 40 Y Y 1 F N
+F0 "U" -200 100 50 H V C CNN
+F1 "DC-DC_12V_60W" 350 100 50 H V C CNN
+F2 "GLINCS:DC-DC_24V_30W" 1250 150 50 H I C CNN
+F3 "" -150 -250 50 H I C CNN
+F4 "Traco Power" 1050 250 50 H I C CNN "Fabricant"
+F5 "TEN 60-2412" 1100 350 50 H I C CNN "Ref Fabricant"
+F6 "DigiKey" 950 450 50 H I C CNN "Fournisseur 1"
+F7 "1951-2207-ND" 1100 550 50 H I C CNN "Ref Fournisseur 1"
+F8 "http://www.farnell.com/datasheets/1763630.pdf" 0 0 50 H V C CNN "Application note"
+DRAW
+S -450 50 650 -1000 0 1 0 f
+X +Vin_(VCC) 1 -550 -550 100 R 50 50 1 1 W
+X -Vin_(GND) 2 -550 -450 100 R 50 50 1 1 W
+X Remote_(ON/OFF) 3 -550 -300 100 R 50 50 1 1 I
+X -Sense 4 750 -750 100 L 50 50 1 1 I
+X +sense 5 750 -600 100 L 50 50 1 1 I
+X +Vout 6 750 -500 100 L 50 50 1 1 w
+X -Vout 7 750 -350 100 L 50 50 1 1 w
+X Trim 8 750 -200 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # DC-DC_12V_8W
 #
 DEF DC-DC_12V_8W U 0 0 Y Y 1 F N

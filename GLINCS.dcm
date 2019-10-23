@@ -78,6 +78,12 @@ K Traco DC-DC converter
 F https://www.tracopower.com/products/thn30wi.pdf
 $ENDCMP
 #
+$CMP DC-DC_12V_60W
+D DC DC CONVERTER 12V 60W
+K Traco DC-DC converter
+F https://www.tracopower.com/products/ten60.pdf
+$ENDCMP
+#
 $CMP DC-DC_12V_8W
 D DC DC CONVERTER 5V 8W
 K Traco DC-DC converter
