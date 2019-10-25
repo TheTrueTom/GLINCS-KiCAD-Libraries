@@ -700,11 +700,11 @@ DEF 5.6kΩ_0603 R 0 0 N Y 1 F N
 F0 "R" 0 80 50 H V C CNN
 F1 "5.6kΩ_0603" 0 -100 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
-F3 "http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" -300 -600 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" -300 -600 50 H I C CNN
 F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
-F5 "RR08P6.04KDCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
-F6 "Susumu" 1050 230 50 H I C CNN "Fabricant"
-F7 "RR0816P-6041-D-76H" 1150 330 50 H I C CNN "Ref Fabricant"
+F5 "P5.6KDBCT-ND " 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Panasonic Electronic Components" 1050 230 50 H I C CNN "Fabricant"
+F7 "ERA-3AEB562V " 1150 330 50 H I C CNN "Ref Fabricant"
 $FPLIST
  R_*
 $ENDFPLIST
