@@ -108,6 +108,12 @@ K Traco DC-DC converter
 F https://www.tracopower.com/products/ten8wi.pdf
 $ENDCMP
 #
+$CMP HoneyWell_HSC_pressure_sensor
+D Gauge pressure sensor, 0 to 15PSI, 5V supply, 0.2% accuracy, integrated signal conditioning, excellent media compatibility
+K gage gauge pressure sensor
+F http://sensing.honeywell.com/index.php?ci_id=151133
+$ENDCMP
+#
 $CMP JS202011SCQN
 D SWITCH SLIDE DPDT 300MA 6V
 K switch slide
