@@ -1,4 +1,4 @@
-(module HoneyWell_HSC_pressure_sensor (layer F.Cu) (tedit 5D9C8DE5)
+(module HoneyWell_HSC_pressure_sensor (layer F.Cu) (tedit 5DB99AC3)
   (descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
   (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
   (fp_text reference REF** (at 3.81 -2.33) (layer F.SilkS)
@@ -33,8 +33,8 @@
   (pad 7 thru_hole oval (at 13.3 2.54) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 4 thru_hole oval (at 0 7.62) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 8 thru_hole oval (at 13.3 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Package_DIP.3dshapes/DIP-8_W7.62mm.wrl
-    (at (xyz 0 0 0))
+  (model "${MY3DMOD}/GLINCS/capteur pression.stp"
+    (offset (xyz 0.1 -7.85 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
