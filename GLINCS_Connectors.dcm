@@ -36,6 +36,11 @@ K raspberrypi gpio
 F http://www.farnell.com/datasheets/1992051.pdf
 $ENDCMP
 #
+$CMP SW_DIP_x12
+D 12x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+$ENDCMP
+#
 $CMP WR-COM_µUSB_Type_B_Vertical_5_Contacts
 D WR-COM Micro USB 2.0 Type B Vertical 5 Contacts
 K connector 5pins usb

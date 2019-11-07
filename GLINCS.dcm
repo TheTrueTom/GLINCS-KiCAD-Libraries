@@ -252,6 +252,12 @@ K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv702.pdf
 $ENDCMP
 #
+$CMP REGULATEUR_3.3V_500mA_8DSO_E-PAD
+D IC OPAMP ZERO-DRIFT 1.5MHZ 8SOIC
+K ampli amplificator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4638-1.pdf
+$ENDCMP
+#
 $CMP Relay_Module_2ch
 D Relay Module 2-Channel
 F https://www.microbot.it/documents/mr009-004-2_datasheet.pdf
