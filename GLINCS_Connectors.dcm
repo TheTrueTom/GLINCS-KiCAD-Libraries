@@ -1,9 +1,33 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 68710614522
+D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Arduino_Uno_Shield
 D Shield for Arduino Uno
 K Arduino MPU Shield
 F https://store.arduino.cc/arduino-uno-rev3
+$ENDCMP
+#
+$CMP BBL-104-G-E
+D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP BBL-105-G-E
+D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP BBL-106-G-E
+D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
 $ENDCMP
 #
 $CMP CONN_BNC_JACK_STR_50_OHM_PCB
@@ -36,6 +60,24 @@ K raspberrypi gpio
 F http://www.farnell.com/datasheets/1992051.pdf
 $ENDCMP
 #
+$CMP SL-104-T-12
+D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP SL-105-T-12
+D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP SL-106-T-12
+D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP SW_DIP_x12
 D 12x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
 K dip switch
@@ -57,6 +99,12 @@ $CMP WR-PHD_2x8_2.54mm
 D WR-PHD 2.54 mm Dual Socket Header Bottom Entry Large
 K socket 16pins
 F https://katalog.we-online.de/em/datasheet/6130xx216921.pdf
+$ENDCMP
+#
+$CMP WR-WTB_2x5pins_2.54mm
+D WR-WTB 2.54 mm Male Right Angled Shrouded Header 5 pins
+K connector 4pins male
+F https://katalog.we-online.de/em/datasheet/6610xx11722%282%29.pdf
 $ENDCMP
 #
 $CMP WR-WTB_4pins_1.25mm

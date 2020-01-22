@@ -24,6 +24,12 @@ K Coil Inductor
 F https://www.tracopower.com/products/tck059.pdf
 $ENDCMP
 #
+$CMP MSS1260-104MLD
+D IND 2.2UH 3.8A 25MOHM SMD
+K Coil Inductor
+F https://www.tracopower.com/products/tck059.pdf
+$ENDCMP
+#
 $CMP TCK-048
 D IND 2.2UH 3.8A 25MOHM SMD
 K Coil Inductor

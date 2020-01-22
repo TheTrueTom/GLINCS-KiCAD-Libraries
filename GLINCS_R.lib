@@ -85,6 +85,27 @@ X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 1,47kΩ_0603
+#
+DEF 1,47kΩ_0603 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "1,47kΩ_0603" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 300 -550 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "P1.47KDBCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Panasonic Electronic Components" 1050 230 50 H I C CNN "Fabricant"
+F7 "ERA-3AEB1471V" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 100kΩ_0402
 #
 DEF 100kΩ_0402 R 0 0 N Y 1 F N
@@ -778,6 +799,27 @@ X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 54.9kΩ_0603
+#
+DEF 54.9kΩ_0603 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "54.9kΩ_0603" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
+F3 "" -300 -600 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "P123072CT-ND " 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Panasonic Electronic Components " 1050 230 50 H I C CNN "Fabricant"
+F7 " ERJ-1GNF5492C" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 56kΩ_0402
 #
 DEF 56kΩ_0402 R 0 0 N Y 1 F N
@@ -810,6 +852,48 @@ F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
 F5 "311-6.04KHRDKR-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
 F6 "Yageo" 1050 230 50 H I C CNN "Fabricant"
 F7 "RC0603FR-076K04L" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 68.9kΩ_0603
+#
+DEF 68.9kΩ_0603 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "68.9kΩ_0603" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
+F3 "" -300 -600 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "YAG2776CT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Yageo" 1050 230 50 H I C CNN "Fabricant"
+F7 "RC0201FR-0769K8L " 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 75kΩ_0603
+#
+DEF 75kΩ_0603 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "75kΩ_0603" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" -300 -600 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "P75KDBCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Panasonic Electronic Components " 1050 230 50 H I C CNN "Fabricant"
+F7 "ERA-3AEB753V" 1150 330 50 H I C CNN "Ref Fabricant"
 $FPLIST
  R_*
 $ENDFPLIST

@@ -1,6 +1,37 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 68710614522
+#
+DEF ~68710614522 J 0 40 Y N 1 F N
+F0 "J" -750 700 50 H V C CNN
+F1 "68710614522" 0 -400 50 H I C CNN
+F2 "GLINCS_Connectors:68710614522" -250 750 50 H I C CNN
+F3 "https://www.we-online.fr/catalog/en/FPC_0_5_SMT_ZIF_HORIZONTAL_BOTTOM_CONTACT_6871XX14522/?sq=68710614522&sp=https%3A%2F%2Fwww.we-online.fr%2Fweb%2Ffr%2Felectronic_components%2Fsearchpage_PBS.php%3Fsearch%3D68710614522#68710614522" -250 800 50 H I C CNN
+F4 "Digikey" 100 400 50 H I C CNN "Fournisseur 1"
+F5 "732-2010-1-ND" 200 500 50 H I C CNN "Ref Fournisseur 1"
+F6 "Würth Elektronik" 300 600 50 H I C CNN "Fabricant"
+F7 "68710614522" 400 700 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 0 -245 50 -255 1 1 6 N
+S 0 -145 50 -155 1 1 6 N
+S 0 -45 50 -55 1 1 6 N
+S 0 55 50 45 1 1 6 N
+S 0 155 50 145 1 1 6 N
+S 0 255 50 245 1 1 6 N
+S 0 300 100 -300 1 1 10 f
+X Pin_1 1 -150 250 150 R 50 50 1 1 P
+X Pin_2 2 -150 150 150 R 50 50 1 1 P
+X Pin_3 3 -150 50 150 R 50 50 1 1 P
+X Pin_4 4 -150 -50 150 R 50 50 1 1 P
+X Pin_5 5 -150 -150 150 R 50 50 1 1 P
+X Pin_6 6 -150 -250 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Arduino_Uno_Shield
 #
 DEF Arduino_Uno_Shield XA 0 40 Y Y 1 F N
@@ -78,6 +109,93 @@ X SPI_SCK SCK 1300 -450 300 L 50 50 1 1 O C
 X SCL SCL -1300 750 300 R 50 50 1 1 B C
 X SDA SDA -1300 650 300 R 50 50 1 1 B
 X VIN VIN -1300 -1050 300 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# BBL-104-G-E
+#
+DEF BBL-104-G-E J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H I C CNN
+F1 "BBL-104-G-E" 0 -300 50 H V C CNN
+F2 "GLINCS_Connectors:BBL-104-G-E" 750 650 50 H I C CNN
+F3 "http://suddendocs.samtec.com/catalog_english/bbl.pdf" 350 800 50 H I C CNN
+F4 "Digikey" 100 400 50 H I C CNN "Fournisseur 1"
+F5 "SAM1000-04-ND" 200 500 50 H I C CNN "Ref Fournisseur 1"
+F6 "Samtec Inc." 300 600 50 H I C CNN "Fabricant"
+F7 "BBL-104-G-E" 400 700 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 0 -145 50 -155 1 1 6 N
+S 0 -45 50 -55 1 1 6 N
+S 0 55 50 45 1 1 6 N
+S 0 155 50 145 1 1 6 N
+S 0 200 100 -200 1 1 10 f
+X Pin_1 1 -150 150 150 R 50 50 1 1 P
+X Pin_2 2 -150 50 150 R 50 50 1 1 P
+X Pin_3 3 -150 -50 150 R 50 50 1 1 P
+X Pin_4 4 -150 -150 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# BBL-105-G-E
+#
+DEF BBL-105-G-E J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H I C CNN
+F1 "BBL-105-G-E" 0 -300 50 H V C CNN
+F2 "GLINCS_Connectors:BBL-105-G-E" -100 200 50 H I C CNN
+F3 "http://suddendocs.samtec.com/catalog_english/bbl.pdf" 0 300 50 H I C CNN
+F4 "Digikey" 100 400 50 H I C CNN "Fournisseur 1"
+F5 "SAM1000-05-ND" 200 500 50 H I C CNN "Ref Fournisseur 1"
+F6 "Samtec Inc." 300 600 50 H I C CNN "Fabricant"
+F7 "BBL-105-G-E" 400 700 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -250 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# BBL-106-G-E
+#
+DEF BBL-106-G-E J 0 40 Y N 1 F N
+F0 "J" 200 250 50 H I C CNN
+F1 "BBL-106-G-E" 150 -400 50 H V C CNN
+F2 "GLINCS_Connectors:BBL-106-G-E" 400 600 50 H I C CNN
+F3 "http://suddendocs.samtec.com/catalog_english/bbl.pdf" 300 700 50 H I C CNN
+F4 "Digikey" 100 400 50 H I C CNN "Fournisseur 1"
+F5 "SAM1000-06-ND" 200 500 50 H I C CNN "Ref Fournisseur 1"
+F6 "Samtec Inc." 300 600 50 H I C CNN "Fabricant"
+F7 "BBL-106-G-E" 400 700 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 0 -245 50 -255 1 1 6 N
+S 0 -145 50 -155 1 1 6 N
+S 0 -45 50 -55 1 1 6 N
+S 0 55 50 45 1 1 6 N
+S 0 155 50 145 1 1 6 N
+S 0 255 50 245 1 1 6 N
+S 0 300 100 -300 1 1 10 f
+X Pin_1 1 -150 250 150 R 50 50 1 1 P
+X Pin_2 2 -150 150 150 R 50 50 1 1 P
+X Pin_3 3 -150 50 150 R 50 50 1 1 P
+X Pin_4 4 -150 -50 150 R 50 50 1 1 P
+X Pin_5 5 -150 -150 150 R 50 50 1 1 P
+X Pin_6 6 -150 -250 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -292,6 +410,93 @@ X GND 9 -300 -1300 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# SL-104-T-12
+#
+DEF ~SL-104-T-12 J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "SL-104-T-12" 0 -300 50 H I C CNN
+F2 "GLINCS_Connectors:SL-104-T-12" -300 650 50 H I C CNN
+F3 "http://suddendocs.samtec.com/catalog_english/sl.pdf" -400 750 50 H I C CNN
+F4 "Digikey" 100 400 50 H I C CNN "Fournisseur 1"
+F5 "SAM1107-04-ND " 200 500 50 H I C CNN "Ref Fournisseur 1"
+F6 "Samtec Inc." 300 600 50 H I C CNN "Fabricant"
+F7 "SL-104-T-12" 400 700 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 0 -145 50 -155 1 1 6 N
+S 0 -45 50 -55 1 1 6 N
+S 0 55 50 45 1 1 6 N
+S 0 155 50 145 1 1 6 N
+S 0 200 100 -200 1 1 10 f
+X Pin_1 1 -150 150 150 R 50 50 1 1 P
+X Pin_2 2 -150 50 150 R 50 50 1 1 P
+X Pin_3 3 -150 -50 150 R 50 50 1 1 P
+X Pin_4 4 -150 -150 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SL-105-T-12
+#
+DEF SL-105-T-12 J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H I C CNN
+F1 "SL-105-T-12" 0 -300 50 H V C CNN
+F2 "GLINCS_Connectors:SL-105-T-12" -100 200 50 H I C CNN
+F3 "http://suddendocs.samtec.com/catalog_english/sl.pdf" 0 300 50 H I C CNN
+F4 "Digikey" 100 400 50 H I C CNN "Fournisseur 1"
+F5 "SAM1107-05-ND " 200 500 50 H I C CNN "Ref Fournisseur 1"
+F6 "Samtec Inc." 300 600 50 H I C CNN "Fabricant"
+F7 "SL-105-T-12" 400 700 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -250 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SL-106-T-12
+#
+DEF SL-106-T-12 J 0 40 Y N 1 F N
+F0 "J" -750 700 50 H I C CNN
+F1 "SL-106-T-12" 0 -400 50 H V C CNN
+F2 "GLINCS_Connectors:SL-106-T-12" -250 750 50 H I C CNN
+F3 "http://suddendocs.samtec.com/catalog_english/sl.pdf" -250 800 50 H I C CNN
+F4 "Digikey" 100 400 50 H I C CNN "Fournisseur 1"
+F5 "SAM1107-06-ND " 200 500 50 H I C CNN "Ref Fournisseur 1"
+F6 "Samtec Inc." 300 600 50 H I C CNN "Fabricant"
+F7 "SL-106-T-12" 400 700 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 0 -245 50 -255 1 1 6 N
+S 0 -145 50 -155 1 1 6 N
+S 0 -45 50 -55 1 1 6 N
+S 0 55 50 45 1 1 6 N
+S 0 155 50 145 1 1 6 N
+S 0 255 50 245 1 1 6 N
+S 0 300 100 -300 1 1 10 f
+X Pin_1 1 -150 250 150 R 50 50 1 1 P
+X Pin_2 2 -150 150 150 R 50 50 1 1 P
+X Pin_3 3 -150 50 150 R 50 50 1 1 P
+X Pin_4 4 -150 -50 150 R 50 50 1 1 P
+X Pin_5 5 -150 -150 150 R 50 50 1 1 P
+X Pin_6 6 -150 -250 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # SW_DIP_x12
 #
 DEF ~SW_DIP_x12 P 0 0 Y N 1 F N
@@ -467,6 +672,30 @@ X ~ 6 200 -450 100 L 50 50 1 1 P
 X ~ 7 -200 -600 100 R 50 50 1 1 P
 X ~ 8 200 -600 100 L 50 50 1 1 P
 X ~ 9 -200 -750 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# WR-WTB_2x5pins_2.54mm
+#
+DEF WR-WTB_2x5pins_2.54mm J 0 40 Y N 1 F N
+F0 "J" -500 -50 50 H V L BNN
+F1 "WR-WTB_2x5pins_2.54mm" 400 -100 50 H V L BNN
+F2 "GLINCS_Connectors:WR-WTB_2x5pins_2.54mm" 400 -250 50 H I L BNN
+F3 "" 1450 -750 50 H I C CNN
+F4 "Wurth Elektronik" 700 100 50 H I C CNN "Fabricant"
+F5 "66101021722" 650 200 50 H I C CNN "Ref Fabricant"
+DRAW
+S 300 -200 -400 -100 0 1 0 N
+X ~ 1 -350 -300 100 U 50 50 1 1 P
+X ~ 10 -350 0 100 D 50 50 1 1 P
+X ~ 2 -200 -300 100 U 50 50 1 1 P
+X ~ 3 -50 -300 100 U 50 50 1 1 P
+X ~ 4 100 -300 100 U 50 50 1 1 P
+X ~ 5 250 -300 100 U 50 50 1 1 P
+X ~ 6 250 0 100 D 50 50 1 1 P
+X ~ 7 100 0 100 D 50 50 1 1 P
+X ~ 8 -50 0 100 D 50 50 1 1 P
+X ~ 9 -200 0 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

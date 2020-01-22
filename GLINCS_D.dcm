@@ -6,6 +6,18 @@ K D diode
 F https://www.diodes.com/assets/Datasheets/SBR0560S1.pdf
 $ENDCMP
 #
+$CMP BAT54SL
+D Diode Super protection 60V 500 mA Montage en surface SOD-123
+K D diode
+F https://www.diodes.com/assets/Datasheets/SBR0560S1.pdf
+$ENDCMP
+#
+$CMP CMSH2-60M_TR13_PBFREE
+D Diode Schottky 60V 3 A Montage en surface DO-214AC (SMA)
+K D diode schottky
+F http://www.mccsemi.com/up_pdf/SK32A-LT~SK310A-LT%28DO-214AC%29.PDF
+$ENDCMP
+#
 $CMP D_SBR_60V_500mA_SOD123
 D Diode Super protection 60V 500 mA Montage en surface SOD-123
 K D diode

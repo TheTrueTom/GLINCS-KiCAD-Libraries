@@ -72,6 +72,12 @@ K cap capacitor
 F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABA0022+EEUFC1H101+7+WW
 $ENDCMP
 #
+$CMP 10nF_100V_0603
+D CAP CER 10000PF 50V X7R 0603
+K cap capacitor
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B103KB8NCNC.jsp
+$ENDCMP
+#
 $CMP 10nF_50V_0603
 D CAP CER 10000PF 50V X7R 0603
 K cap capacitor
@@ -88,6 +94,12 @@ $CMP 10µF_16V_0603
 D CAP CER 10UF 16V X5R 0603
 K cap capacitor
 F http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61C106KAAL-01.pdf
+$ENDCMP
+#
+$CMP 10µF_50V_1206
+D CAP CER 1UF 100V X7R 1206
+K cap capacitor
+F https://media.digikey.com/pdf/Data%20Sheets/AVX%20PDFs/12061Z475KAT2A.pdf
 $ENDCMP
 #
 $CMP 10µF_6.3V_0805
@@ -130,6 +142,12 @@ $CMP 2.2µF_16V_0805
 D CAP CER 2.2UF 16V X7R 0805
 K cap capacitor
 F https://product.tdk.com/info/en/documents/chara_sheet/CGA4J3X7R1C225K125AB.pdf
+$ENDCMP
+#
+$CMP 2.2µF_50V_1206
+D CAP CER 1UF 100V X7R 1206
+K cap capacitor
+F https://media.digikey.com/pdf/Data%20Sheets/AVX%20PDFs/12061Z475KAT2A.pdf
 $ENDCMP
 #
 $CMP 200pF_100V_0603

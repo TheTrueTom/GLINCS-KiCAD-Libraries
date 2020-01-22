@@ -81,9 +81,9 @@ F1 "AD7472" 100 700 50 H V L CNN
 F2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" 2000 700 50 H I C CNN
 F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD7470_7472.pdf" 2950 800 50 H I C CNN
 F4 "Analog devices" 1450 900 50 H I C CNN "Fabricant"
-F5 "AD7472ARUZ" 1400 1000 50 H I C CNN "Référence Fabricant"
+F5 "AD7472ARUZ" 1400 1000 50 H I C CNN "Ref Fabricant"
 F6 "Farnell" 1300 1100 50 H I C CNN "Fournisseur 1"
-F7 "2461682" 2650 1200 50 H I C CNN "Référence fournisseur 1"
+F7 "2461682" 2650 1200 50 H I C CNN "Ref fournisseur 1"
 DRAW
 S -350 -750 350 650 0 1 10 f
 X DB9 1 500 -400 150 L 50 50 1 1 T
@@ -121,9 +121,9 @@ F1 "AD7814" 300 350 50 H V R CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6" 1400 300 50 H I C CNN
 F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD7814.pdf" 1700 -550 50 H I C CNN
 F4 "Analog Devices" 1100 50 50 H I C CNN "Fabricant"
-F5 "AD7814ARTZ-REEL7" 1150 -150 50 H I C CNN "Référence fabricant"
+F5 "AD7814ARTZ-REEL7" 1150 -150 50 H I C CNN "Ref Fabricant"
 F6 "Digikey" 950 -50 50 H I C CNN "Fournisseur 1"
-F7 "AD7814ARTZ-REEL7CT-ND" 1300 150 50 H I C CNN "Référence Fournisseur 1"
+F7 "AD7814ARTZ-REEL7CT-ND" 1300 150 50 H I C CNN "Ref Fournisseur 1"
 $FPLIST
  SOT*23*
 $ENDFPLIST
@@ -216,9 +216,9 @@ F1 "BC817" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 750 0 50 H I L CIN
 F3 "https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf" 750 100 50 H I L CNN
 F4 " Nexperia USA Inc." 1050 200 50 H I C CNN "Fabricant"
-F5 " BC817-25,235 " 1000 300 50 H I C CNN "Référence Fabricant"
+F5 " BC817-25,235 " 1000 300 50 H I C CNN "Ref Fabricant"
 F6 "Digikey" 850 400 50 H I C CNN "Fournisseur 1"
-F7 " 1727-6184-2-ND " 1050 500 50 H I C CNN "Référence Fournisseur 1"
+F7 " 1727-6184-2-ND " 1050 500 50 H I C CNN "Ref Fournisseur 1"
 $FPLIST
  SOT?23*
 $ENDFPLIST
@@ -631,15 +631,15 @@ ENDDEF
 #
 # LM5002
 #
-DEF LM5002 U 0 20 Y Y 1 F N
+DEF ~LM5002 U 0 20 Y Y 1 F N
 F0 "U" -200 350 50 H V R CNN
-F1 "LM5002" 300 350 50 H V R CNN
+F1 "LM5002" 300 350 50 H I R CNN
 F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 1400 300 50 H I C CNN
 F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm5002" 1700 -550 50 H I C CNN
 F4 "Texas Instruments" 1100 50 50 H I C CNN "Fabricant"
-F5 " LM5002MAX/NOPB " 1150 -150 50 H I C CNN "Référence fabricant"
+F5 " LM5002MAX/NOPB " 1150 -150 50 H I C CNN "Ref Fabricant"
 F6 "Digikey" 950 -50 50 H I C CNN "Fournisseur 1"
-F7 " 296-35286-1-ND " 1300 150 50 H I C CNN "Référence Fournisseur 1"
+F7 " 296-35286-1-ND " 1300 150 50 H I C CNN "Ref Fournisseur 1"
 $FPLIST
  SOT*23*
 $ENDFPLIST
@@ -831,15 +831,15 @@ ENDDEF
 #
 # MBR0540
 #
-DEF MBR0540 D 0 40 N N 1 F N
+DEF ~MBR0540 D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "MBR0540" 0 -100 50 H V C CNN
+F1 "MBR0540" 0 -100 50 H I C CNN
 F2 "Diode_SMD:D_SOD-123" 0 -175 50 H I C CNN
 F3 "https://www.onsemi.com/pub/Collateral/MBR0540T1-D.PDF" 0 100 50 H I C CNN
 F4 "On Semiconductors" 100 200 50 H I C CNN "Fabricant"
-F5 "MBR0540T1G " 200 300 50 H I C CNN "Référence Fabricant"
-F6 "Digikey" 300 400 50 H I C CNN "Fournsisseur 1"
-F7 "MBR0540T1GOSCT-ND " 400 500 50 H I C CNN "Référence Fournisseur 2"
+F5 "MBR0540T1G " 200 300 50 H I C CNN "Ref Fabricant"
+F6 "Digikey" 300 400 50 H I C CNN "Fournisseur 1"
+F7 "MBR0540T1GOSCT-ND " 400 500 50 H I C CNN "Ref Fournisseur 1"
 $FPLIST
  D*SOD?123*
 $ENDFPLIST
@@ -995,9 +995,9 @@ F1 "MCP4261" 100 450 50 H V L CNN
 F2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" 1550 300 50 H I C CNN
 F3 "http://ww1.microchip.com/downloads/en/devicedoc/22059b.pdf" 1950 200 50 H I C CNN
 F4 "Microchip" 900 -200 50 H I C CNN "Fabricant"
-F5 "MCP4261-103E/ST" 1050 100 50 H I C CNN "Référence Fabricant"
+F5 "MCP4261-103E/ST" 1050 100 50 H I C CNN "Ref Fabricant"
 F6 "Digikey" 850 0 50 H I C CNN "Fournisseur 1"
-F7 "MCP4261-103E/ST-ND" 1150 -100 50 H I C CNN "Référence Fournisseur 1"
+F7 "MCP4261-103E/ST-ND" 1150 -100 50 H I C CNN "Ref Fournisseur 1"
 ALIAS MCP42050 MCP42100
 $FPLIST
  DIP*W7.62mm*
@@ -1077,7 +1077,7 @@ F1 "OPA355" 0 200 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" 1350 200 50 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/opa355.pdf" 1600 300 50 H I C CNN
 F4 "Texas intsruments" 1050 400 50 H I C CNN "Fabricant"
-F5 "OPA355NA/250" 1000 500 50 H I C CNN "Ref fabricant"
+F5 "OPA355NA/250" 1000 500 50 H I C CNN "Ref Fabricant"
 F6 "Digikey" 850 600 50 H I C CNN "Fournisseur 1"
 F7 "296-11641-1-ND " 1100 700 50 H I C CNN "Ref Fournisseur 1"
 $FPLIST
@@ -1103,7 +1103,7 @@ F1 "OPA656" 0 200 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 1350 200 50 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/opa656.pdf" 1600 300 50 H I C CNN
 F4 "Texas intsruments" 1050 400 50 H I C CNN "Fabricant"
-F5 "OPA656NB/250" 1000 500 50 H I C CNN "Ref fabricant"
+F5 "OPA656NB/250" 1000 500 50 H I C CNN "Ref Fabricant"
 F6 "Digikey" 850 600 50 H I C CNN "Fournisseur 1"
 F7 "OPA656NB/250CT-ND " 1150 700 50 H I C CNN "Ref Fournisseur 1"
 $FPLIST
@@ -1427,6 +1427,30 @@ X IN2 9 -500 300 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# TPS72301DBVTG4
+#
+DEF TPS72301DBVTG4 U 0 10 Y Y 1 F N
+F0 "U" -150 225 50 H V C CNN
+F1 "TPS72301DBVTG4" 0 225 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" 0 -700 50 H I C CIN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps723" -400 -900 50 H I C CNN
+F4 "Texas Instrument" 1150 -925 50 H I C CNN "Fabricant"
+F5 "TPS72301DBVTG4" 1250 -825 50 H I C CNN "Ref Fabricant"
+F6 "DigiKey" 1350 -725 50 H I C CNN "Fournisseur 1"
+F7 "296-46478-1-ND" 1450 -625 50 H I C CNN "Ref Fournisseur 1"
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+S -200 175 200 -200 0 1 10 f
+X GND 1 0 -300 100 U 50 50 1 1 W
+X IN 2 -300 100 100 R 50 50 1 1 W
+X EN 3 -300 0 100 R 50 50 1 1 I
+X NR 4 300 0 100 L 50 50 1 1 I
+X OUT 5 300 100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
 # TPS7A4001
 #
 DEF TPS7A4001 U 0 30 Y Y 1 F N
@@ -1435,9 +1459,9 @@ F1 "TPS7A4001" 0 250 50 H V L CNN
 F2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm" 2050 150 50 H I C CNN
 F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/30105fe.pdf" 450 -550 50 H I C CNN
 F4 "Texas Instruments" 1250 50 50 H I C CNN "Fabricant"
-F5 "TPS7A4001" 1250 250 50 H I C CNN "Référence Fabricant"
+F5 "TPS7A4001" 1250 250 50 H I C CNN "Ref Fabricant"
 F6 "Farnell" 1100 350 50 H I C CNN "Fournisseur 1"
-F7 "1898986" 1350 450 50 H I C CNN "Référence Fournisseur 1"
+F7 "1898986" 1350 450 50 H I C CNN "Ref Fournisseur 1"
 $FPLIST
  MSOP*3x3mm*P0.65mm*
 $ENDFPLIST
