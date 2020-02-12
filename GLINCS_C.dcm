@@ -180,6 +180,12 @@ K cap capacitor
 F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_soft_en.pdf
 $ENDCMP
 #
+$CMP 47pF_100V_0603
+D CAP CER 100PF 16V X7R 0402
+K cap capacitor
+F http://datasheets.avx.com/X7RDielectric.pdf
+$ENDCMP
+#
 $CMP 47µF_10V_1210
 D CAP CER 0.1UF 50V X7R 0603
 K cap capacitor

@@ -36,4 +36,10 @@ K LED red
 F https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190CKT.pdf
 $ENDCMP
 #
+$CMP SiPMUFC60035
+D Diode Super protection 60V 500 mA Montage en surface SOD-123
+K D diode
+F https://www.diodes.com/assets/Datasheets/SBR0560S1.pdf
+$ENDCMP
+#
 #End Doc Library

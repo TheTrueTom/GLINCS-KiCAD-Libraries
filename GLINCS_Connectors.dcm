@@ -6,6 +6,12 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP 687306124422
+D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Arduino_Uno_Shield
 D Shield for Arduino Uno
 K Arduino MPU Shield
