@@ -30,6 +30,18 @@ K caomparator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8611_8612.pdf
 $ENDCMP
 #
+$CMP ADA4062-2
+D Amplificateur J-FET 1 Circuit 8-PDIP
+K single opamp
+F http://www.ti.com/lit/ds/symlink/tl071a.pdf
+$ENDCMP
+#
+$CMP ADA4062-4
+D Amplificateur J-FET 1 Circuit 8-PDIP
+K single opamp
+F http://www.ti.com/lit/ds/symlink/tl071a.pdf
+$ENDCMP
+#
 $CMP AT25M02-SSHM-B
 D Mémoire CI EEPROM 2 Mo (256 K x 8) SPI 5MHz 8-SOIC
 K EEPROM memory SPI serial

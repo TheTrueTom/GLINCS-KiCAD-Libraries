@@ -90,10 +90,22 @@ K R res resistor
 F http://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf
 $ENDCMP
 #
+$CMP 154kΩ_0603
+D RES SMD 100K OHM 0.5% 1/16W 0603
+K R res resistor
+F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+$ENDCMP
+#
 $CMP 16.2kΩ_0603
 D RES SMD 6.04K OHM 1% 1/10W 0603
 K R res resistor
 F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf
+$ENDCMP
+#
+$CMP 187kΩ_0603
+D RES SMD 100K OHM 0.5% 1/16W 0603
+K R res resistor
+F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
 $ENDCMP
 #
 $CMP 1kΩ_0603
@@ -103,12 +115,6 @@ F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf
 $ENDCMP
 #
 $CMP 200Ω_0603
-D RES SMD 100K OHM 0.5% 1/16W 0603
-K R res resistor
-F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
-$ENDCMP
-#
-$CMP 200Ω_0603_2
 D RES SMD 100K OHM 0.5% 1/16W 0603
 K R res resistor
 F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
@@ -198,6 +204,18 @@ K R res resistor
 F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
 $ENDCMP
 #
+$CMP 49,9kΩ_0603
+D RES SMD 100K OHM 0.5% 1/16W 0603
+K R res resistor
+F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+$ENDCMP
+#
+$CMP 5,11kΩ_0603
+D RES SMD 100K OHM 0.5% 1/16W 0603
+K R res resistor
+F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+$ENDCMP
+#
 $CMP 5.1Ω_0805
 D RES SMD 5.1 OHM 5% 0.4W 0805
 K R res resistor
@@ -270,7 +288,19 @@ K R res resistor
 F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf
 $ENDCMP
 #
+$CMP 9.53kΩ_0603
+D RES SMD 100K OHM 0.5% 1/16W 0603
+K R res resistor
+F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+$ENDCMP
+#
 $CMP 90.9KΩ_0603
+D RES SMD 100K OHM 0.5% 1/16W 0603
+K R res resistor
+F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+$ENDCMP
+#
+$CMP 97.6kΩ_0603
 D RES SMD 100K OHM 0.5% 1/16W 0603
 K R res resistor
 F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
