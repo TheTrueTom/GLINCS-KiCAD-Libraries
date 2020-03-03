@@ -912,7 +912,7 @@ F1 "6.04kΩ_0603" 0 -100 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
 F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" -300 -600 50 H I C CNN
 F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
-F5 "311-6.04KHRDKR-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F5 "RG16P6.04KBCT-ND " 950 130 50 H I C CNN "Ref Fournisseur 1"
 F6 "Yageo" 1050 230 50 H I C CNN "Fabricant"
 F7 "RC0603FR-076K04L" 1150 330 50 H I C CNN "Ref Fabricant"
 $FPLIST
