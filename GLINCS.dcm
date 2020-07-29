@@ -54,6 +54,12 @@ K NPN Transistor
 F http://www.fairchildsemi.com/ds/BC/BC817.pdf
 $ENDCMP
 #
+$CMP CD14538B
+D IC DUAL PREC MULTIVIB 16-DIP
+K 296-14074-5-ND 4000B
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcd14538b
+$ENDCMP
+#
 $CMP CRYSTAL_16MHz_18pF_SMD
 D CRYSTAL 16.0000MHZ 18PF SMD ±30 ppm
 K quartz ceramic resonator oscillator
@@ -70,6 +76,18 @@ $CMP DAC8831
 D IC DAC 16-BIT V-OUT 14-SOIC
 K DAC
 F http://www.ti.com/lit/ds/symlink/dac8830.pdf
+$ENDCMP
+#
+$CMP DC-DC_+-12V_1W
+D +/-42mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, +/-12V fixed Output Voltage, SIP-6
+K Murata isolated isolation dc-dc converter transformer
+F http://assets.tracopower.com/TMR1/documents/tmr1-datasheet.pdf
+$ENDCMP
+#
+$CMP DC-DC_+-24V_20W
+D DC DC CONVERTER 24V 30W
+K Traco DC-DC converter
+F https://www.tracopower.com/products/thn30wi.pdf
 $ENDCMP
 #
 $CMP DC-DC_+-5V_2W
@@ -118,6 +136,12 @@ $CMP DC-DC_5V_8W
 D DC DC CONVERTER 5V 8W
 K Traco DC-DC converter
 F https://www.tracopower.com/products/ten8wi.pdf
+$ENDCMP
+#
+$CMP HSCDANN150PASA5
+D 65V High Voltage, Current Shunt Monitor, 20V/V gain, bandwidth 500kHz, Vcc=5V, SOT-23-5
+K highside HS current sense amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8211.pdf
 $ENDCMP
 #
 $CMP HoneyWell_HSC_pressure_sensor
@@ -240,6 +264,12 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/lm6161.pdf
 $ENDCMP
 #
+$CMP OPA552
+D Single High Speed Operational Amplifier, DIP-8/SOIC-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/lm6161.pdf
+$ENDCMP
+#
 $CMP OPA656
 D Single High Speed Operational Amplifier, DIP-8/SOIC-8
 K single opamp
@@ -299,10 +329,64 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/tl071a.pdf
 $ENDCMP
 #
+$CMP TL331IDBVR
+D IC DIFF COMP SINGLE SOT23-5
+K 296-10168-1-ND
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl331
+$ENDCMP
+#
 $CMP TLV70218DBVR
 D Linear Voltage Regulator IC Positive Fixed 1 Output 1.8V 300mA SOT-23-5
 K 300mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv702.pdf
+$ENDCMP
+#
+$CMP TMC5130A-BOB
+D IC AMP AUDIO PWR 6W STER 20DIP
+K audio amplifier 2-ch
+F http://www.ti.com/lit/ds/symlink/tpa1517.pdf
+$ENDCMP
+#
+$CMP TMR_1-0523
+D +/-33mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, +/-15V fixed Output Voltage, SIP-6
+K Murata isolated isolation dc-dc converter transformer
+F http://assets.tracopower.com/TMR1/documents/tmr1-datasheet.pdf
+$ENDCMP
+#
+$CMP TMR_1-1222
+D +/-42mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, +/-12V fixed Output Voltage, SIP-6
+K Murata isolated isolation dc-dc converter transformer
+F http://assets.tracopower.com/TMR1/documents/tmr1-datasheet.pdf
+$ENDCMP
+#
+$CMP TMR_1-1223
+D +/-33mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, +/-15V fixed Output Voltage, SIP-6
+K Murata isolated isolation dc-dc converter transformer
+F http://assets.tracopower.com/TMR1/documents/tmr1-datasheet.pdf
+$ENDCMP
+#
+$CMP TMR_1-2422
+D +/-42mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, +/-12V fixed Output Voltage, SIP-6
+K Murata isolated isolation dc-dc converter transformer
+F http://assets.tracopower.com/TMR1/documents/tmr1-datasheet.pdf
+$ENDCMP
+#
+$CMP TMR_1-2423
+D +/-33mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, +/-15V fixed Output Voltage, SIP-6
+K Murata isolated isolation dc-dc converter transformer
+F http://assets.tracopower.com/TMR1/documents/tmr1-datasheet.pdf
+$ENDCMP
+#
+$CMP TMR_1-4822
+D +/-42mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, +/-12V fixed Output Voltage, SIP-6
+K Murata isolated isolation dc-dc converter transformer
+F http://assets.tracopower.com/TMR1/documents/tmr1-datasheet.pdf
+$ENDCMP
+#
+$CMP TMR_1-4823
+D +/-33mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, +/-15V fixed Output Voltage, SIP-6
+K Murata isolated isolation dc-dc converter transformer
+F http://assets.tracopower.com/TMR1/documents/tmr1-datasheet.pdf
 $ENDCMP
 #
 $CMP TPA1517
