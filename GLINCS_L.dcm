@@ -18,6 +18,12 @@ K Coil Inductor
 F https://www.tracopower.com/products/tck059.pdf
 $ENDCMP
 #
+$CMP 560uH_150mA_BOURNS_SRR4028
+D IND 2.2UH 3.8A 25MOHM SMD
+K Coil Inductor
+F https://www.tracopower.com/products/tck059.pdf
+$ENDCMP
+#
 $CMP L_2.2µH_3.8A_25mΩ
 D IND 2.2UH 3.8A 25MOHM SMD
 K Coil Inductor

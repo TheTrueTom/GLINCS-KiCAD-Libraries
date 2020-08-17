@@ -42,6 +42,12 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/tl071a.pdf
 $ENDCMP
 #
+$CMP ADG779
+D 65V High Voltage, Current Shunt Monitor, 20V/V gain, bandwidth 500kHz, Vcc=5V, SOT-23-5
+K highside HS current sense amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8211.pdf
+$ENDCMP
+#
 $CMP AT25M02-SSHM-B
 D Mémoire CI EEPROM 2 Mo (256 K x 8) SPI 5MHz 8-SOIC
 K EEPROM memory SPI serial
@@ -187,6 +193,12 @@ F http://cds.linear.com/docs/en/datasheet/30105fe.pdf
 $ENDCMP
 #
 $CMP LT3465A
+D 2.4MHz White LED Drivers with Built-in Schottky in ThinSOT
+K Switching LED driver
+F http://cds.linear.com/docs/en/datasheet/3465fa.pdf
+$ENDCMP
+#
+$CMP LT3465A_0
 D 2.4MHz White LED Drivers with Built-in Schottky in ThinSOT
 K Switching LED driver
 F http://cds.linear.com/docs/en/datasheet/3465fa.pdf
