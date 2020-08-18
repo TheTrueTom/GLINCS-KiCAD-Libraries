@@ -83,7 +83,7 @@ F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD7470_7
 F4 "Analog devices" 1450 900 50 H I C CNN "Fabricant"
 F5 "AD7472ARUZ" 1400 1000 50 H I C CNN "Ref Fabricant"
 F6 "Farnell" 1300 1100 50 H I C CNN "Fournisseur 1"
-F7 "2461682" 2650 1200 50 H I C CNN "Ref fournisseur 1"
+F7 "2461682" 2650 1200 50 H I C CNN "Ref Fournisseur 1"
 DRAW
 S -350 -750 350 650 0 1 10 f
 X DB9 1 500 -400 150 L 50 50 1 1 T
@@ -321,7 +321,7 @@ ENDDEF
 #
 # CD14538B
 #
-DEF CD14538B U 0 40 Y Y 1 F N
+DEF ~CD14538B U 0 40 Y Y 1 F N
 F0 "U" -200 650 60 H V C CNN
 F1 "CD14538B" 1200 700 60 H I R CNN
 F2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" 700 300 60 H I L CNN
@@ -432,7 +432,7 @@ ENDDEF
 #
 # DC-DC_+-12V_1W
 #
-DEF DC-DC_+-12V_1W U 0 20 Y Y 1 F N
+DEF ~DC-DC_+-12V_1W U 0 20 Y Y 1 F N
 F0 "U" -350 350 50 H V C CNN
 F1 "DC-DC_+-12V_1W" 1950 0 50 H I R CNN
 F2 "Converter_DCDC:Converter_DCDC_TRACO_TMR-1-xxxx_Dual_THT" 2400 -100 50 H I C CNN
@@ -694,7 +694,7 @@ ENDDEF
 #
 # HSCDANN150PASA5
 #
-DEF HSCDANN150PASA5 U 0 20 Y Y 1 F N
+DEF ~HSCDANN150PASA5 U 0 20 Y Y 1 F N
 F0 "U" -200 350 50 H V R CNN
 F1 "HSCDANN150PASA5" 650 350 50 H I R CNN
 F2 "GLINCS:HSCDANN150PASA5" 1400 300 50 H I C CNN
@@ -833,7 +833,7 @@ ENDDEF
 #
 # LM5002
 #
-DEF LM5002 U 0 20 Y Y 1 F N
+DEF ~LM5002 U 0 20 Y Y 1 F N
 F0 "U" -200 350 50 H V R CNN
 F1 "LM5002" 300 350 50 H I R CNN
 F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 1400 300 50 H I C CNN
@@ -927,9 +927,9 @@ F1 "LT3010-ADJ" 0 250 50 H V L CNN
 F2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm" 2050 150 50 H I C CNN
 F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/30105fe.pdf" 450 -550 50 H I C CNN
 F4 "Linear Technology" 1250 50 50 H I C CNN "Fabricant"
-F5 "LT3010EMS8E#PBF " 1250 250 50 H I C CNN "Référence Fabricant"
+F5 "LT3010EMS8E#PBF " 1250 250 50 H I C CNN "Ref Fabricant"
 F6 "Digikey" 1100 350 50 H I C CNN "Fournisseur 1"
-F7 "LT3010EMS8E#PBF-ND" 1350 450 50 H I C CNN "Référence Fournisseur 1"
+F7 "LT3010EMS8E#PBF-ND" 1350 450 50 H I C CNN "Ref Fournisseur 1"
 $FPLIST
  MSOP*3x3mm*P0.65mm*
 $ENDFPLIST
@@ -954,10 +954,10 @@ F0 "U" -300 250 50 H V L CNN
 F1 "LT8570" 50 250 50 H V L CNN
 F2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm" 1100 250 50 H I L CIN
 F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/85701fa.pdf" 50 -500 50 H I C CNN
-F4 "Digikey" 1200 350 50 H I C CNN "Supplier 1"
-F5 "LT8570EMS8E#PBF-ND " 1550 450 50 H I C CNN "Référence supplier 1"
+F4 "Digikey" 1200 350 50 H I C CNN "Fournisseur 1"
+F5 "LT8570EMS8E#PBF-ND " 1550 450 50 H I C CNN "Ref Fournisseur 1"
 F6 "Linear Technology" 1350 550 50 H I C CNN "Fabricant"
-F7 "LT8570EMS8E#PBF" 1400 650 50 H I C CNN "Référence fabricant"
+F7 "LT8570EMS8E#PBF" 1400 650 50 H I C CNN "Ref Fabricant"
 ALIAS LT3465A_0
 $FPLIST
  TSOT?23*
@@ -1073,7 +1073,7 @@ ENDDEF
 #
 # MBR0540
 #
-DEF MBR0540 D 0 40 N N 1 F N
+DEF ~MBR0540 D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "MBR0540" 0 -100 50 H I C CNN
 F2 "Diode_SMD:D_SOD-123" 0 -175 50 H I C CNN
@@ -1642,15 +1642,15 @@ F0 "U" -200 250 60 H V C CNN
 F1 "TL331IDBVR" 100 -200 60 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" 200 200 60 H I L CNN
 F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl331" 200 300 60 H I L CNN
-F4 "296-10168-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "TL331IDBVR" 200 500 60 H I L CNN "MPN"
+F4 "296-10168-1-ND" 200 400 60 H I L CNN "Ref Fournisseur 1"
+F5 "TL331IDBVR" 200 500 60 H I L CNN "Ref Fabricant"
 F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
 F7 "Linear - Comparators" 200 700 60 H I L CNN "Family"
 F8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl331" 200 800 60 H I L CNN "DK_Datasheet_Link"
 F9 "/product-detail/en/texas-instruments/TL331IDBVR/296-10168-1-ND/380715" 200 900 60 H I L CNN "DK_Detail_Page"
 F10 "IC DIFF COMP SINGLE SOT23-5" 200 1000 60 H I L CNN "Description"
-F11 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
+F11 "Texas Instruments" 200 1100 60 H I L CNN "Fabricant"
+F12 "Digikey" 200 1200 60 H I L CNN "Fournisseur 1"
 DRAW
 C -225 100 25 0 1 0 f
 P 4 0 1 0 200 0 -200 200 -200 -200 200 0 f
