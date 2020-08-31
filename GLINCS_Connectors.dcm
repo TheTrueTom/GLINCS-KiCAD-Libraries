@@ -95,10 +95,22 @@ D 12x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
 K dip switch
 $ENDCMP
 #
+$CMP Screw_Terminal_01x02
+D Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K screw terminal
+F ~
+$ENDCMP
+#
 $CMP StEmilion_Shield
 D Shield for Arduino Uno
 K Arduino MPU Shield
 F https://store.arduino.cc/arduino-uno-rev3
+$ENDCMP
+#
+$CMP Sub-D9-CAN-horizontal
+D CONN D-SUB PLUG 9POS R/A SOLDER
+K A32091-ND AMPLIMITE HD-20
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5747840&DocType=Customer+Drawing&DocLang=English
 $ENDCMP
 #
 $CMP USB3_A
@@ -117,6 +129,12 @@ $CMP WR-PHD_2x8_2.54mm
 D WR-PHD 2.54 mm Dual Socket Header Bottom Entry Large
 K socket 16pins
 F https://katalog.we-online.de/em/datasheet/6130xx216921.pdf
+$ENDCMP
+#
+$CMP WR-WTB_2pins_2.54mm
+D WR-WTB 2.54 mm Male Right Angled Shrouded Header 4 pins
+K connector 4pins male
+F https://katalog.we-online.de/em/datasheet/6610xx11722%282%29.pdf
 $ENDCMP
 #
 $CMP WR-WTB_2x5pins_2.54mm
@@ -162,6 +180,12 @@ F ~
 $ENDCMP
 #
 $CMP bornier_5mm_01x12_positions
+D Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP bornier_5mm_01x2_positions
 D Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~

@@ -42,6 +42,12 @@ K Coil Inductor
 F https://www.tracopower.com/products/tck059.pdf
 $ENDCMP
 #
+$CMP TCK-120
+D IND 2.2UH 3.8A 25MOHM SMD
+K Coil Inductor
+F https://www.tracopower.com/products/tck059.pdf
+$ENDCMP
+#
 $CMP XAL1010-153ME
 D Inductances de Puissance (CMS), 15 µH, 13.8 A, Blindé, 15.5 A, Série XAL1010, 11.3mm x 10mm x 10mm
 K inductor choke coil reactor magnetic

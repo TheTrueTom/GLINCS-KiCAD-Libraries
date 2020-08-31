@@ -438,9 +438,9 @@ F1 "DC-DC_+-12V_1W" 1950 0 50 H I R CNN
 F2 "Converter_DCDC:Converter_DCDC_TRACO_TMR-1-xxxx_Dual_THT" 2400 -100 50 H I C CNN
 F3 "https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf" 2950 -200 50 H I C CNN
 F4 "Traco power" 1450 100 50 H I C CNN "Fabricant"
-F5 "TMR1-0522" 1450 200 50 H I C CNN "Référence Fabricant"
+F5 "TMR1-0522" 1450 200 50 H I C CNN "Ref Fabricant"
 F6 "Digikey" 1350 300 50 H I C CNN "Fournisseur 1"
-F7 "1951-2335-ND " 1550 400 50 H I C CNN "Référence Fournisseur 1"
+F7 "1951-2335-ND " 1550 400 50 H I C CNN "Ref Fournisseur 1"
 ALIAS TMR_1-0523 TMR_1-1222 TMR_1-1223 TMR_1-2422 TMR_1-2423 TMR_1-4822 TMR_1-4823
 $FPLIST
  Converter*DCDC*TRACO*TMR?1*Dual*
@@ -653,6 +653,30 @@ X +Vin_(Vcc) 22 -300 -200 100 R 50 50 1 1 W
 X +Vin_(Vcc) 23 -300 -100 100 R 50 50 1 1 W
 X -Vin_(GND) 3 350 -200 100 L 50 50 1 1 W
 X no_pin 9 350 -600 100 L 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
+# DC-DC_5V_6W
+#
+DEF DC-DC_5V_6W U 0 0 Y Y 1 F N
+F0 "U" -150 150 50 H V C CNN
+F1 "DC-DC_5V_6W" 0 350 50 H V C CNN
+F2 "GLINCS:DC-DC_5V_6W" 0 -1350 50 H I C CNN
+F3 "https://www.tracopower.com/sites/default/files/products/application_notes/tmr6wi_emi_consideration.pdf" 0 -1450 50 H I C CNN
+F4 "Traco Power" 1050 250 50 H I C CNN "Fabricant"
+F5 "TEN 6-2411WI" 1100 350 50 H I C CNN "Ref Fabricant"
+F6 "DigiKey" 950 450 50 H I C CNN "Fournisseur 1"
+F7 "1951-2608-ND" 1100 550 50 H I C CNN "Ref Fournisseur 1"
+F8 "https://www.tracopower.com/sites/default/files/products/datasheets/tmr6wi_datasheet.pdf" -300 -1550 50 H I C CNN "datasheet"
+DRAW
+S -150 200 150 -1000 0 1 0 f
+X -Vin_(GND) 1 250 100 100 L 50 50 1 1 W
+X +Vin_(Vcc) 2 250 -50 100 L 50 50 1 1 W
+X REMOTE 3 250 -200 100 L 50 50 1 1 W
+X NC 5 250 -450 100 L 50 50 1 1 U
+X +Vout 6 250 -600 100 L 50 50 1 1 w
+X -Vout 7 250 -750 100 L 50 50 1 1 w
+X NC 8 250 -900 100 L 50 50 1 1 U
 ENDDRAW
 ENDDEF
 #
