@@ -233,7 +233,7 @@ ENDDEF
 DEF ADG779 U 0 20 Y Y 1 F N
 F0 "U" -200 350 50 H V R CNN
 F1 "ADG779" 300 350 50 H V R CNN
-F2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" 1400 300 50 H I C CNN
+F2 "GLINCS:SC-70-6_Handsoldering" 1400 300 50 H I C CNN
 F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG779.pdf" 1700 -550 50 H I C CNN
 F4 "Analog Devices" 1100 50 50 H I C CNN "Fabricant"
 F5 "ADG779BKSZ-REEL" 1150 -150 50 H I C CNN "Ref Fabricant"
