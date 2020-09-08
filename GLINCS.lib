@@ -953,7 +953,7 @@ F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/30105fe.
 F4 "Linear Technology" 1250 50 50 H I C CNN "Fabricant"
 F5 "LT3010EMS8E#PBF " 1250 250 50 H I C CNN "Ref Fabricant"
 F6 "Digikey" 1100 350 50 H I C CNN "Fournisseur 1"
-F7 "LT3010EMS8E#PBF-ND" 1350 450 50 H I C CNN "Ref Fournisseur 1"
+F7 "LT3010EMS8E#TRPBFCT-ND " 1350 450 50 H I C CNN "Ref Fournisseur 1"
 $FPLIST
  MSOP*3x3mm*P0.65mm*
 $ENDFPLIST
