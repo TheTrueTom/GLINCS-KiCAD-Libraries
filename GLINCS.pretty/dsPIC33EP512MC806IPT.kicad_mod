@@ -1,4 +1,5 @@
-(module dsPIC33EP512MC806IPT (layer F.Cu) (tedit 5C0131B7)
+(module dsPIC33EP512MC806IPT (layer F.Cu) (tedit 5F57D9AB)
+  (attr smd)
   (fp_text reference U20 (at -4.5 -7.25) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
