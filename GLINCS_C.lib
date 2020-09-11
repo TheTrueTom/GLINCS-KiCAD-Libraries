@@ -250,9 +250,9 @@ DEF 100µF_50V_radial C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "100µF_50V_radial" 25 -100 50 H V L CNN
 F2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" 1650 -350 50 H I C CNN
-F3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABA0022+EEUFC1H101+7+WW" 550 -650 50 H I C CNN
+F3 "" 550 -650 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
-F5 "P10323-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F5 "MAL215068101E3-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
 F6 "Panasonic Electronic Components" 1250 50 50 H I C CNN "Fabricant"
 F7 "EEU-FC1H101" 1300 150 50 H I C CNN "Ref Fabricant"
 $FPLIST

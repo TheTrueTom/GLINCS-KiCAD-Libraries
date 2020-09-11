@@ -324,9 +324,9 @@ F1 "154kΩ_0603" 0 -100 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
 F3 "" 400 -650 50 H I C CNN
 F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
-F5 "P122749CT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
-F6 "Susumu" 1050 230 50 H I C CNN "Fabricant"
-F7 "ERJ-1GNF1543C" 1150 330 50 H I C CNN "Ref Fabricant"
+F5 "311-154KHRCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Yageo" 1050 230 50 H I C CNN "Fabricant"
+F7 "RC0603FR-07154KL" 1150 330 50 H I C CNN "Ref Fabricant"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -744,9 +744,9 @@ F1 "49,9kΩ_0603" 0 -100 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
 F3 "" 400 -650 50 H I C CNN
 F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
-F5 "541-49.9KAABCT-ND " 950 130 50 H I C CNN "Ref Fournisseur 1"
-F6 "Vishay dale" 1050 230 50 H I C CNN "Fabricant"
-F7 "CRCW020149K9FKED" 1150 330 50 H I C CNN "Ref Fabricant"
+F5 "P49.9KHCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Panasonic" 1050 230 50 H I C CNN "Fabricant"
+F7 "ERJ-3EKF4992V" 1150 330 50 H I C CNN "Ref Fabricant"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -765,9 +765,9 @@ F1 "5,11kΩ_0603" 0 -100 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
 F3 "" 400 -650 50 H I C CNN
 F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
-F5 "YAG2740CT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
-F6 "Susumu" 1050 230 50 H I C CNN "Fabricant"
-F7 "RC0201FR-075K11L" 1150 330 50 H I C CNN "Ref Fabricant"
+F5 "749-1665-1-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Vishay Dale" 1050 230 50 H I C CNN "Fabricant"
+F7 "MCT06030C5111FP500" 1150 330 50 H I C CNN "Ref Fabricant"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -1038,9 +1038,9 @@ F1 "9.53kΩ_0603" 0 -100 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
 F3 "" 400 -650 50 H I C CNN
 F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
-F5 "YAG2859CT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
-F6 "Susumu" 1050 230 50 H I C CNN "Fabricant"
-F7 "RC0201FR-079K53L" 1150 330 50 H I C CNN "Ref Fabricant"
+F5 "311-9.53KHRCT-ND " 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Yageo" 1050 230 50 H I C CNN "Fabricant"
+F7 " Ce composant est conforme à RoHS." 1150 330 50 H I C CNN "Ref Fabricant"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -1080,9 +1080,9 @@ F1 "97.6kΩ_0603" 0 -100 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
 F3 "" 400 -650 50 H I C CNN
 F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
-F5 "P123216CT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
-F6 "Susumu" 1050 230 50 H I C CNN "Fabricant"
-F7 "ERJ-1GNF9762C" 1150 330 50 H I C CNN "Ref Fabricant"
+F5 "311-97.6KHRCT-ND " 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Yageo" 1050 230 50 H I C CNN "Fabricant"
+F7 "RC0603FR-0797K6L" 1150 330 50 H I C CNN "Ref Fabricant"
 $FPLIST
  R_*
 $ENDFPLIST
