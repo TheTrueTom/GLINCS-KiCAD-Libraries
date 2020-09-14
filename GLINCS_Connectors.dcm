@@ -36,6 +36,24 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP BM02B-GHS-TBT
+D WR-WTB 2.54 mm Male Right Angled Shrouded Header 4 pins
+K connector 4pins male
+F http://www.jst-mfg.com/product/pdf/eng/eGH.pdf
+$ENDCMP
+#
+$CMP BM03B-GHS-TBT
+D WR-WTB 2.54 mm Male Right Angled Shrouded Header 4 pins
+K connector 4pins male
+F http://www.jst-mfg.com/product/pdf/eng/eGH.pdf
+$ENDCMP
+#
+$CMP BM04B-GHS-TBT
+D WR-WTB 2.54 mm Male Right Angled Shrouded Header 4 pins
+K connector 4pins male
+F http://www.jst-mfg.com/product/pdf/eng/eGH.pdf
+$ENDCMP
+#
 $CMP CONN_BNC_JACK_STR_50_OHM_PCB
 D CONN BNC JACK STR 50 OHM PCB
 K BNC SMA SMB SMC coaxial connector CINCH RCA
@@ -88,6 +106,24 @@ $CMP SL-106-T-12
 D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
+$ENDCMP
+#
+$CMP SM02B-GHS-TB
+D WR-WTB 2.54 mm Male Right Angled Shrouded Header 4 pins
+K connector 4pins male
+F http://www.jst-mfg.com/product/pdf/eng/eGH.pdf
+$ENDCMP
+#
+$CMP SM03B-GHS-TB
+D WR-WTB 2.54 mm Male Right Angled Shrouded Header 4 pins
+K connector 4pins male
+F http://www.jst-mfg.com/product/pdf/eng/eGH.pdf
+$ENDCMP
+#
+$CMP SM04B-GHS-TB
+D WR-WTB 2.54 mm Male Right Angled Shrouded Header 4 pins
+K connector 4pins male
+F http://www.jst-mfg.com/product/pdf/eng/eGH.pdf
 $ENDCMP
 #
 $CMP SW_DIP_x12
