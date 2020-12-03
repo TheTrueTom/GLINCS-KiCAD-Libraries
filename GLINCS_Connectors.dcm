@@ -54,6 +54,12 @@ K connector 4pins male
 F http://www.jst-mfg.com/product/pdf/eng/eGH.pdf
 $ENDCMP
 #
+$CMP BM06B-GHS-TBT
+D WR-WTB 2.54 mm Male Right Angled Shrouded Header 4 pins
+K connector 4pins male
+F http://www.jst-mfg.com/product/pdf/eng/eGH.pdf
+$ENDCMP
+#
 $CMP CONN_BNC_JACK_STR_50_OHM_PCB
 D CONN BNC JACK STR 50 OHM PCB
 K BNC SMA SMB SMC coaxial connector CINCH RCA
@@ -126,6 +132,12 @@ K connector 4pins male
 F http://www.jst-mfg.com/product/pdf/eng/eGH.pdf
 $ENDCMP
 #
+$CMP SM06B-GHS-TB
+D WR-WTB 2.54 mm Male Right Angled Shrouded Header 4 pins
+K connector 4pins male
+F http://www.jst-mfg.com/product/pdf/eng/eGH.pdf
+$ENDCMP
+#
 $CMP SW_DIP_x12
 D 12x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
 K dip switch
@@ -159,6 +171,18 @@ $CMP WR-COM_µUSB_Type_B_Vertical_5_Contacts
 D WR-COM Micro USB 2.0 Type B Vertical 5 Contacts
 K connector 5pins usb
 F https://katalog.we-online.de/em/datasheet/614105150721.pdf
+$ENDCMP
+#
+$CMP WR-PHD_2x6_2.54mm_Bottom_Entry_SMT
+D WR-PHD 2.54 mm Dual Socket Header Bottom Entry Large
+K socket 12pins
+F https://www.we-online.fr/catalog/datasheet/610012243021.pdf
+$ENDCMP
+#
+$CMP WR-PHD_2x6_2.54mm_Header_Pin
+D WR-PHD_2x6_2.54mm_Header_Pin
+K header 12pins
+F https://www.we-online.fr/catalog/datasheet/61001221121.pdf
 $ENDCMP
 #
 $CMP WR-PHD_2x8_2.54mm
@@ -198,6 +222,12 @@ F https://katalog.we-online.de/em/datasheet/6610xx11622%282%29.pdf
 $ENDCMP
 #
 $CMP WR-WTB_5pins_2.54mm
+D WR-WTB 2.54 mm Male Right Angled Shrouded Header 5 pins
+K connector 4pins male
+F https://katalog.we-online.de/em/datasheet/6610xx11722%282%29.pdf
+$ENDCMP
+#
+$CMP WR-WTB_6pins_2.54mm
 D WR-WTB 2.54 mm Male Right Angled Shrouded Header 5 pins
 K connector 4pins male
 F https://katalog.we-online.de/em/datasheet/6610xx11722%282%29.pdf

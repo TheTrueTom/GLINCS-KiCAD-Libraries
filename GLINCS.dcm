@@ -96,6 +96,18 @@ K Traco DC-DC converter
 F https://www.tracopower.com/products/thn30wi.pdf
 $ENDCMP
 #
+$CMP DC-DC_+-5V_15W
+D DC DC CONVERTER 5V 15W
+K Traco DC-DC converter
+F https://www.tracopower.com/products/thd15win.pdf
+$ENDCMP
+#
+$CMP DC-DC_+-5V_1W
+D DC DC CONVERTER +-5V 1W
+K Traco DC-DC converter
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn1wi_datasheet.pdf
+$ENDCMP
+#
 $CMP DC-DC_+-5V_2W
 D DC DC CONVERTER 5V 8W
 K Traco DC-DC converter
@@ -136,6 +148,12 @@ $CMP DC-DC_3V3_5W
 D DC DC CONVERTER 5V 8W
 K Traco DC-DC converter
 F https://www.tracopower.com/products/ten8wi.pdf
+$ENDCMP
+#
+$CMP DC-DC_5V_20W
+D DC DC CONVERTER 5V 30W
+K Traco DC-DC converter
+F https://www.tracopower.com/fr/fra/model/thn-20-1211
 $ENDCMP
 #
 $CMP DC-DC_5V_6W
@@ -210,6 +228,17 @@ K Switching LED driver
 F http://cds.linear.com/docs/en/datasheet/3465fa.pdf
 $ENDCMP
 #
+$CMP LT3465A_0_copy
+D 2.4MHz White LED Drivers with Built-in Schottky in ThinSOT
+K Switching LED driver
+F http://cds.linear.com/docs/en/datasheet/3465fa.pdf
+$ENDCMP
+#
+$CMP LTC2313-12
+D 12 Bits ADC 2,5M SPI with internal ref
+F https://www.analog.com/media/en/technical-documentation/data-sheets/231312fb.pdf
+$ENDCMP
+#
 $CMP LTC2326-16
 D true bipolar pseudo-differential input ADC
 K ADC SPI analog digital
@@ -220,6 +249,11 @@ $CMP LTC4020EUHF
 D 55V Buck-Boost Multi-Chemistry Battery Charger
 K Charger Battery
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4020fd.pdf
+$ENDCMP
+#
+$CMP LTC6993IS6-2
+D IC MULTIVIBRATOR 11NS TSOT23-6 Retrigger Rising-Edge
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6993-6993-1-6993-2-6993-3-6993-4.pdf
 $ENDCMP
 #
 $CMP MBR0540
