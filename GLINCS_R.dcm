@@ -144,6 +144,12 @@ K R res resistor
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
 $ENDCMP
 #
+$CMP 24.9kΩ_0603
+D RES SMD 6.04K OHM 1% 1/10W 0603
+K R res resistor
+F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf
+$ENDCMP
+#
 $CMP 2MΩ_0603
 D RES SMD 10M OHM 1% 1/10W 0603
 K R res resistor
@@ -177,7 +183,7 @@ $ENDCMP
 $CMP 39kΩ_0603
 D RES SMD 39K OHM 0.5% 1/16W 0603
 K R res resistor
-F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+F https://media.digikey.com/pdf/Data%20Sheets/Susumu%20PDFs/RG_RM_RGH_Oct2012.pdf
 $ENDCMP
 #
 $CMP 3kΩ_0402
@@ -214,6 +220,12 @@ $CMP 49,9kΩ_0603
 D RES SMD 100K OHM 0.5% 1/16W 0603
 K R res resistor
 F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+$ENDCMP
+#
+$CMP 499kΩ_0603
+D RES SMD 499K OHM 1% 1/20W 0603
+K R res resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
 $ENDCMP
 #
 $CMP 5,11kΩ_0603

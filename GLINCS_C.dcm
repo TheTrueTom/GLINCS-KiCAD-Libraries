@@ -135,7 +135,7 @@ $ENDCMP
 $CMP 1pF_50V_0603
 D CAP CER 18PF 50V C0G/NP0 0603
 K cap capacitor
-F http://psearch.en.murata.com/capacitor/product/GCM1885C1H180JA16%23.pdf
+F https://datasheets.avx.com/C0GNP0-Dielectric.pdf
 $ENDCMP
 #
 $CMP 1µF_100V_1206
@@ -186,6 +186,12 @@ K cap capacitor
 F http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf
 $ENDCMP
 #
+$CMP 33nF_50V_0603
+D CAP CER 33nF 50V X7R 0603
+K cap capacitor
+F http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf
+$ENDCMP
+#
 $CMP 4.7µF_100V_1206
 D CAP CER 1UF 100V X7R 1206
 K cap capacitor
@@ -196,6 +202,12 @@ $CMP 4.7µF_100V_1210
 D CAP CER 4.7UF 100V X7S 1210
 K cap capacitor
 F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_soft_en.pdf
+$ENDCMP
+#
+$CMP 4.7µF_25V_0603
+D CAP CER 4.7UF 25V X5R 0603
+K cap capacitor
+F www.samsungsem.com/kr/support/product-search/mlcc/CL10A475MA8NQNC.jsp
 $ENDCMP
 #
 $CMP 47pF_100V_0603

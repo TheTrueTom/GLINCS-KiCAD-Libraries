@@ -12,6 +12,10 @@ K vibrator
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=14141&prodName=74VHC123AFT
 $ENDCMP
 #
+$CMP AD5504BRUZ
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5504.pdf
+$ENDCMP
+#
 $CMP AD7472
 D 1.75 MSPS, 4 mW10-Bit /12-Bit Parallel ADCs
 K CAD
@@ -24,10 +28,18 @@ K highside HS current sense amplifier linear buffered
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8211.pdf
 $ENDCMP
 #
+$CMP AD8611ARMZ-R2
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8611_8612.pdf
+$ENDCMP
+#
 $CMP AD8612
 D IC COMP DUAL 4NS FAST 14-TSSOP
 K caomparator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8611_8612.pdf
+$ENDCMP
+#
+$CMP AD8627AKSZ-R2
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8625_8626_8627.pdf
 $ENDCMP
 #
 $CMP ADA4062-2
@@ -40,6 +52,10 @@ $CMP ADA4062-4
 D Amplificateur J-FET 1 Circuit 8-PDIP
 K single opamp
 F http://www.ti.com/lit/ds/symlink/tl071a.pdf
+$ENDCMP
+#
+$CMP ADG5248FBRUZ
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG5248F_5249F.pdf
 $ENDCMP
 #
 $CMP ADG779
@@ -114,6 +130,12 @@ K Traco DC-DC converter
 F https://www.tracopower.com/products/ten8wi.pdf
 $ENDCMP
 #
+$CMP DC-DC_+-5V_2W_INPUT5V
+D DC DC CONVERTER 5V 8W
+K Traco DC-DC converter
+F https://www.tracopower.com/products/ten8wi.pdf
+$ENDCMP
+#
 $CMP DC-DC_+-5V_8W
 D DC DC CONVERTER 5V 8W
 K Traco DC-DC converter
@@ -168,6 +190,10 @@ K Traco DC-DC converter
 F https://www.tracopower.com/products/ten8wi.pdf
 $ENDCMP
 #
+$CMP FA-238_16.0000MB_C3
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238&lang=en
+$ENDCMP
+#
 $CMP HSCDANN150PASA5
 D 65V High Voltage, Current Shunt Monitor, 20V/V gain, bandwidth 500kHz, Vcc=5V, SOT-23-5
 K highside HS current sense amplifier linear buffered
@@ -202,6 +228,10 @@ $CMP LM5002
 D 65V High Voltage, Current Shunt Monitor, 20V/V gain, bandwidth 500kHz, Vcc=5V, SOT-23-5
 K highside HS current sense amplifier linear buffered
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8211.pdf
+$ENDCMP
+#
+$CMP LMR36015AQRNXTQ1
+F https://www.ti.com/lit/ds/symlink/lmr36015-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1613397139288
 $ENDCMP
 #
 $CMP LT1161
@@ -263,6 +293,12 @@ F www.st.com/resource/en/datasheet/bat48.pdf
 $ENDCMP
 #
 $CMP MCP2515-I-SO
+D IC CAN CONTROLLER W/SPI 18SOIC
+K CANBUS can controller
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011733
+$ENDCMP
+#
+$CMP MCP2515-I-ST
 D IC CAN CONTROLLER W/SPI 18SOIC
 K CANBUS can controller
 F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011733
@@ -357,6 +393,12 @@ D Relay Module 2-Channel
 F https://www.microbot.it/documents/mr009-004-2_datasheet.pdf
 $ENDCMP
 #
+$CMP S5106_PHOTODIODE
+D Photodiode
+K photodiode diode opto
+F https://www.hamamatsu.com/resources/pdf/ssd/s5106_etc_kpin1033e.pdf
+$ENDCMP
+#
 $CMP SN65HVD232
 D CAN Bus Transceivers, 3.3V, 1Mbps, SOIC
 K can transeiver ti
@@ -439,6 +481,10 @@ $CMP TMR_1-4823
 D +/-33mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, +/-15V fixed Output Voltage, SIP-6
 K Murata isolated isolation dc-dc converter transformer
 F http://assets.tracopower.com/TMR1/documents/tmr1-datasheet.pdf
+$ENDCMP
+#
+$CMP TMR_4-2411
+F https://www.tracopower.com/products/tmr4.pdf
 $ENDCMP
 #
 $CMP TPA1517

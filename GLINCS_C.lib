@@ -495,9 +495,9 @@ F1 "1pF_50V_0603" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric" 1650 -350 50 H I C CNN
 F3 "" 1150 -600 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
-F5 "1276-1293-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
-F6 " Samsung Electro-Mechanics " 1250 50 50 H I C CNN "Fabricant"
-F7 "CL10C010CB8NNNC" 1300 150 50 H I C CNN "Ref Fabricant"
+F5 " 478-4983-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F6 "AVX Corporation" 1250 50 50 H I C CNN "Fabricant"
+F7 "06031A1R0CAT2A" 1300 150 50 H I C CNN "Ref Fabricant"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -685,6 +685,28 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 33nF_50V_0603
+#
+DEF 33nF_50V_0603 C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "33nF_50V_0603" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 1650 -350 50 H I C CNN
+F3 "" 1150 -600 50 H I C CNN
+F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
+F5 "1292-1432-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F6 "Walsin Technology Corporation" 1250 50 50 H I C CNN "Fabricant"
+F7 "0603B333K500CT" 1300 150 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 4.7µF_100V_1206
 #
 DEF 4.7µF_100V_1206 C 0 10 N Y 1 F N
@@ -718,6 +740,28 @@ F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
 F5 "445-8912-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
 F6 "TDK Corporation" 1250 50 50 H I C CNN "Fabricant"
 F7 "C3225X7S2A475K200AE" 1300 150 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4.7µF_25V_0603
+#
+DEF 4.7µF_25V_0603 C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "4.7µF_25V_0603" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 1650 -350 50 H I C CNN
+F3 "" 1150 -600 50 H I C CNN
+F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
+F5 "1276-1903-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F6 "Samsung Electro-Mechanics" 1250 50 50 H I C CNN "Fabricant"
+F7 "CL10A475MA8NQNC" 1300 150 50 H I C CNN "Ref Fabricant"
 $FPLIST
  C_*
 $ENDFPLIST

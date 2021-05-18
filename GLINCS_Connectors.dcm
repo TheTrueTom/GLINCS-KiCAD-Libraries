@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 219-6MSTR
+F https://www.ctscorp.com/wp-content/uploads/219.pdf
+$ENDCMP
+#
 $CMP 68710614522
 D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
@@ -90,6 +94,12 @@ K jumper bridge link NC
 F https://katalog.we-online.de/em/datasheet/6130xx11121.pdf
 $ENDCMP
 #
+$CMP MountingHole_Pad
+D Mounting Hole with connection
+K mounting hole
+F ~
+$ENDCMP
+#
 $CMP Raspberry_Pi_2_3
 D expansion header for Raspberry Pi 2 & 3
 K raspberrypi gpio
@@ -138,6 +148,12 @@ K connector 4pins male
 F http://www.jst-mfg.com/product/pdf/eng/eGH.pdf
 $ENDCMP
 #
+$CMP SM08B-GHS-TB
+D WR-WTB 2.54 mm Male Right Angled Shrouded Header 4 pins
+K connector 4pins male
+F http://www.jst-mfg.com/product/pdf/eng/eGH.pdf
+$ENDCMP
+#
 $CMP SW_DIP_x12
 D 12x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
 K dip switch
@@ -159,6 +175,28 @@ $CMP Sub-D9-CAN-horizontal
 D CONN D-SUB PLUG 9POS R/A SOLDER
 K A32091-ND AMPLIMITE HD-20
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5747840&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
+$CMP Sub-D9-CAN-horizontal_copy
+D CONN D-SUB PLUG 9POS R/A SOLDER
+K A32091-ND AMPLIMITE HD-20
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5747840&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
+$CMP TAG-CONNECT_TC2030-PKT
+D sonde de programmation TC-2030
+K connector 4pins male
+F https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-MCP_Datasheet_4.pdf
+$ENDCMP
+#
+$CMP TWINAXE_FACADE_CJT-T-P-HH-RA-BH1
+D CONN TWINAXE SAMETEC
+F http://suddendocs.samtec.com/prints/cjt-t-p-xx-ra-bh1-mkt.pdf
+$ENDCMP
+#
+$CMP TWINAXE_SIDE_CJT-T-P-HH-RA-TH1
+D CONN TWINAXE SAMETEC
+F http://suddendocs.samtec.com/prints/cjt-t-p-xx-ra-th1-mkt.pdf
 $ENDCMP
 #
 $CMP USB3_A

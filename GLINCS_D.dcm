@@ -6,6 +6,10 @@ K D diode
 F https://www.diodes.com/assets/Datasheets/SBR0560S1.pdf
 $ENDCMP
 #
+$CMP ARRAYC-60035-4P-BGA
+F https://www.onsemi.com/pdf/datasheet/arrayc-series-d.pdf
+$ENDCMP
+#
 $CMP BAT54SL
 D Diode Super protection 60V 500 mA Montage en surface SOD-123
 K D diode
