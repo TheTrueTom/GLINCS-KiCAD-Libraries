@@ -40,6 +40,10 @@ K LED red
 F https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190CKT.pdf
 $ENDCMP
 #
+$CMP MICROFJ-60035-TSV
+F https://www.onsemi.com/pdf/datasheet/microj-series-d.pdf
+$ENDCMP
+#
 $CMP SiPMUFC60035
 D Diode Super protection 60V 500 mA Montage en surface SOD-123
 K D diode
