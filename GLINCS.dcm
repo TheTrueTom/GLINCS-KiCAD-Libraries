@@ -411,6 +411,10 @@ K Differential bus transceiver
 F http://www.ti.com/lit/ds/symlink/sn75lbc176a.pdf
 $ENDCMP
 #
+$CMP STM32L4Q5VGT6P
+F https://www.st.com/resource/en/datasheet/stm32l4q5ag.pdf
+$ENDCMP
+#
 $CMP TL071CDT
 D Amplificateur J-FET 1 Circuit 8-PDIP
 K single opamp
