@@ -1,8 +1,8 @@
-(module MICROFJ-60035-TSV (layer F.Cu) (tedit 60A7B923)
+(module MICROFJ-60035-TSV (layer F.Cu) (tedit 60B497A3)
   (fp_text reference REF** (at -6.35 -2.54) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value MICROFJ-60035-TSV_ONS (at 1.27 -6.35) (layer F.SilkS)
+  (fp_text value MICROFJ-60035-TSV_ONS (at 1.27 -5.08) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -3.0861 1.500124) (end -3.3401 1.500124) (layer F.SilkS) (width 0.1524))
@@ -22,10 +22,10 @@
   (fp_line (start -3.3401 -3.3401) (end 3.3401 -3.3401) (layer F.CrtYd) (width 0.1524))
   (fp_line (start 3.3401 -3.3401) (end 3.3401 3.3401) (layer F.CrtYd) (width 0.1524))
   (fp_line (start 3.3401 3.3401) (end -3.3401 3.3401) (layer F.CrtYd) (width 0.1524))
-  (fp_text user 0.008in/0.203mm (at 0 10.16) (layer Dwgs.User)
+  (fp_text user 0.008in/0.203mm (at 0 10.16) (layer Dwgs.User) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text user 0.039in/1mm (at 0 8.89) (layer Dwgs.User)
+  (fp_text user 0.039in/1mm (at 0 8.89) (layer Dwgs.User) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text user 0.15in/3.81mm (at 0 5.4991) (layer Dwgs.User) hide
