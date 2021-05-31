@@ -137,7 +137,7 @@ F3 "" 100 0 60 H I C CNN
 F4 "Bourns" 300 -650 50 H I C CNN "Fabricant"
 F5 "SRR5018-3R9Y" 350 -400 50 H I C CNN "Ref Fabricant"
 F6 "Digikey" 300 -550 50 H I C CNN "Fournisseur 1"
-F7 "SRR5018-3R9YTR-ND" 300 -500 50 H I C CNN "Ref Fournisseur 1"
+F7 "SRR5018-3R9YTR-ND" 300 -500 50 H I C CNN "Ref fournisseur 1"
 $FPLIST
  IND_BOURNS_SRR5018
 $ENDFPLIST
