@@ -195,6 +195,12 @@ K connector 4pins male
 F https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-MCP_Datasheet_4.pdf
 $ENDCMP
 #
+$CMP TAG-CONNECT_TC2030-STM32
+D sonde de programmation TC-2030
+K connector 4pins male
+F https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-MCP_Datasheet_4.pdf
+$ENDCMP
+#
 $CMP TWINAXE_FACADE_CJT-T-P-HH-RA-BH1
 D CONN TWINAXE SAMETEC
 F http://suddendocs.samtec.com/prints/cjt-t-p-xx-ra-bh1-mkt.pdf
