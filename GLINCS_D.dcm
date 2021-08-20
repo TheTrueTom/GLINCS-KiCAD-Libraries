@@ -10,6 +10,12 @@ $CMP ARRAYC-60035-4P-BGA
 F https://www.onsemi.com/pdf/datasheet/arrayc-series-d.pdf
 $ENDCMP
 #
+$CMP BAS70JFILM_SOD123_SCHOTTKY_70V
+D Diode Schottky 70V 70 mA SOD-323
+K D diode
+F https://www.farnell.com/datasheets/1689711.pdf
+$ENDCMP
+#
 $CMP BAT54SL
 D Diode Super protection 60V 500 mA Montage en surface SOD-123
 K D diode
@@ -38,6 +44,12 @@ $CMP LED_RED_SMD_0603
 D Indication LED - Composants discrets 638 nm Rouge 1,8 V 0603 (1608 métrique)
 K LED red
 F https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190CKT.pdf
+$ENDCMP
+#
+$CMP MBR0580S1-7_SCHOTTKY_SCHOTTKY_80V_SOD123
+D Diode Schottky 80V 500 mA SOD-123
+K D diode
+F https://www.farnell.com/datasheets/2814445.pdf
 $ENDCMP
 #
 $CMP MICROFJ-60035-TSV

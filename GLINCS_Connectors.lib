@@ -848,7 +848,7 @@ F3 "" -300 200 50 H I C CNN
 F4 "JST" 620 170 50 H I C CNN "Fabricant"
 F5 "SM04B-GHS-TB(LF)(SN)" 1100 480 50 H I C CNN "Ref Fabricant"
 F6 "Digikey" 690 70 50 H I C CNN "Fournisseur 1"
-F7 "455-1566-1-ND" 900 260 50 H I C CNN "Ref Fournsisseur 1"
+F7 "455-1566-1-ND" 900 260 50 H I C CNN "Ref Fournisseur 1"
 DRAW
 S -50 150 50 -500 0 1 0 N
 X ~ 1 -150 50 100 R 50 50 1 1 P
@@ -890,7 +890,7 @@ F3 "" -300 200 50 H I C CNN
 F4 "JST" 620 170 50 H I C CNN "Fabricant"
 F5 "SM08B-GHS-TB(LF)(SN)" 1100 480 50 H I C CNN "Ref Fabricant"
 F6 "Digikey" 690 70 50 H I C CNN "Fournisseur 1"
-F7 "455-1570-1-ND" 900 260 50 H I C CNN "Ref Fournsisseur 1"
+F7 "455-1570-1-ND" 900 260 50 H I C CNN "Ref Fournisseur 1"
 DRAW
 S -50 150 50 -1100 0 1 0 N
 X ~ 1 -150 50 100 R 50 50 1 1 P

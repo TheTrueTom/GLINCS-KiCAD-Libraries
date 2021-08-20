@@ -288,6 +288,12 @@ K R res resistor
 F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
 $ENDCMP
 #
+$CMP 732kΩ_0603
+D RES SMD 732K OHM 1% 1/10W 0603
+K R res resistor
+F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf
+$ENDCMP
+#
 $CMP 75kΩ_0603
 D RES SMD 51K OHM 0.5% 1/16W 0603
 K R res resistor
