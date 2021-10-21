@@ -39,7 +39,7 @@ $ENDCMP
 $CMP 100kΩ_0603
 D RES SMD 100K OHM 0.5% 1/16W 0603
 K R res resistor
-F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+F https://www.bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14
 $ENDCMP
 #
 $CMP 100kΩ_0805
@@ -75,7 +75,13 @@ $ENDCMP
 $CMP 10kΩ_0603
 D RES SMD 10K OHM 0.5% 1/16W 0603
 K R res resistor
-F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+F https://www.seielect.com/catalog/sei-rncp.pdf
+$ENDCMP
+#
+$CMP 10kΩ_NTC_THERMISTOR_0603
+D THERMISTOR SMD 10K OHM 0603
+K thermistor thermistance
+F https://www.murata.com/-/media/webrenewal/support/library/catalog/products/thermistor/r03e.ashx?la=en-us
 $ENDCMP
 #
 $CMP 10Ω_0603
@@ -217,9 +223,9 @@ F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
 $ENDCMP
 #
 $CMP 49,9kΩ_0603
-D RES SMD 100K OHM 0.5% 1/16W 0603
+D RES SMD 49,9K OHM 0603
 K R res resistor
-F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+F https://media.digikey.com/pdf/Data%20Sheets/Susumu%20PDFs/RG_RM_RGH_Oct2012.pdf
 $ENDCMP
 #
 $CMP 499kΩ_0603
@@ -243,7 +249,7 @@ $ENDCMP
 $CMP 5.6kΩ_0603
 D RES SMD 6.04KOHM 0.5% 1/16W 0603
 K R res resistor
-F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
 $ENDCMP
 #
 $CMP 510kΩ_0402

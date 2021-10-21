@@ -190,6 +190,10 @@ K Traco DC-DC converter
 F https://www.tracopower.com/products/ten8wi.pdf
 $ENDCMP
 #
+$CMP DSPIC33FJ128GP202-I_MM
+F https://ww1.microchip.com/downloads/en/DeviceDoc/70292G.pdf
+$ENDCMP
+#
 $CMP FA-238_16.0000MB_C3
 F https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238&lang=en
 $ENDCMP
@@ -344,6 +348,10 @@ $CMP MCP4802
 D 2-Channel 8-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)
 K 8-Bit DAC SPI Reference 2ch
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf
+$ENDCMP
+#
+$CMP MCP9700T-E_LT
+F https://ww1.microchip.com/downloads/en/DeviceDoc/20001942G.pdf
 $ENDCMP
 #
 $CMP OPA355

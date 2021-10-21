@@ -133,11 +133,11 @@ DEF 100kΩ_0603 R 0 0 N Y 1 F N
 F0 "R" 0 80 50 H V C CNN
 F1 "100kΩ_0603" 0 -100 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
-F3 "http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" 400 -650 50 H I C CNN
+F3 "" 400 -650 50 H I C CNN
 F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
-F5 "RR08P100KDCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
-F6 "Susumu" 1050 230 50 H I C CNN "Fabricant"
-F7 "RR0816P-104-D" 1150 330 50 H I C CNN "Ref Fabricant"
+F5 "CR0603-JW-104ELFCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Bourns Inc." 1050 230 50 H I C CNN "Fabricant"
+F7 "CR0603-JW-104ELF" 1150 330 50 H I C CNN "Ref Fabricant"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -259,11 +259,32 @@ DEF 10kΩ_0603 R 0 0 N Y 1 F N
 F0 "R" 0 80 50 H V C CNN
 F1 "10kΩ_0603" 0 -100 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
-F3 "http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" 300 -550 50 H I C CNN
+F3 "" 300 -550 50 H I C CNN
 F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
-F5 "RR08P10.0KDCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
-F6 "Susumu" 1050 230 50 H I C CNN "Fabricant"
-F7 "RR0816P-103-D" 1150 330 50 H I C CNN "Ref Fabricant"
+F5 "RNCP0603FTD10K0CT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Stackpole Electronics Inc" 1050 230 50 H I C CNN "Fabricant"
+F7 "RNCP0603FTD10K0" 1150 330 50 H I C CNN "Ref Fabricant"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10kΩ_NTC_THERMISTOR_0603
+#
+DEF 10kΩ_NTC_THERMISTOR_0603 R 0 0 N Y 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "10kΩ_NTC_THERMISTOR_0603" 0 -100 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
+F3 "" 300 -550 50 H I C CNN
+F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
+F5 "490-16279-1-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Murata Electronics" 1050 230 50 H I C CNN "Fabricant"
+F7 "NCU18XH103F60RB" 1150 330 50 H I C CNN "Ref Fabricant"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -765,9 +786,9 @@ F1 "49,9kΩ_0603" 0 -100 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
 F3 "" 400 -650 50 H I C CNN
 F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
-F5 "P49.9KHCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
-F6 "Panasonic" 1050 230 50 H I C CNN "Fabricant"
-F7 "ERJ-3EKF4992V" 1150 330 50 H I C CNN "Ref Fabricant"
+F5 "RG16P4.99KBTR-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Susumu" 1050 230 50 H I C CNN "Fabricant"
+F7 "RG1608P-4991-B-T5" 1150 330 50 H I C CNN "Ref Fabricant"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -847,11 +868,11 @@ DEF 5.6kΩ_0603 R 0 0 N Y 1 F N
 F0 "R" 0 80 50 H V C CNN
 F1 "5.6kΩ_0603" 0 -100 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
-F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" -300 -600 50 H I C CNN
+F3 "" -300 -600 50 H I C CNN
 F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
-F5 "P5.6KDBCT-ND " 950 130 50 H I C CNN "Ref Fournisseur 1"
-F6 "Panasonic Electronic Components" 1050 230 50 H I C CNN "Fabricant"
-F7 "ERA-3AEB562V " 1150 330 50 H I C CNN "Ref Fabricant"
+F5 "YAG2732CT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "YAGEO" 1050 230 50 H I C CNN "Fabricant"
+F7 "RC0201FR-0756KL" 1150 330 50 H I C CNN "Ref Fabricant"
 $FPLIST
  R_*
 $ENDFPLIST

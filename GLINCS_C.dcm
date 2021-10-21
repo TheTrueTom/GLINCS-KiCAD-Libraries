@@ -87,13 +87,13 @@ $ENDCMP
 $CMP 10pF_50V_0603
 D CAP CER 18PF 50V C0G/NP0 0603
 K cap capacitor
-F http://psearch.en.murata.com/capacitor/product/GCM1885C1H180JA16%23.pdf
+F https://datasheets.avx.com/C0GNP0-Dielectric.pdf
 $ENDCMP
 #
 $CMP 10µF_16V_0603
 D CAP CER 10UF 16V X5R 0603
 K cap capacitor
-F http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61C106KAAL-01.pdf
+F https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf
 $ENDCMP
 #
 $CMP 10µF_50V_1206
@@ -141,7 +141,7 @@ $ENDCMP
 $CMP 1µF_100V_1206
 D CAP CER 1UF 100V X7R 1206
 K cap capacitor
-F http://datasheets.avx.com/X7RDielectric.pdf
+F https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31B105KCHSFNE_Spec.pdf
 $ENDCMP
 #
 $CMP 1µF_25V_0603

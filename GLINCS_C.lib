@@ -319,9 +319,9 @@ F1 "10pF_50V_0603" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric" 1650 -350 50 H I C CNN
 F3 "" 1150 -600 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
-F5 "311-1058-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
-F6 "Yageo" 1250 50 50 H I C CNN "Fabricant"
-F7 "CC0603JRNPO9BN100 " 1300 150 50 H I C CNN "Ref Fabricant"
+F5 "478-1163-2-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F6 "KYOCERA AVX" 1250 50 50 H I C CNN "Fabricant"
+F7 "06035A100JAT2A" 1300 150 50 H I C CNN "Ref Fabricant"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -339,11 +339,11 @@ DEF 10µF_16V_0603 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "10µF_16V_0603" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric" 1650 -350 50 H I C CNN
-F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61C106KAAL-01.pdf" 1150 -600 50 H I C CNN
+F3 "" 1150 -600 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
-F5 "490-10728-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
-F6 "Murata Electronics North America" 1250 50 50 H I C CNN "Fabricant"
-F7 "GRM188R61C106KAALD" 1300 150 50 H I C CNN "Ref Fabricant"
+F5 "587-1256-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F6 "Taiyo Yuden" 1250 50 50 H I C CNN "Fabricant"
+F7 "JMK107BJ106MA-T" 1300 150 50 H I C CNN "Ref Fabricant"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -515,11 +515,11 @@ DEF 1µF_100V_1206 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "1µF_100V_1206" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_1206_3216Metric" 1650 -350 50 H I C CNN
-F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
+F3 "" 25 100 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
-F5 "478-6226-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
-F6 "AVX Corporation" 1250 50 50 H I C CNN "Fabricant"
-F7 "12061C105KAT2A" 1300 150 50 H I C CNN "Ref Fabricant"
+F5 "1276-3095-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F6 "Samsung Electro-Mechanics" 1250 50 50 H I C CNN "Fabricant"
+F7 "CL31B105KCHSFNE" 1300 150 50 H I C CNN "Ref Fabricant"
 $FPLIST
  C_*
 $ENDFPLIST
