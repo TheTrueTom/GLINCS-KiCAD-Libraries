@@ -210,6 +210,10 @@ K gage gauge pressure sensor
 F http://sensing.honeywell.com/index.php?ci_id=151133
 $ENDCMP
 #
+$CMP IMM0105S05_DCDC+-3V1W
+F https://www.xppower.com/portals/0/pdfs/SF_IMM01.pdf
+$ENDCMP
+#
 $CMP JS202011SCQN
 D SWITCH SLIDE DPDT 300MA 6V
 K switch slide
@@ -421,6 +425,10 @@ $ENDCMP
 #
 $CMP STM32L4Q5VGT6P
 F https://www.st.com/resource/en/datasheet/stm32l4q5ag.pdf
+$ENDCMP
+#
+$CMP TEN_40-2425WIE
+F https://www.tracopower.com/products/ten40wie.pdf
 $ENDCMP
 #
 $CMP TL071CDT

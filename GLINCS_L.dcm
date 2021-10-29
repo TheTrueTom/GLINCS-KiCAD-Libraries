@@ -46,6 +46,12 @@ K Coil Inductor
 F https://www.tracopower.com/products/tck059.pdf
 $ENDCMP
 #
+$CMP TCK-048_Replacement
+D IND 10UH 6.5A 25MOHM SMD
+K Coil Inductor
+F https://www.we-online.com/katalog/datasheet/7448227005.pdf
+$ENDCMP
+#
 $CMP TCK-120
 D IND 2.2UH 3.8A 25MOHM SMD
 K Coil Inductor

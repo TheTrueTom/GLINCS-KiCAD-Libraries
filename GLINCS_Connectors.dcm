@@ -16,6 +16,10 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP ARDUINO_NANO_HEADER
+F https://cdn.sparkfun.com/assets/8/d/8/4/7/DS-16279-Arduino_Nano_Stackable_Header_Kit.pdf
+$ENDCMP
+#
 $CMP Arduino_Uno_Shield
 D Shield for Arduino Uno
 K Arduino MPU Shield
@@ -62,6 +66,12 @@ $CMP BM06B-GHS-TBT
 D WR-WTB 2.54 mm Male Right Angled Shrouded Header 4 pins
 K connector 4pins male
 F http://www.jst-mfg.com/product/pdf/eng/eGH.pdf
+$ENDCMP
+#
+$CMP CONN_BNC_90DEG_50_OHM_PCB
+D CONN BNC JACK STR 50 OHM PCB
+K BNC SMA SMB SMC coaxial connector CINCH RCA
+F https://www.molex.com/pdm_docs/sd/731375003_sd.pdf
 $ENDCMP
 #
 $CMP CONN_BNC_JACK_STR_50_OHM_PCB

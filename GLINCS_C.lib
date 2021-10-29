@@ -735,9 +735,9 @@ DEF 4.7µF_100V_1210 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "4.7µF_100V_1210" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_1210_3225Metric" 1650 -350 50 H I C CNN
-F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_soft_en.pdf" 25 100 50 H I C CNN
+F3 "" 25 100 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
-F5 "445-8912-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F5 "478-12101C475K4Z2ACT-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
 F6 "TDK Corporation" 1250 50 50 H I C CNN "Fabricant"
 F7 "C3225X7S2A475K200AE" 1300 150 50 H I C CNN "Ref Fabricant"
 $FPLIST
