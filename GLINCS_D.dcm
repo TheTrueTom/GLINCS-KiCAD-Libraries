@@ -34,6 +34,24 @@ K D diode schottky
 F http://www.mccsemi.com/up_pdf/SK32A-LT~SK310A-LT%28DO-214AC%29.PDF
 $ENDCMP
 #
+$CMP LED_BLUE_SMD_0603
+D Indication LED - Composants discrets bleue 0603 (1608 métrique)
+K LED blue
+F https://www.kingbrightusa.com/images/catalog/SPEC/APT1608QBC-D.pdf
+$ENDCMP
+#
+$CMP LED_GREEN_RIGHT_ANGLED
+D Indication LED bord de carte 3mm
+K LED green
+F https://docs.broadcom.com/doc/AV02-0780EN
+$ENDCMP
+#
+$CMP LED_GREEN_SMD_0603
+D Indication LED - Composants discrets 0603 (1608 métrique)
+K LED green
+F https://www.kingbrightusa.com/images/catalog/SPEC/APT1608CGCK.pdf
+$ENDCMP
+#
 $CMP LED_RED_SMD_0603
 D Indication LED - Composants discrets 638 nm Rouge 1,85 V 0603 (1608 métrique)
 K LED red

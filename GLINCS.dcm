@@ -54,6 +54,12 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/tl071a.pdf
 $ENDCMP
 #
+$CMP ADA4062-4ACPZ
+D Amplificateur quad LFCSP
+K quad opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4062-2_4062-4.pdf
+$ENDCMP
+#
 $CMP ADG5248FBRUZ
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG5248F_5249F.pdf
 $ENDCMP
@@ -188,6 +194,10 @@ $CMP DC-DC_5V_8W
 D DC DC CONVERTER 5V 8W
 K Traco DC-DC converter
 F https://www.tracopower.com/products/ten8wi.pdf
+$ENDCMP
+#
+$CMP DSPIC33EP512MC504-I_PT
+F https://ww1.microchip.com/downloads/en/DeviceDoc/dsPIC33EPXXXGP50X-dsPIC33EPXXXMC20X-50X-and-PIC24EPXXXGP-MC20X-Family-Data-Sheet-DS70000657J.pdf
 $ENDCMP
 #
 $CMP DSPIC33FJ128GP202-I_MM
@@ -411,6 +421,12 @@ K photodiode diode opto
 F https://www.hamamatsu.com/resources/pdf/ssd/s5106_etc_kpin1033e.pdf
 $ENDCMP
 #
+$CMP SN65HVD230D
+D CAN Bus Transceivers, 3.3V, 1Mbps, SOIC
+K can transeiver ti
+F http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf
+$ENDCMP
+#
 $CMP SN65HVD232
 D CAN Bus Transceivers, 3.3V, 1Mbps, SOIC
 K can transeiver ti
@@ -505,6 +521,10 @@ $ENDCMP
 #
 $CMP TMR_4-2411
 F https://www.tracopower.com/products/tmr4.pdf
+$ENDCMP
+#
+$CMP TMR_6-2410WI
+F https://www.tracopower.com/products/tmr6wi.pdf
 $ENDCMP
 #
 $CMP TPA1517

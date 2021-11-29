@@ -80,6 +80,16 @@ K BNC SMA SMB SMC coaxial connector CINCH RCA
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1634503&DocType=Customer+Drawing&DocLang=English
 $ENDCMP
 #
+$CMP Connecteur_Fond_De_Panier_Femelle_64_Voies
+D Harting 64 Way 2.54mm Pitch, Type B Class C2, 2 Row a/b, Straight DIN 41612 Connector, Socket, Solder
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-20/DSA-394922.pdf
+$ENDCMP
+#
+$CMP Connecteur_Fond_De_Panier_Male_64_Voies
+D DIN 41612 Connectors DIN-SIGNAL B064MS-3,0C1-2-V2
+F https://b2b.harting.com/ebusiness/EN/09791962961
+$ENDCMP
+#
 $CMP Connecteur_Sub-D9_vertical
 D Connecteur Sub-D 9 Contacts
 K SubD connector
