@@ -6,6 +6,10 @@ K commutateur bus
 F http://www.ti.com/lit/ds/symlink/sn74cbt3383.pdf
 $ENDCMP
 #
+$CMP 16.0000M_18PF
+F https://www.ctscorp.com/wp-content/uploads/403.pdf
+$ENDCMP
+#
 $CMP 74VHC221
 D MULTIVIBRATOR DUAL MONO 16TSSOP
 K vibrator
@@ -42,7 +46,13 @@ $CMP AD8627AKSZ-R2
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8625_8626_8627.pdf
 $ENDCMP
 #
-$CMP ADA4062-2
+$CMP AD8643ACPZ
+D Amplificateur quad LFCSP
+K quad opamp
+F https://www.mouser.fr/datasheet/2/609/AD8643-EP-1504793.pdf
+$ENDCMP
+#
+$CMP ADA4062-2ARZ
 D Amplificateur J-FET 1 Circuit 8-PDIP
 K single opamp
 F http://www.ti.com/lit/ds/symlink/tl071a.pdf
@@ -77,9 +87,9 @@ F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en590764
 $ENDCMP
 #
 $CMP BC817
-D 0.8A Ic, 45V Vce, NPN Transistor, SOT-23
+D TRANS NPN 45V 500MA SOT23-3
 K NPN Transistor
-F http://www.fairchildsemi.com/ds/BC/BC817.pdf
+F https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf
 $ENDCMP
 #
 $CMP CD14538B
@@ -248,6 +258,12 @@ K highside HS current sense amplifier linear buffered
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8211.pdf
 $ENDCMP
 #
+$CMP LMH6654MF_NOPB
+D Single and Dual Low Power, 250 MHz, Low Noise Amplifier
+K single opamp
+F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flmh6654
+$ENDCMP
+#
 $CMP LMR36015AQRNXTQ1
 F https://www.ti.com/lit/ds/symlink/lmr36015-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1613397139288
 $ENDCMP
@@ -280,6 +296,10 @@ $CMP LT3465A_0_copy
 D 2.4MHz White LED Drivers with Built-in Schottky in ThinSOT
 K Switching LED driver
 F http://cds.linear.com/docs/en/datasheet/3465fa.pdf
+$ENDCMP
+#
+$CMP LTC1983-5
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1983fc.pdf
 $ENDCMP
 #
 $CMP LTC2313-12

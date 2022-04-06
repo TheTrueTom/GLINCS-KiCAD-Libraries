@@ -81,7 +81,7 @@ $ENDCMP
 $CMP 10nF_50V_0603
 D CAP CER 10000PF 50V X7R 0603
 K cap capacitor
-F http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B103KB8NCNC.jsp
+F https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B103KB8WPJ_CharSheet.pdf
 $ENDCMP
 #
 $CMP 10pF_50V_0603
@@ -123,7 +123,7 @@ $ENDCMP
 $CMP 1nF_100V_0603
 D CAP CER 10000PF 50V X7R 0603
 K cap capacitor
-F http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B103KB8NCNC.jsp
+F https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf
 $ENDCMP
 #
 $CMP 1nF_3000V_1812
@@ -135,7 +135,7 @@ $ENDCMP
 $CMP 1pF_50V_0603
 D CAP CER 18PF 50V C0G/NP0 0603
 K cap capacitor
-F https://datasheets.avx.com/C0GNP0-Dielectric.pdf
+F https://datasheets.kyocera-avx.com/C0GNP0-Dielectric.pdf
 $ENDCMP
 #
 $CMP 1µF_100V_1206

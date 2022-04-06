@@ -295,11 +295,11 @@ DEF 10nF_50V_0603 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "10nF_50V_0603" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric" 1650 -350 50 H I C CNN
-F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B103KB8NCNC.jsp" 2300 -550 50 H I C CNN
+F3 "" 2300 -550 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
-F5 "1276-1921-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F5 "1276-CL10B103KB8WPJCCT-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
 F6 "Samsung Electro-Mechanics" 1250 50 50 H I C CNN "Fabricant"
-F7 "CL10B103KB8NCNC" 1300 150 50 H I C CNN "Ref Fabricant"
+F7 "CL10B103KB8WPJC" 1300 150 50 H I C CNN "Ref Fabricant"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -449,11 +449,11 @@ DEF 1nF_100V_0603 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "1nF_100V_0603" 25 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric" 1650 -350 50 H I C CNN
-F3 "https://content.kemet.com/datasheets/KEM_X7R_FT_VW_AUDI.pdf" 2300 -550 50 H I C CNN
+F3 "" 2300 -550 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
-F5 "399-7831-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
+F5 "399-C0603C102K1RAC7867TR-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
 F6 "Kemet" 1250 50 50 H I C CNN "Fabricant"
-F7 "C0603C102K1RACTU" 1300 150 50 H I C CNN "Ref Fabricant"
+F7 "C0603C102K1RAC7867" 1300 150 50 H I C CNN "Ref Fabricant"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -496,7 +496,7 @@ F2 "Capacitor_SMD:C_0603_1608Metric" 1650 -350 50 H I C CNN
 F3 "" 1150 -600 50 H I C CNN
 F4 "DigiKey" 1100 -150 50 H I C CNN "Fournisseur 1"
 F5 " 478-4983-1-ND" 1300 -50 50 H I C CNN "Ref Fournisseur 1"
-F6 "AVX Corporation" 1250 50 50 H I C CNN "Fabricant"
+F6 "KYOCERA AVX" 1250 50 50 H I C CNN "Fabricant"
 F7 "06031A1R0CAT2A" 1300 150 50 H I C CNN "Ref Fabricant"
 $FPLIST
  C_*

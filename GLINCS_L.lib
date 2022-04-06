@@ -7,9 +7,9 @@ DEF 10UH_850mA L 0 0 N Y 1 F N
 F0 "L" 0 100 50 H V C CNN
 F1 "10UH_850mA" 0 -50 50 H V C CNN
 F2 "GLINCS_L:INDUCTOR_WE_3x3mm" 0 -500 50 H I C CNN
-F3 "https://katalog.we-online.de/pbs/datasheet/74438335100.pdf" 0 -400 50 H I C CNN
+F3 "" 0 -400 50 H I C CNN
 F4 "Wurth Elektronik" 700 400 50 H I C CNN "Fabricant"
-F5 "74438335100 " 800 500 50 H I C CNN "Ref Fabricant"
+F5 "74438335100" 800 500 50 H I C CNN "Ref Fabricant"
 F6 "DigiKey" 900 600 50 H I C CNN "Fournisseur 1"
 F7 "732-4868-1-ND " 1000 700 50 H I C CNN "Ref Fournisseur 1"
 DRAW

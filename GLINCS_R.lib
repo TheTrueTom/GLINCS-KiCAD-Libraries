@@ -261,9 +261,9 @@ F1 "10kΩ_0603" 0 -100 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
 F3 "" 300 -550 50 H I C CNN
 F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
-F5 "RNCP0603FTD10K0CT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F5 "RMCF0603JT10K0CT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
 F6 "Stackpole Electronics Inc" 1050 230 50 H I C CNN "Fabricant"
-F7 "RNCP0603FTD10K0" 1150 330 50 H I C CNN "Ref Fabricant"
+F7 "RMCF0603JT10K0" 1150 330 50 H I C CNN "Ref Fabricant"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -429,9 +429,9 @@ F1 "200Ω_0603" 0 -100 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
 F3 "" 400 -650 50 H I C CNN
 F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
-F5 "P200DBCT-ND " 950 130 50 H I C CNN "Ref Fournisseur 1"
-F6 "Panasonic Electronic Components" 1050 230 50 H I C CNN "Fabricant"
-F7 "ERA-3AEB201V" 1150 330 50 H I C CNN "Ref Fabricant"
+F5 "RMCF0603FT200RCT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Stackpole Electronics Inc" 1050 230 50 H I C CNN "Fabricant"
+F7 "RMCF0603FT200R" 1150 330 50 H I C CNN "Ref Fabricant"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -786,9 +786,9 @@ F1 "49,9kΩ_0603" 0 -100 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
 F3 "" 400 -650 50 H I C CNN
 F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
-F5 "RG16P4.99KBTR-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
-F6 "Susumu" 1050 230 50 H I C CNN "Fabricant"
-F7 "RG1608P-4991-B-T5" 1150 330 50 H I C CNN "Ref Fabricant"
+F5 "RMCF0603FT49K9CT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Stackpole Electronics Inc" 1050 230 50 H I C CNN "Fabricant"
+F7 "RMCF0603FT49K9" 1150 330 50 H I C CNN "Ref Fabricant"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -870,9 +870,9 @@ F1 "5.6kΩ_0603" 0 -100 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 1000 -450 50 H I C CNN
 F3 "" -300 -600 50 H I C CNN
 F4 "DigiKey" 850 30 50 H I C CNN "Fournisseur 1"
-F5 "YAG2732CT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
-F6 "YAGEO" 1050 230 50 H I C CNN "Fabricant"
-F7 "RC0201FR-0756KL" 1150 330 50 H I C CNN "Ref Fabricant"
+F5 "RMCF0603JT5K60CT-ND" 950 130 50 H I C CNN "Ref Fournisseur 1"
+F6 "Stackpole Electronics Inc" 1050 230 50 H I C CNN "Fabricant"
+F7 "RMCF0603JT5K60" 1150 330 50 H I C CNN "Ref Fabricant"
 $FPLIST
  R_*
 $ENDFPLIST

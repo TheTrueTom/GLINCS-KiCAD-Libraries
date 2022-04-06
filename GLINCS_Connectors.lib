@@ -575,7 +575,7 @@ F6 "HARTING" 850 -300 50 H I L CNN "Fabricant"
 F7 "09021646951" 850 -400 50 H I L CNN "Ref Fabricant"
 F8 "617-09021646951" 850 -500 50 H I L CNN "Mouser Part Number"
 F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=617-09021646951" 850 -600 50 H I L CNN "Mouser Price/Stock"
-F10 "Digikey" 0 0 50 H I C CNN "Fournisseur1"
+F10 "Digikey" 0 0 50 H I C CNN "Fournisseur 1"
 F11 "1195-1096-ND" 0 0 50 H I C CNN "Ref Fournisseur 1"
 DRAW
 P 5 0 1 6 200 100 800 100 800 -3200 200 -3200 200 100 N
@@ -1100,7 +1100,7 @@ F3 "" -300 200 50 H I C CNN
 F4 "JST" 620 170 50 H I C CNN "Fabricant"
 F5 "SM06B-GHS-TB(LF)(SN)" 1100 480 50 H I C CNN "Ref Fabricant"
 F6 "Digikey" 690 70 50 H I C CNN "Fournisseur 1"
-F7 "455-1568-1-ND" 900 260 50 H I C CNN "Ref Fournsisseur 1"
+F7 "455-1568-1-ND" 900 260 50 H I C CNN "Ref Fournisseur 1"
 DRAW
 S -50 150 50 -800 0 1 0 N
 X ~ 1 -150 50 100 R 50 50 1 1 P
@@ -1133,6 +1133,35 @@ X ~ 5 -150 -550 100 R 50 50 1 1 P
 X ~ 6 -150 -700 100 R 50 50 1 1 P
 X ~ 7 -150 -850 100 R 50 50 1 1 P
 X ~ 8 -150 -1000 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SW_DIP_x02
+#
+DEF SW_DIP_x02 SW 0 0 Y N 1 F N
+F0 "SW" 0 250 50 H V C CNN
+F1 "SW_DIP_x02" 0 -150 50 H V C CNN
+F2 "GLINCS_Connectors:SW_DIP_SPSTx02_Slide_6.7x32.04mm_W8.61mm_P2.54mm_LowProfile" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TE connectivity" 250 350 50 H I C CNN "Fabricant"
+F5 "EDS02SGRSTU04Q" 250 450 50 H I C CNN "Ref Fabricant"
+F6 "Digikey" 300 650 50 H I C CNN "Fournisseur 1"
+F7 "450-2621-ND" 250 550 50 H I C CNN "Ref Fournisseur 1"
+$FPLIST
+ SW?DIP?x2*
+$ENDFPLIST
+DRAW
+C -80 0 20 0 0 0 N
+C -80 100 20 0 0 0 N
+C 80 0 20 0 0 0 N
+C 80 100 20 0 0 0 N
+S -150 200 150 -100 0 1 10 f
+P 2 0 0 0 -60 5 93 46 N
+P 2 0 0 0 -60 105 93 146 N
+X ~ 1 -300 100 200 R 50 50 1 1 P
+X ~ 2 -300 0 200 R 50 50 1 1 P
+X ~ 3 300 0 200 L 50 50 1 1 P
+X ~ 4 300 100 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
