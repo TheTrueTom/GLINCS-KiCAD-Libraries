@@ -230,7 +230,7 @@ K gage gauge pressure sensor
 F http://sensing.honeywell.com/index.php?ci_id=151133
 $ENDCMP
 #
-$CMP IMM0105S05_DCDC+-3V1W
+$CMP IMM0105D03_DCDC+-3V1W
 F https://www.xppower.com/portals/0/pdfs/SF_IMM01.pdf
 $ENDCMP
 #
