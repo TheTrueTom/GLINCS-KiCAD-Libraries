@@ -1465,7 +1465,7 @@
     (property "Value" "1µF_100V_1206" (id 1) (at 0.635 -2.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (id 2) (at 41.91 -8.89 0)
+    (property "Footprint" "GLINCS:CAP_1206" (id 2) (at 41.91 -8.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31B105KCHSFNE_Spec.pdf" (id 3) (at 0.635 2.54 0)
