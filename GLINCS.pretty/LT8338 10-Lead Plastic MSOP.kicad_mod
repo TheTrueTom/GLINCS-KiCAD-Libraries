@@ -78,14 +78,14 @@
 		(uuid "a8af58cf-f37e-4659-8090-7d0874014a91")
 	)
 	(fp_rect
-		(start -0.5975 0.1)
-		(end 2.9025 5)
+		(start -0.5975 -0.1)
+		(end 2.9025 5.2)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(fill no)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "079d943b-555d-42da-aa49-a312c664d51a")
 	)
 	(fp_text user "${REFERENCE}"
