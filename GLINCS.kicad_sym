@@ -24484,7 +24484,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 2.54 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24492,15 +24492,16 @@
 			)
 		)
 		(property "Value" "LM4040AIM3-2.0"
-			(at 0 -3.175 0)
+			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "GLINCS_MOSFET_p:SI2301CDS-T1-GE3"
-			(at 0 -10.16 0)
+			(at 0 -18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24510,7 +24511,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=LM4040-N&&fileType=pdf"
-			(at 6.35 -13.97 0)
+			(at 6.35 -21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24520,7 +24521,7 @@
 			)
 		)
 		(property "Description" "IC VREF SHUNT 2.048V SOT23"
-			(at 0 0 0)
+			(at -0.508 -15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24529,7 +24530,7 @@
 			)
 		)
 		(property "Fabricant" "Texas Instrument"
-			(at -5.08 -29.21 0)
+			(at -5.08 -37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24538,7 +24539,7 @@
 			)
 		)
 		(property "Ref Fabricant" "LM4040AIM3-2.0/NOPB"
-			(at -2.54 -26.67 0)
+			(at -2.54 -34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24547,7 +24548,7 @@
 			)
 		)
 		(property "Fournisseur 1" "Farnell"
-			(at 0 -24.13 0)
+			(at 0 -32.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24556,7 +24557,7 @@
 			)
 		)
 		(property "Ref Fournisseur 1" "2463976"
-			(at 2.54 -21.59 0)
+			(at 2.54 -29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24583,6 +24584,54 @@
 			)
 		)
 		(symbol "LM4040AIM3-2.0_0_1"
+			(polyline
+				(pts
+					(xy -5.08 2.54) (xy 5.08 2.54) (xy 5.08 -2.54) (xy -5.08 -2.54) (xy -5.08 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 2.54) (xy -3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy -1.27 0) (xy 0 0) (xy 1.27 0)
@@ -24619,12 +24668,36 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 2.54) (xy 3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "LM4040AIM3-2.0_1_1"
 			(pin passive line
-				(at -3.81 0 0)
+				(at -3.81 5.08 270)
 				(length 2.54)
-				(name "A"
+				(name "Anode(-)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -24640,9 +24713,27 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
+				(at 0 -5.08 90)
 				(length 2.54)
-				(name "K"
+				(name "*"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 5.08 270)
+				(length 2.54)
+				(name "Cathode_(+)"
 					(effects
 						(font
 							(size 1.27 1.27)

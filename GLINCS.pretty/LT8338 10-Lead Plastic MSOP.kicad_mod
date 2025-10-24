@@ -85,7 +85,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "079d943b-555d-42da-aa49-a312c664d51a")
 	)
 	(fp_text user "${REFERENCE}"
