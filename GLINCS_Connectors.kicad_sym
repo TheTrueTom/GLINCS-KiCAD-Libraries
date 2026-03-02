@@ -7662,93 +7662,123 @@
 					(type background)
 				)
 			)
+			(pin unspecified line
+				(at 0 -17.78 0)
 			(pin passive line
 				(at -10.16 -2.54 0)
 				(length 5.08)
+				(name "8"
 				(name "SHIELD"
 					(effects
 						(font
+							(size 1.27 1.27)
 							(size 1.016 1.016)
 						)
 					)
 				)
+				(number "8"
 				(number "S2"
 					(effects
 						(font
+							(size 1.27 1.27)
 							(size 1.016 1.016)
 						)
 					)
 				)
 			)
+			(pin unspecified line
+				(at 0 -20.32 0)
 			(pin passive line
 				(at -10.16 -5.08 0)
 				(length 5.08)
+				(name "9"
 				(name "SHIELD"
 					(effects
 						(font
+							(size 1.27 1.27)
 							(size 1.016 1.016)
 						)
 					)
 				)
+				(number "9"
 				(number "S1"
 					(effects
 						(font
+							(size 1.27 1.27)
 							(size 1.016 1.016)
 						)
 					)
 				)
 			)
+			(pin unspecified line
+				(at 0 -22.86 0)
 		)
 		(symbol "B3B-ZR-SM4A-TF_1_0"
 			(pin free line
 				(at -10.16 5.08 0)
 				(length 5.08)
+				(name "10"
 				(name "1"
 					(effects
 						(font
+							(size 1.27 1.27)
 							(size 1.016 1.016)
 						)
 					)
 				)
+				(number "10"
 				(number "1"
 					(effects
 						(font
+							(size 1.27 1.27)
 							(size 1.016 1.016)
 						)
 					)
 				)
 			)
+			(pin unspecified line
+				(at 0 -25.4 0)
 			(pin free line
 				(at -10.16 2.54 0)
 				(length 5.08)
+				(name "11"
 				(name "2"
 					(effects
 						(font
+							(size 1.27 1.27)
 							(size 1.016 1.016)
 						)
 					)
 				)
+				(number "11"
 				(number "2"
 					(effects
 						(font
+							(size 1.27 1.27)
 							(size 1.016 1.016)
 						)
 					)
 				)
 			)
+			(pin unspecified line
+				(at 0 -27.94 0)
 			(pin free line
 				(at -10.16 0 0)
 				(length 5.08)
+				(name "12"
 				(name "3"
 					(effects
 						(font
+							(size 1.27 1.27)
 							(size 1.016 1.016)
 						)
 					)
 				)
+				(number "12"
 				(number "3"
 					(effects
 						(font
+							(size 1.27 1.27)
 							(size 1.016 1.016)
 						)
 					)
@@ -15406,6 +15436,232 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "EXG.0B.306.HLN"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "X"
+			(at -2.54 2.9972 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "EXG.0B.306.HLN"
+			(at -2.54 -17.3736 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "GLINCS_Connectors:LEMO-EXG.0B.306.HLN"
+			(at 0.762 3.81 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lemo.com/eu_en/solutions/originals/b-indoor-keyed/exg-0b-306-hln.html"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*EXG.0B.306.HLN*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "EXG.0B.306.HLN_1_0"
+			(polyline
+				(pts
+					(xy -2.54 2.54) (xy -2.54 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -15.24) (xy 2.54 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy -2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -15.24) (xy 2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "EXG.0B.306.HLN_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -7.62 0)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -10.16 0)
+				(length 2.54)
+				(name "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -12.7 0)
+				(length 2.54)
+				(name "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
 						)
 					)
 				)
