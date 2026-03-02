@@ -1,0 +1,225 @@
+(footprint "68710614522_SHORT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "J1"
+		(at -4.75 -3 0)
+		(layer "F.SilkS")
+		(uuid "54c4815d-99ac-46f2-9d15-39b84834112a")
+		(effects
+			(font
+				(size 1.2065 1.2065)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "68710614552"
+		(at -6.25 11.25 0)
+		(layer "F.Fab")
+		(uuid "573bc21a-705b-4edc-9507-c4f3d375e6eb")
+		(effects
+			(font
+				(size 1.2065 1.2065)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c48496d0-7d59-40e3-aab4-757355b65db4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06e6e903-6af2-4c58-84ee-8d77eb3f5e39")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.7 -1.5)
+		(end -4.7 2.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70e1737d-e3a6-4514-8ca5-21b1557b5652")
+	)
+	(fp_line
+		(start -4.7 2.8)
+		(end 4.7 2.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be370671-15db-4ed9-bd49-d5a3712cc69b")
+	)
+	(fp_line
+		(start 4.7 2.8)
+		(end 4.7 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac70a618-487f-48f2-8f9a-e8a1bdf2970a")
+	)
+	(fp_line
+		(start -4.7 -1.5)
+		(end 4.7 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1f6a706f-8e62-4691-b7df-401c5a21a199")
+	)
+	(fp_line
+		(start -4.7 2.8)
+		(end -4.7 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "2964b51d-0d58-40be-9be6-9a0931ee0d5f")
+	)
+	(fp_line
+		(start -4.7 2.8)
+		(end 4.7 2.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f918b341-88ed-45c9-a26c-f737f3b99913")
+	)
+	(fp_line
+		(start 4.7 -1.5)
+		(end 4.7 2.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "80b9ca51-6ae9-464a-a462-f293dfede639")
+	)
+	(fp_line
+		(start -5 -2.5)
+		(end -5 3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dbd64cc4-8b4b-4bf6-9d8a-f207d8050adb")
+	)
+	(fp_line
+		(start -5 -2.5)
+		(end 5 -2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "427eae16-e4e0-4739-9440-b0f55fc8aec7")
+	)
+	(fp_line
+		(start 5 -2.5)
+		(end 5 3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d910e324-81f6-44d8-81f4-dc30087264fa")
+	)
+	(fp_line
+		(start 5 3)
+		(end -5 3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b2bcb64d-3580-4275-9919-514100944087")
+	)
+	(pad "1" smd rect
+		(at -1.25 -1.9)
+		(size 0.3 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d3c7584a-9ea1-41e4-887d-28c3d7850ac4")
+	)
+	(pad "2" smd rect
+		(at -0.75 -1.9)
+		(size 0.3 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f72f0313-2482-4e23-869a-b80b177ac2c9")
+	)
+	(pad "3" smd rect
+		(at -0.25 -1.9)
+		(size 0.3 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8e01bf19-2822-4adc-a3f8-3fd9fc3f8609")
+	)
+	(pad "4" smd rect
+		(at 0.25 -1.9)
+		(size 0.3 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "74f34374-ba20-4892-baef-10c147bbc67d")
+	)
+	(pad "5" smd rect
+		(at 0.75 -1.9)
+		(size 0.3 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6e357853-5178-49c2-8798-fd89cc43d14e")
+	)
+	(pad "6" smd rect
+		(at 1.25 -1.9)
+		(size 0.3 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ceeaa813-aeb4-461c-8de1-2a12696d435f")
+	)
+	(pad "Z1" smd rect
+		(at -3.18 0)
+		(size 2.7 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "23b6ba17-a58f-4efa-b968-e2f32a8541c2")
+	)
+	(pad "Z2" smd rect
+		(at 3.18 0)
+		(size 2.7 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6f68ce48-2451-43c5-9947-34b66af15097")
+	)
+	(embedded_fonts no)
+	(model "${MY3DMOD}/GLINCS_Connectors/68710614522_Download_STP_68710614522_rev1.stp"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 180)
+		)
+	)
+)
