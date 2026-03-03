@@ -7558,6 +7558,205 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "B3B-ZR-SM4A-TF"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "B3B-ZR-SM4A-TF"
+			(at -8.89 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "GLINCS_Connectors:CONN_B3B-ZR-SM4-TF_JST"
+			(at -3.81 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eZR.pdf"
+			(at -2.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST ZR Connector 1,5mm 3 contacts SMT Top mount"
+			(at -0.254 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabricant" "JST Sales America Inc."
+			(at -2.54 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Ref Fabricant" "B3B-ZR-SM4A-TF"
+			(at -1.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributeur 1" "Digikey"
+			(at -1.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ref Déstributeur 1" "455-1682-1-ND"
+			(at 0 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "B3B-ZR-SM4A-TF_0_0"
+			(rectangle
+				(start -5.08 7.62)
+				(end 5.08 -7.62)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "S2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -5.08 0)
+				(length 5.08)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "S1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "B3B-ZR-SM4A-TF_1_0"
+			(pin free line
+				(at -10.16 5.08 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at -10.16 0 0)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "B4B-PH-SM4-TBLFSN"
 		(pin_names
 			(offset 0.254)

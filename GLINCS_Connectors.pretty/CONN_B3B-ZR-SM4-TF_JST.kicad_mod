@@ -268,4 +268,15 @@
 		(uuid "9a9d9189-4108-433f-867b-9d69b3579141")
 	)
 	(embedded_fonts no)
+	(model "${GITHUB}/GLINCS-KiCAD-Libraries/3D/GLINCS_Connectors/B3B-ZR-SM4-TF--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 0 0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
