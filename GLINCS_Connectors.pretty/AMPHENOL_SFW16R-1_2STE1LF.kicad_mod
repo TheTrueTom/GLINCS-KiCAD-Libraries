@@ -1,4 +1,4 @@
-(footprint "AMPHENOL_SFW16R-2STE1LF"
+(footprint "AMPHENOL_SFW16R-1_2STE1LF"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "AMPHENOL_SFW16R-2STE1LF"
+	(property "Value" "AMPHENOL_SFW16R-1/2STE1LF"
 		(at 3.455 -4.885 0)
 		(layer "F.Fab")
 		(uuid "6ce96254-fc11-446f-b4d5-b06eadd6f0b4")
