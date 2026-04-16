@@ -23026,6 +23026,254 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "SACC-DSI-M8FS-8CON-M10-L180 SH"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -2.032 3.81 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SACC-DSI-M8FS-8CON-M10-L180 SH"
+			(at -13.208 -24.638 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "GLINCS_Connectors:SACC-DSI-M8FS-8CON-M10-L180 SH"
+			(at 1.778 9.144 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product-download.phoenixcontact.com/8040025?response-content-disposition=inline;%20filename%3D%22pxc_1424235_03_00_SACC-DSI-M8FS-8CON-M10-L180-SH_FAM.pdf%22&Expires=1776187468&Signature=BxVsRnFrhOZWTGyXXol8WWSHbbzigbJy06omlxMzVFrqxzjPucPVs6OxBoktDLA0J9QfkEL1MH5ysxggXHgcURXgwmP7V6n6NKMN1dZx~qNCyps2scmj0Eb8FyK44m4XGcCR4ekE9ee3BUf69LPzR6tW5kZvVu5jxXrevgGtWVN5yk0-S6LneBvY1MQGE7XhBdV9LWsXB7ZImAkLmDZNEFjo71lgeoC67GttRzKlntP0i2GF2awvkm6eESywa7IWgjcMY4SmUvfvuIXqeFMiU6TXeUmbWXSmFzlIYaZPNNzL6FdgCLF2gE8E2fsnhbUwBVZeKFVeBnK0i-mQA~SBJQ__&Key-Pair-Id=K1I2N54A7B0GD"
+			(at 0.762 6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabricant" "Phoenix Contact"
+			(at 0.508 10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*EXG.0B.306.HLN*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SACC-DSI-M8FS-8CON-M10-L180 SH_0_1"
+			(rectangle
+				(start -2.54 -21.336)
+				(end 2.54 3.302)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SACC-DSI-M8FS-8CON-M10-L180 SH_1_0"
+			(polyline
+				(pts
+					(xy -2.54 -21.336) (xy 2.54 -21.336)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SACC-DSI-M8FS-8CON-M10-L180 SH_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -7.62 0)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -10.16 0)
+				(length 2.54)
+				(name "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -12.7 0)
+				(length 2.54)
+				(name "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -15.24 0)
+				(length 2.54)
+				(name "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -17.78 0)
+				(length 2.54)
+				(name "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "SFW16R-1STE1LF"
 		(pin_names
 			(offset 1.016)
