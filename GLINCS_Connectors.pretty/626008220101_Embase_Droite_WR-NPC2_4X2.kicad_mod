@@ -1,0 +1,223 @@
+(footprint "626008220101_Embase_Droite_WR-NPC2_4X2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "626008220101_Embase_Droite_WR-NPC2_4X2 ")
+	(tags "WR-NPC2")
+	(property "Reference" "J**"
+		(at -0.2032 -4.1148 0)
+		(layer "F.SilkS")
+		(uuid "aef90673-c506-4cf0-afc6-6e097407a3d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "626008220101"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3055f8f9-ba86-45cd-a7b9-30024fdb711b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03678a1b-3efc-4531-9151-1afd121a2a74")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e60fb59-c01b-448e-98aa-491c2083891a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.47 -2.99)
+		(end -5.47 2.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "419bf64b-89f0-4060-a988-70ebe61e6543")
+	)
+	(fp_line
+		(start -5.47 -2.99)
+		(end 5.47 -2.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f1d81a1-6aab-40bd-9fe9-901072c85a93")
+	)
+	(fp_line
+		(start -5.47 2.99)
+		(end -1 2.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a1d88ae-9fc4-4ef2-a56f-9ea371f29de1")
+	)
+	(fp_line
+		(start 5.47 -2.99)
+		(end 5.47 2.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5ac9441-51da-4c10-a666-960f7872b1ac")
+	)
+	(fp_line
+		(start 5.47 2.99)
+		(end 1 2.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73f9c076-7c5e-4233-9a3d-3b13f596b58f")
+	)
+	(fp_rect
+		(start -5.45 -2.97)
+		(end 5.45 2.97)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c396401e-25f5-4596-80f5-55350fc270a1")
+	)
+	(fp_rect
+		(start -5.47 -2.99)
+		(end 5.47 2.99)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d71b8aa3-1d40-4f4e-ad62-c4f8fe21e40e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -6.1468 0)
+		(layer "F.Fab")
+		(uuid "0afafc3d-0b68-46b2-98b5-b348e9ac556a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at 0 2.59)
+		(size 1 1)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e475c22-5101-4ab5-ba8e-58869278187f")
+	)
+	(pad "1" thru_hole rect
+		(at -3.75 1.25)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4dd1b56a-aaf8-4a20-81ca-5b57e36617cc")
+	)
+	(pad "2" thru_hole circle
+		(at -1.25 1.25)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fddaafcb-0c04-4c42-9918-86018e037295")
+	)
+	(pad "3" thru_hole circle
+		(at 1.25 1.25)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0f9d4419-04ad-4e5f-b21c-a3d0b79044d7")
+	)
+	(pad "4" thru_hole circle
+		(at 3.75 1.25)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cafe050c-0d7f-4ac1-b9b4-6fc60a023394")
+	)
+	(pad "5" thru_hole circle
+		(at -3.75 -1.25)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "15404de3-b6ed-4f3f-982f-85cb6b1769ac")
+	)
+	(pad "6" thru_hole circle
+		(at -1.25 -1.25)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cfa1acea-7e8f-4cc2-a974-51cad1db5924")
+	)
+	(pad "7" thru_hole circle
+		(at 1.25 -1.25)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "33a0eee4-dd0b-40f2-9cf2-98dcbff51826")
+	)
+	(pad "8" thru_hole circle
+		(at 3.75 -1.25)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d142db0b-b66a-4aaf-b012-7cbc02f88a31")
+	)
+	(embedded_fonts no)
+	(model "${GITHUB}/GLINCS-KiCAD-Libraries/3D/GLINCS_Connectors/626008220101_Embase_droite.stp"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
