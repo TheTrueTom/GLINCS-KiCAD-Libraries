@@ -24932,8 +24932,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "GLINCS_Connectors:AMPHENOL_SFW16S-2STE1LF"
-			(at 1.778 14.478 0)
+		(property "Footprint" "GLINCS_Connectors:AMPHENOL_SFW16S-2STE1LF_copy"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24942,7 +24942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/gs-20-129.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -24960,7 +24960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricant" "Amphenol FCI"
+		(property "MF" "Amphenol FCI"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24970,8 +24970,8 @@
 				(hide yes)
 			)
 		)
-		(property "Référence fabricant" "SFW16S-2STE1LF"
-			(at 2.54 17.526 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.80 mm"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24980,21 +24980,103 @@
 				(hide yes)
 			)
 		)
-		(property "Fournisseur 1" "Digikey"
+		(property "Package" "None"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Référence Fournisseur 1" "609-1150-1-ND"
+		(property "Price" "None"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SFW16S-2STE1LF/Amphenol/view-part/?ref=eda"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SFW16S-2STE1LF/Amphenol/view-part/?ref=snap"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SFW16S-2STE1LF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Conn; Rect; FPC/FFC; 16 Pos; 1 mm; Top Entry; SMT ZIF; SFW Straight Ser. | Amphenol FCI (Amphenol CS) SFW16S-2STE1LF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Amphenol"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)

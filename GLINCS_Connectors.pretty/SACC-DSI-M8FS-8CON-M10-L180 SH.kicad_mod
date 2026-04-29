@@ -7,7 +7,7 @@
 	(tags "M8 PHOENIX CONTACT")
 	(property "Reference" ">NAME"
 		(at 8.5344 -4.8768 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "cedf02fa-929b-4a69-a374-4af21b2def81")
 		(effects
 			(font
@@ -18,7 +18,7 @@
 	)
 	(property "Value" ">VALUE"
 		(at 7.8232 6.096 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "557ae524-e830-4e6b-a37c-aaa4f5a5788d")
 		(effects
 			(font
