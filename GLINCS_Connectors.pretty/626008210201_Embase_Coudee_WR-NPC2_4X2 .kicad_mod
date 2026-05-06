@@ -126,20 +126,18 @@
 			)
 		)
 	)
-	(pad "" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at -3.75 8.43)
 		(size 1 1)
 		(drill 1.7)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "5e475c22-5101-4ab5-ba8e-58869278187f")
 	)
-	(pad "" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at 3.75 8.43)
 		(size 1 1)
 		(drill 1.7)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "078e8e48-3a1b-41f8-8d1d-4778dbd4de35")
 	)
 	(pad "1" thru_hole rect
