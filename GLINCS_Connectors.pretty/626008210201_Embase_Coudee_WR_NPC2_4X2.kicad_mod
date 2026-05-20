@@ -1,9 +1,9 @@
-(footprint "626008210201_Embase_Coudee_WR-NPC2_4X2 "
+(footprint "626008210201_Embase_Coudee_WR_NPC2_4X2"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "626008210201_Embase_Coudee_WR-NPC2_4X2 ")
+	(descr "626008210201_Embase_Coudee_WR_NPC2_4X2")
 	(tags "WR-NPC2")
 	(property "Reference" "J**"
 		(at -0.65 -3.3836 0)

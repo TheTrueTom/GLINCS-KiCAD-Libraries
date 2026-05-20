@@ -251,8 +251,8 @@
 		(uuid "510e91a4-72ec-4a85-baf1-146709268b8f")
 	)
 	(fp_circle
-		(center 7.5 3.5)
-		(end 7.6 3.5)
+		(center -9.3472 2.3876)
+		(end -9.2472 2.3876)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -342,8 +342,8 @@
 		(uuid "1d1614c3-f042-4fe7-a7de-3ec8c21bb972")
 	)
 	(fp_circle
-		(center 7.5 3.5)
-		(end 7.6 3.5)
+		(center -9.3472 2.3876)
+		(end -9.2472 2.3876)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -473,7 +473,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -180 -0 -0)
+			(xyz -180 -0 -180)
 		)
 	)
 )
